@@ -9,6 +9,7 @@ import {canonicalId,rank} from '../scripts/rank.mjs';
 import {rankTopics} from '../scripts/config.mjs';
 import {coverageChecks} from '../scripts/coverage.mjs';
 import {enrichmentPlan} from '../scripts/enrichment.mjs';
+import {recipeSignals} from '../scripts/recipe.mjs';
 const rsi=JSON.parse(fs.readFileSync('config.json','utf8')),post=JSON.parse(fs.readFileSync('radars/post-train-recipe.json','utf8'));
 const preprint=crossrefItems(JSON.parse(fs.readFileSync('tests/fixtures/preprints-survey.json','utf8')))[0];
 const nemotron=JSON.parse(fs.readFileSync('tests/fixtures/nemotron.json','utf8'));
@@ -21,13 +22,14 @@ test('Crossref discovers the non-arXiv survey with real metadata, correct date a
 test('all three known references have meaningful discovery classifications and coverage diagnostics',()=>{
   const articles=[last,{...preprint,publishedOn:preprint.published},nemotron].map(a=>({...a,id:canonicalId(a.link)}));
   assert.equal(rankTopics(last,rsi,rank).tier,'direct');assert.equal(rankTopics(nemotron,post,rank).tier,'direct');
+  assert.ok(recipeSignals(nemotron).some(s=>s.id==='code'),'NeMo-Skills repository must count as a code clue');
   const checks=[...rsi.coverageChecks,...post.coverageChecks];const now=new Date('2026-10-08T08:00:00Z');
   assert.ok(coverageChecks(articles,checks,120,now).every(c=>c.status==='found'));
   assert.equal(coverageChecks([],rsi.coverageChecks,120,now)[0].status,'missing');
   assert.equal(coverageChecks([],rsi.coverageChecks,7,now)[0].status,'outside-history');
 });
 test('all three references are findable by URL/title across the date window, with an explicit hidden-filter reset',async()=>{
-  const articles=[last,{...preprint,publishedOn:preprint.published,description:load(preprint.summary).text()},nemotron].map(a=>({...a,id:canonicalId(a.link),type:a===nemotron?'blog':'paper',sourceId:'source',tier:'direct',score:12,isDirect:true,topicIds:['rsi'],topicNames:['RSI'],matches:['recursive self improvement']}));
+  const articles=[last,{...preprint,publishedOn:preprint.published,description:load(preprint.summary).text()},nemotron].map(a=>({...a,id:canonicalId(a.link),recipeSignals:recipeSignals(a),type:a===nemotron?'blog':'paper',sourceId:'source',tier:'direct',score:12,isDirect:true,topicIds:['rsi'],topicNames:['RSI'],matches:['recursive self improvement']}));
   const html=Handlebars.compile(fs.readFileSync('includes/index.hbs','utf8'))({articles,siteTitle:'Coverage test'});
   const dom=new JSDOM(html,{url:'https://example.org/?search='+encodeURIComponent(last.link),runScripts:'outside-only'});const w=dom.window;
   w.eval("Date.now=()=>Date.parse('2026-10-08T08:00:00Z')");
@@ -41,6 +43,7 @@ test('all three references are findable by URL/title across the date window, wit
   }
   w.document.querySelector('#type').value='paper';search.dispatchEvent(new w.Event('input'));assert.match(w.document.querySelector('#empty').textContent,/其他筛选隐藏/);
   w.document.querySelector('#reset-filters').click();assert.equal([...w.document.querySelectorAll('.card')].filter(c=>!c.hidden).length,1);
+  w.document.querySelector('#recipe').value='code';search.dispatchEvent(new w.Event('input'));assert.equal([...w.document.querySelectorAll('.card')].filter(c=>!c.hidden).length,1);
   assert.equal(w.document.querySelectorAll('#coverage a').length,3);dom.window.close();
 });
 test('body enrichment advances beyond its old cap and gives new opaque titles a chance',()=>{
