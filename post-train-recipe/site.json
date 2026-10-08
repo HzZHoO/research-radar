@@ -4,12 +4,13 @@
   "config": "radars/post-train-recipe.json",
   "path": "post-train-recipe",
   "workflow": "update-post-train.yaml",
-  "repository": "HzZHoO/rsi-feed",
+  "description": "寻找可复现的 LLM 后训练配方：训练参数、数据构造与清洗、Thinking 数据及开源框架。",
+  "repository": "HzZHoO/research-radar",
   "radars": [
     {
       "id": "rsi",
       "name": "RSI",
-      "href": "../"
+      "href": "../rsi/"
     },
     {
       "id": "post-train-recipe",

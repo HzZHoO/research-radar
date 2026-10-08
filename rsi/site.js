@@ -1,6 +1,7 @@
 (() => {
   fetch('site.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('无法读取雷达导航');return r.json();}).then(site=>{
     for(const nav of document.querySelectorAll('[data-radar-nav]')){
+      const home=document.createElement('a');home.textContent='← 全部雷达';home.href='../';nav.append(home);
       for(const r of site.radars){const a=document.createElement('a');a.textContent=r.name;a.href=r.href;a.className='settings-link';if(r.id===site.id)a.setAttribute('aria-current','page');nav.append(a);}
     }
     const source=document.querySelector('[data-source-link]');if(source)source.href=`https://github.com/${site.repository}`;

@@ -2,19 +2,20 @@
   "id": "rsi",
   "name": "RSI",
   "config": "config.json",
-  "path": "",
+  "path": "rsi",
   "workflow": "update-feed.yaml",
-  "repository": "HzZHoO/rsi-feed",
+  "description": "跟踪递归自我改进、自进化智能体和自动化 AI 研究的新论文与技术实践。",
+  "repository": "HzZHoO/research-radar",
   "radars": [
     {
       "id": "rsi",
       "name": "RSI",
-      "href": "./"
+      "href": "../rsi/"
     },
     {
       "id": "post-train-recipe",
       "name": "Post-train Recipe",
-      "href": "./post-train-recipe/"
+      "href": "../post-train-recipe/"
     }
   ]
 }

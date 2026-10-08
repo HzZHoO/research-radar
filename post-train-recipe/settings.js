@@ -73,10 +73,11 @@
   });
   $('#export').addEventListener('click',()=>{try{const config=checkedDraft();const url=URL.createObjectURL(new Blob([JSON.stringify(config,null,2)+'\n'],{type:'application/json'}));const a=el('a');a.href=url;a.download='config.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}catch(error){message(error.message,true);}});
   $('#import').addEventListener('change',async event=>{try{const config=JSON.parse(await event.target.files[0].text());if(config.version!==1||!Array.isArray(config.topics)||!Array.isArray(config.sources)||!config.arxiv)throw Error('不是有效的研究雷达配置');render(config);saveDraft();message('配置已导入草稿；应用到 GitHub 后生效。');}catch(error){message(error.message,true);}});
-  $('#reset').addEventListener('click',()=>{render(current);try{localStorage.removeItem(draftKey);if(site.id==='rsi')localStorage.removeItem('research-radar-draft-v1');}catch{}message('已恢复当前线上配置。');});
+  $('#reset').addEventListener('click',()=>{render(current);try{localStorage.removeItem(draftKey);localStorage.removeItem(site.id==='rsi'?'research-radar-draft-v2:/rsi-feed/':'research-radar-draft-v2:/rsi-feed/post-train-recipe/');if(site.id==='rsi')localStorage.removeItem('research-radar-draft-v1');}catch{}message('已恢复当前线上配置。');});
   Promise.all(['config.json','site.json'].map(url=>fetch(url,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('无法读取当前配置与雷达信息');return r.json();}))).then(([config,info])=>{
     site=info;
-    current=config;let saved=null;try{saved=JSON.parse(localStorage.getItem(draftKey)||(site.id==='rsi'?localStorage.getItem('research-radar-draft-v1'):null)||'null');}catch{}
+    current=config;let saved=null;const legacyDraftKey=site.id==='rsi'?'research-radar-draft-v2:/rsi-feed/':'research-radar-draft-v2:/rsi-feed/post-train-recipe/';
+    try{saved=JSON.parse(localStorage.getItem(draftKey)||localStorage.getItem(legacyDraftKey)||(site.id==='rsi'?localStorage.getItem('research-radar-draft-v1'):null)||'null');}catch{}
     render(saved?.version===1?saved:config);message(saved?'已恢复浏览器草稿；如要查看线上设置，请点击“恢复当前线上配置”。':'当前线上配置已加载。修改后点击下方“应用设置”。');
   }).catch(error=>message(error.message,true));
 })();

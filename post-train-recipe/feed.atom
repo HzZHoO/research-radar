@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2026-10-08T08:28:31.998Z</id>
+    <id>urn:2026-10-08T08:48:39.926Z</id>
     <title>Post-train Recipe 研究雷达</title>
-    <updated>2026-10-08T08:28:31.998Z</updated>
+    <updated>2026-10-08T08:48:39.926Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -13066,6 +13066,36 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[DeepMath: A lightweight math reasoning Agent with smolagents]]></title>
+        <id>https://huggingface.co/blog/intel-deepmath</id>
+        <link href="https://huggingface.co/blog/intel-deepmath"/>
+        <updated>2025-12-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science. Back to Articles DeepMath: A lightweight math reasoning Agent with smolagents Published December 4, 2025 Update on GitHub Upvote 42 +36 Daniel Fleischer danf Follow Intel Moshe Berchansky mber Follow Intel Moshe Wasserblat moshew Follow Intel Why DeepMath? How It Works Training with GRPO Evaluation Why It Matters Conclusion Try It Yourself Citation Limitations & Future Work References By Intel AI Software Group DeepMath is an aligned math reasoning agent built on Qwen3-4B Thinking and fine-tuned with GRPO (Group Relative Policy Optimization). Instead of verbose text, the model emits tiny Python snippets for intermediate steps, runs them in a secure sandbox, and folds the results back into its reasoning, reducing errors and output length. The agent is implemented using the smolagents library. We evaluate DeepMath on four math datasets: MATH500, AIME, HMMT, and HLE, and show that: 🤖 The math agent alone reduces output lengths by up to 66%, while often improving accuracy. ⚡ GRPO training improves the agent performance even further, in almost all benchmarks. 👉 Code and evaluati]]></summary>
+        <author>
+            <name/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Transformers v5: Simple model definitions powering the AI ecosystem]]></title>
+        <id>https://huggingface.co/blog/transformers-v5</id>
+        <link href="https://huggingface.co/blog/transformers-v5"/>
+        <updated>2025-12-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science. Back to Articles Transformers v5: Simple model definitions powering the AI ecosystem Published December 1, 2025 Update on GitHub Upvote 316 +310 Lysandre lysandre Follow Arthur Zucker ArthurZ Follow Cyril Vallez cyrilvallez Follow Vaibhav Srivastav reach-vb Follow Simplicity Model Additions Code Reduction Training Pre-training at scale Fine-tuning & Post-training Inference Production & Local Quantization Conclusion Transformers' version v4.0.0rc-1, the initial release candidate for version 4, was released on November 19th, 2020. Five years later, we now release v5.0.0rc-0. Today, as we launch v5, Transformers is installed more than 3 million times each day via pip - up from 20,000/day in v4 🤯. Altogether, it has now surpassed 1.2 billion installs! The ecosystem has expanded from 40 model architectures in v4 to over 400 today, and the community has contributed more than 750,000 model checkpoints on the Hub compatible with Transformers, up from roughly 1,000 at the time of v4. This growth is powered by the evolution of the field and the now mainstream access to AI. As a leadin]]></summary>
+        <author>
+            <name/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building Deep Research: How we Achieved State of the Art]]></title>
+        <id>https://huggingface.co/blog/Tavily/tavily-deep-research</id>
+        <link href="https://huggingface.co/blog/Tavily/tavily-deep-research"/>
+        <updated>2025-11-24T17:40:14.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by Tavily on Hugging Face Back to Articles Building Deep Research: How we Achieved State of the Art Team Article Published November 24, 2025 Upvote 37 +31 Michael Griff michaelgriff Follow Tavily Dean Sacoransky deansaco Follow Tavily Noah Nefsky noahnefsky Follow Tavily Building for the Future Agent Harness Models Tools Takeaways Context Engineering — An Exercise in Curation Context-Managed Web Retrieval Modeling the Human-Web Interaction Doing More with Less Productionizing Agents — an Ongoing Challenge Engineering with Non-Determinism Optimal Tooling — Less is More Evals Research agents are rapidly becoming one of the most important applications of AI. Research is a foundational knowledge-work task: collecting, reading, and synthesizing information underpins everything from writing and decision-making to coding itself. Yet human-driven research is constrained by memory, reading speed, and time. AI research agents, by contrast, can process vast amounts of information, synthesize insights instantly, and scale effortlessly. Because of this, research agents are emerging as a top use case for AI today and will soon become a core subcomponent of broader agentic workflows a]]></summary>
+        <author>
+            <name/>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[20x Faster TRL Fine-tuning with RapidFire AI]]></title>
         <id>https://huggingface.co/blog/rapidfireai</id>
         <link href="https://huggingface.co/blog/rapidfireai"/>
@@ -13096,11 +13126,91 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Aligning to What? Rethinking Agent Generalization in MiniMax M2]]></title>
+        <id>https://huggingface.co/blog/MiniMax-AI/aligning-to-what</id>
+        <link href="https://huggingface.co/blog/MiniMax-AI/aligning-to-what"/>
+        <updated>2025-10-30T10:03:45.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by MiniMax on Hugging Face Back to Articles Aligning to What? Rethinking Agent Generalization in MiniMax M2 Community Article Published October 30, 2025 Upvote 44 +38 MiniMax MiniMax-AI Follow The Real Agent Alignment Problem: Benchmarks or Reality? The Need for Interleaved Thinking True Generalization is About Perturbation What's Next? Getting Involved It's been fantastic to see the community dive into our new MiniMax M2, with many highlighting its impressive skills in complex agentic tasks. This is particularly exciting for me, as my work was centered on the agent alignment part of its post-training. In this post, I'd like to share some of the key insights and lessons we learned during that process. The Real Agent Alignment Problem: Benchmarks or Reality? If you've worked with LLM Agents, you've felt this pain: the same model can feel brilliant in one framework and useless in another. An agent might crush a tool-use leaderboard but fail spectacularly at a simple, real-world task. This gap between benchmark performance and practical usability is one of the biggest challenges in the field. When we designed M2, we knew we had to tackle this problem head-on. This led us t]]></summary>
+        <author>
+            <name/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[On the Shifting Global Compute Landscape]]></title>
+        <id>https://huggingface.co/blog/huggingface/shifting-compute-landscape</id>
+        <link href="https://huggingface.co/blog/huggingface/shifting-compute-landscape"/>
+        <updated>2025-10-29T13:56:45.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by Hugging Face on Hugging Face Back to Articles On the Shifting Global Compute Landscape Team Article Published October 29, 2025 Upvote 62 +56 Tiezhen WANG tiezhen Follow huggingface Irene Solaiman irenesolaiman Follow huggingface Summary The State of Global Compute The Beginning of a Rewiring The Reaction: Powering Chinese AI How China’s Compute Landscape Catalyzed the Cambrian Explosion of Open Models Advances in Compute-Constrained Environments Pushing the Technical Frontier The Aftermath: Hardware, Software and Soft Power From Sufficient to Demanded Domestic Synergy A New Software Landscape Looking Ahead Acknowledgements Appendix: A Timeline of Chip Usage and Controls Summary The status quo of AI chip usage, that was once almost entirely U.S.-based, is changing. China’s immense progress in open-weight AI development is now being met with rapid domestic AI chip development. In the past few months, highly performant open-weight AI models’ inference in China has started to be powered by chips such as Huawei’s Ascend and Cambricon, with some models starting to be trained using domestic chips. There are two large implications for policymakers and AI researchers and deve]]></summary>
+        <author>
+            <name/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building a Healthcare Robot from Simulation to Deployment with NVIDIA Isaac]]></title>
+        <id>https://huggingface.co/blog/lerobotxnvidia-healthcare</id>
+        <link href="https://huggingface.co/blog/lerobotxnvidia-healthcare"/>
+        <updated>2025-10-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science. Back to Articles Building a Healthcare Robot from Simulation to Deployment with NVIDIA Isaac Published October 29, 2025 Update on GitHub Upvote 36 +30 Steven Palma imstevenpmwork Follow Andres Diaz-Pinto diazandr3s Follow TL;DR Table-of-Contents Introduction SO-ARM Starter Workflow; Building an Embodied Surgical Assistant Technical Implementation Sim2Real Mixed Training Approach Hardware Requirements Data Collection Implementation Simulation Teleoperation Controls Model Training Pipeline End-to-End Sim Collect–Train–Eval Pipelines Generate Synthetic Data in Simulation Train and Evaluate Policies Convert Models to TensorRT Getting Started Resources TL;DR A hands-on guide to collecting data, training policies, and deploying autonomous medical robotics workflows on real hardware Table-of-Contents Building a Healthcare Robot from Simulation to Deployment with NVIDIA Isaac TL;DR Table-of-Contents Introduction SO-ARM Starter Workflow; Building an Embodied Surgical Assistant Technical Implementation Sim2Real Mixed Training Approach Hardware Requirements Data Collection Implementatio]]></summary>
+        <author>
+            <name/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Build a Healthcare Robot from Simulation to Deployment with NVIDIA Isaac for Healthcare]]></title>
+        <id>https://huggingface.co/blog/nvidia/nvidia-isaac-for-healthcare</id>
+        <link href="https://huggingface.co/blog/nvidia/nvidia-isaac-for-healthcare"/>
+        <updated>2025-10-28T20:42:35.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by NVIDIA on Hugging Face Back to Articles How to Build a Healthcare Robot from Simulation to Deployment with NVIDIA Isaac for Healthcare Enterprise + Article Published October 28, 2025 Upvote 20 +14 Asawaree asawareeb Follow nvidia A hands-on guide to collecting data, training policies, and deploying autonomous medical robotics workflows on real hardware SO-ARM Starter Workflow; Building an Embodied Surgical Assistant Technical Implementation Sim-to-Real Mixed Training Approach Hardware Requirements Data Collection Implementation Simulation Teleoperation Controls Model Training Pipeline End-to-End Sim Collect–Train–Eval Pipelines Generate Synthetic Data in Simulation Train and Evaluate Policies Convert Models to TensorRT Getting Started Resources A hands-on guide to collecting data, training policies, and deploying autonomous medical robotics workflows on real hardware Simulation has been a cornerstone in medical imaging to address the data gap. However, in healthcare robotics until now, it's often been too slow, siloed, or difficult to translate into real-world systems. That’s now changing. With new advances in GPU-accelerated simulation and digital twins, developers ]]></summary>
+        <author>
+            <name/>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Streaming datasets: 100x More Efficient]]></title>
         <id>https://huggingface.co/blog/streaming-datasets</id>
         <link href="https://huggingface.co/blog/streaming-datasets"/>
         <updated>2025-10-27T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science. Back to Articles Streaming datasets: 100x More Efficient Published October 27, 2025 Update on GitHub Upvote 87 +81 Andres Marafioti andito Follow Quentin Lhoest lhoestq Follow ben burtenshaw burtenshaw Follow Pedro Cuenca pcuenq Follow merve merve Follow TLDR Streaming: The Same Easy API The Challenge: Streaming at Scale Under the Hood: What We Improved How are we faster than plain S3: Xet Need a custom streaming pipeline ? Push streaming to the limit Get Started and See the Difference TLDR We boosted load_dataset('dataset', streaming=True), streaming datasets without downloading them with one line of code! Start training on multi-TB datasets immediately, without complex setups, downloading, no "disk out of space", or 429 “stop requesting!” errors.It's super fast! Outrunning our local SSDs when training on 64xH100 with 256 workers downloading data. We've improved streaming to have 100x fewer requests, → 10× faster data resolution → 2x sample/sec, → 0 worker crashes at 256 concurrent workers. Loading data, especially at the terabyte scale, is a major pain in any machine learni]]></summary>
+        <author>
+            <name/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LeRobot v0.4.0: Supercharging OSS Robot Learning]]></title>
+        <id>https://huggingface.co/blog/lerobot-release-v040</id>
+        <link href="https://huggingface.co/blog/lerobot-release-v040"/>
+        <updated>2025-10-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science. Back to Articles LeRobot v0.4.0: Supercharging OSS Robot Learning Published October 24, 2025 Update on GitHub Upvote 50 +44 Steven Palma imstevenpmwork Follow Michel Aractingi aractingi Follow Pepijn Kooijmans pepijn223 Follow Caroline Pascal CarolinePascal Follow Jade Choghari jadechoghari Follow Francesco Capuano fracapuano Follow Adil Zouitine AdilZtn Follow Martino Russi nepyope Follow Thomas Wolf thomwolf Follow TL;DR Table-of-Contents Datasets: Ready for the Next Wave of Large-Scale Robot Learning What's New in Datasets v3.0? New Feature: Dataset Editing Tools! Simulation Environments: Expanding Your Training Grounds LIBERO Support Meta-World Integration Codebase: Powerful Tools For Everyone The New Pipeline for Data Processing Multi-GPU Training Made Easy Policies: Unleashing Open-World Generalization PI0 and PI0.5 GR00T N1.5 Robots: A New Era of Hardware Integration with the Plugin System Key Benefits Reachy 2 Integration Phone Integration The Hugging Face Robot Learning Course Deep Dive: The Modern Robot Learning Tutorial Final thoughts from the team We're thrilled t]]></summary>
+        <author>
+            <name/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building the Open Agent Ecosystem Together: Introducing OpenEnv]]></title>
+        <id>https://huggingface.co/blog/openenv</id>
+        <link href="https://huggingface.co/blog/openenv"/>
+        <updated>2025-10-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science. Back to Articles Building the Open Agent Ecosystem Together: Introducing OpenEnv Published October 23, 2025 Update on GitHub Upvote 169 +163 Joseph Spisak spisakjo Follow openenv Davide Testuggine darktex Follow openenv Zach Wentz zkwentz Follow openenv Pierre Andrews mortimerp9 Follow openenv Sanyam Bhutani Sanyam Follow openenv Hamid Shojanazeri Hamid-Nazeri Follow openenv Pankit Thapar Pankit01 Follow openenv Emre Guven emre0 Follow openenv Lewis Tunstall lewtun Follow Vaibhav Srivastav reach-vb Follow The Problem The Solution The RFCs Use cases What’s Next With tools like TRL, TorchForge and verl, the open-source community has shown how to scale AI across complex compute infrastructure. But compute is only one side of the coin. The other side is the developer community; the people and tools that make agentic systems possible. That’s why Meta and Hugging Face are partnering to launch the OpenEnv Hub: a shared and open community hub for agentic environments. Agentic environments define everything an agent needs to perform a task: the tools, APIs, credentials, execution cont]]></summary>
+        <author>
+            <name/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sentence Transformers is joining Hugging Face!]]></title>
+        <id>https://huggingface.co/blog/sentence-transformers-joins-hf</id>
+        <link href="https://huggingface.co/blog/sentence-transformers-joins-hf"/>
+        <updated>2025-10-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science. Back to Articles Sentence Transformers is joining Hugging Face! Published October 22, 2025 Update on GitHub Upvote 90 +84 Tom Aarsen tomaarsen Follow Project History Acknowledgements Getting Started Recent Sentence Transformers blogposts Today, we are announcing that Sentence Transformers is transitioning from Iryna Gurevych’s Ubiquitous Knowledge Processing (UKP) Lab at the TU Darmstadt to Hugging Face. Hugging Face's Tom Aarsen has already been maintaining the library since late 2023 and will continue to lead the project. At its new home, Sentence Transformers will benefit from Hugging Face's robust infrastructure, including continuous integration and testing, ensuring that it stays up-to-date with the latest advancements in Information Retrieval and Natural Language Processing. Sentence Transformers (a.k.a. SentenceBERT or SBERT) is a popular open-source library for generating high-quality embeddings that capture semantic meaning. Since its inception by Nils Reimers in 2019, Sentence Transformers has been widely adopted by researchers and practitioners for various natural ]]></summary>
+        <author>
+            <name/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Supercharge your OCR Pipelines with Open Models]]></title>
+        <id>https://huggingface.co/blog/ocr-open-models</id>
+        <link href="https://huggingface.co/blog/ocr-open-models"/>
+        <updated>2025-10-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science. Back to Articles Supercharge your OCR Pipelines with Open Models Published October 21, 2025 Update on GitHub Upvote 320 +314 merve merve Follow Aritra Roy Gosthipaty ariG23498 Follow Daniel van Strien davanstrien Follow Hynek Kydlicek hynky Follow Andres Marafioti andito Follow Vaibhav Srivastav reach-vb Follow Pedro Cuenca pcuenq Follow Table-of-Contents Brief Introduction to Modern OCR Model Capabilities Cutting-edge Open OCR Models Comparing Latest Models Evaluating Models Tools to Run Models Locally Remotely Going Beyond OCR Wrapping up We have added Chandra and OlmOCR-2 to this blog, as well as OlmOCR Scores of the models 🫡 TL;DR: The rise of powerful vision-language models has transformed document AI. Each model comes with unique strengths, making it tricky to choose the right one. Open-weight models offer better cost efficiency and privacy. To help you get started with them, we’ve put together this guide. In this guide, you’ll learn: The landscape of current models and their capabilities When to fine-tune models vs. use models out-of-the-box Key factors to consider wh]]></summary>
         <author>
             <name/>
         </author>
@@ -13113,6 +13223,26 @@
         <summary type="html"><![CDATA[Highlights Model Engine As noted in #3624, model engine is a service that provides APIs for manipulation of a parallel and distributed model using single controller. This release provides a prototype for such idea using FSDP + ulysses backend and megatron core backend. The implementation is under https://github.com/volcengine/verl/tree/main/verl/workers/engine. Currently, we only implement SFT trainer using model engine. In the following releases, we will start to implement RL trainer using model engine. Please refer to https://verl.readthedocs.io/en/latest/workers/model_engine.html for the design and instructions to add more model engine backends. Rollout Server As agentic reinforcement learning emerges as a predominant research area, verl rollout is transitioning from SPMD mode to server mode, which is more efficient for multi-turn rollout and tool calling. In version 0.6, we made several major changes to rollout servers: SGLang: #3090 completely separates the SGLang process from the trainer process in SPMD mode and introduces a server adapter to synchronize weights between the trainer and SGLang server. Furthermore, #3456 migrates SGLang to native server mode, enabling full-fled]]></summary>
         <author>
             <name>vermouth1992</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Get your VLM running in 3 simple steps on Intel CPUs]]></title>
+        <id>https://huggingface.co/blog/openvino-vlm</id>
+        <link href="https://huggingface.co/blog/openvino-vlm"/>
+        <updated>2025-10-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science. Back to Articles Get your VLM running in 3 simple steps on Intel CPUs Published October 15, 2025 Update on GitHub Upvote 22 +16 Ezequiel Lanza ezelanza Follow Intel Helena helenai Follow Intel Nikita nikita-savelyev-intel Follow Intel Ella Charlaix echarlaix Follow Ilyas Moutawwakil IlyasMoutawwakil Follow Deploy your model with Optimum Step 1: Convert your model Step 2: Quantization Option 1: Weight Only Quantization Option 2: Static Quantization Step 3: Run inference Evaluation and Conclusion Useful Links & Resources With the growing capability of large language models (LLMs), a new class of models has emerged: Vision Language Models (VLMs). These models can analyze images and videos to describe scenes, create captions, and answer questions about visual content. While running AI models on your own device can be difficult as these models are often computationally demanding, it also offers significant benefits: including improved privacy since your data stays on your machine, and enhanced speed and reliability because you're not dependent on an internet connection or external]]></summary>
+        <author>
+            <name/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nemotron-Personas-India: Synthesized Data for Sovereign AI]]></title>
+        <id>https://huggingface.co/blog/nvidia/nemotron-personas-india</id>
+        <link href="https://huggingface.co/blog/nvidia/nemotron-personas-india"/>
+        <updated>2025-10-13T23:00:42.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by NVIDIA on Hugging Face Back to Articles Nemotron-Personas-India: Synthesized Data for Sovereign AI Enterprise + Article Published October 13, 2025 Upvote 14 +8 Kiran Praveen kipraveen Follow nvidia Utkarsh Vaidya uvaidya Follow nvidia Evan A eacharya-nv Follow nvidia Lipika Ramaswamy lipikaxnv Follow nvidia Dhruv Nathawani dnathawani Follow nvidia Dane Corneil dcorneil Follow nvidia Yev Meyer nv-3mei Follow nvidia Open Data for India's AI Future What’s in the Dataset? How We Built It Data Generation Pipeline Embedded Cultural Context Private By Design Who This Is For Practical AI Applications Why It Matters Start Building with Nemotron-Personas-India A compound AI approach to Indian personas grounded in real-world distributions Open Data for India's AI Future India represents one of the world's largest AI opportunities — with over 700 million internet users, a multitude of languages, and a rapidly growing developer ecosystem. Yet, most open datasets reflect Western norms and English-only contexts, creating a data gap that limits AI adoption in India's multilingual, multi-script environment. Today, we're releasing Nemotron-Personas-India, the first open synthetic data]]></summary>
+        <author>
+            <name/>
         </author>
     </entry>
 </feed>
