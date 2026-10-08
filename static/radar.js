@@ -2,7 +2,8 @@
   const cards=[...document.querySelectorAll('.card')];
   let tier='all',readIds=new Set();
   const readKey=`research-read-v2:${location.pathname.replace(/[^/]*$/, '')}`;
-  try{readIds=new Set(JSON.parse(localStorage.getItem(readKey)||(!location.pathname.includes('/post-train-recipe/')?localStorage.getItem('rsi-read-v1'):null)||'[]'));}catch{}
+  const legacyReadKey=location.pathname.includes('/post-train-recipe/')?'research-read-v2:/rsi-feed/post-train-recipe/':'research-read-v2:/rsi-feed/';
+  try{readIds=new Set(JSON.parse(localStorage.getItem(readKey)||localStorage.getItem(legacyReadKey)||(!location.pathname.includes('/post-train-recipe/')?localStorage.getItem('rsi-read-v1'):null)||'[]'));}catch{}
   const type=document.querySelector('#type'),sort=document.querySelector('#sort'),search=document.querySelector('#search'),hide=document.querySelector('#hide-read'),days=document.querySelector('#days'),topic=document.querySelector('#topic'),source=document.querySelector('#source');
   const recipe=document.querySelector('#recipe');
   let classifications=new Map();

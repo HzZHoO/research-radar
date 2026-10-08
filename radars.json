@@ -1,7 +1,21 @@
 {
-  "repository": "HzZHoO/rsi-feed",
+  "repository": "HzZHoO/research-radar",
   "radars": [
-    {"id":"rsi","name":"RSI","config":"config.json","path":"","workflow":"update-feed.yaml"},
-    {"id":"post-train-recipe","name":"Post-train Recipe","config":"radars/post-train-recipe.json","path":"post-train-recipe","workflow":"update-post-train.yaml"}
+    {
+      "id": "rsi",
+      "name": "RSI",
+      "config": "config.json",
+      "path": "rsi",
+      "workflow": "update-feed.yaml",
+      "description": "跟踪递归自我改进、自进化智能体和自动化 AI 研究的新论文与技术实践。"
+    },
+    {
+      "id": "post-train-recipe",
+      "name": "Post-train Recipe",
+      "config": "radars/post-train-recipe.json",
+      "path": "post-train-recipe",
+      "workflow": "update-post-train.yaml",
+      "description": "寻找可复现的 LLM 后训练配方：训练参数、数据构造与清洗、Thinking 数据及开源框架。"
+    }
   ]
 }

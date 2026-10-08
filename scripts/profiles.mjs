@@ -3,7 +3,7 @@ export async function registry(){
   const value=JSON.parse(await fs.readFile('radars.json','utf8'));
   const ids=new Set(),paths=new Set();
   for(const r of value.radars){
-    if(!/^[a-z0-9-]+$/.test(r.id)||ids.has(r.id)||paths.has(r.path)||!/^([a-z0-9-]+)?$/.test(r.path)||!/^([a-z0-9-]+\/)?[a-z0-9-]+\.json$/.test(r.config)||!/^update-[a-z0-9-]+\.yaml$/.test(r.workflow))throw Error('Invalid radar registry');
+    if(!/^[a-z0-9-]+$/.test(r.id)||ids.has(r.id)||paths.has(r.path)||!/^([a-z0-9-]+)$/.test(r.path)||!/^([a-z0-9-]+\/)?[a-z0-9-]+\.json$/.test(r.config)||!/^update-[a-z0-9-]+\.yaml$/.test(r.workflow))throw Error('Invalid radar registry');
     ids.add(r.id);paths.add(r.path);
   }
   return value;

@@ -3,14 +3,18 @@
 基于 [osmosfeed](https://github.com/osmoscraft/osmosfeed) 的个人研究收件箱。可同时配置多个研究方向，收集 arXiv 论文和技术博客，按可解释的关键词规则筛选。RSI 是初始示例方向。**不调用模型，不需要 API 密钥，也不使用本地模型。**
 
 
+## 首页与独立雷达
+
+首页 https://hzzhoo.github.io/research-radar/ 列出所有雷达。每个卡片显示候选数量、来源数量、更新时间和覆盖检查，并提供阅读和配置入口。新增雷达登记到 radars.json 后，列表会自动增加卡片。
+
 ## 一个仓库，多个独立雷达
 
 所有雷达共用程序，各自拥有配置、页面、更新时间、缓存及更新工作流：
 
 | 雷达 | 页面 | 配置 | 手动更新 Action |
 |---|---|---|---|
-| RSI | /rsi-feed/ | config.json | Update RSI radar |
-| Post-train Recipe | /rsi-feed/post-train-recipe/ | radars/post-train-recipe.json | Update Post-train Recipe radar |
+| RSI | /research-radar/rsi/ | config.json | Update RSI radar |
+| Post-train Recipe | /research-radar/post-train-recipe/ | radars/post-train-recipe.json | Update Post-train Recipe radar |
 
 每个页面顶部可切换雷达，其 settings.html 仅配置当前雷达。复制应用的 JSON 带有雷达标识，Apply research settings 自动选中对应配置。完整替换发生在该雷达内部，不会替换其他雷达。浏览器草稿和已读状态也按页面隔离。
 

@@ -48,10 +48,10 @@ test('applying a post-training envelope leaves RSI config byte-identical',async(
 test('browser drafts are isolated by page and copied payload targets the current radar',async()=>{
   const script=fs.readFileSync('static/settings.js','utf8'),html=fs.readFileSync('static/settings.html','utf8');
   for(const id of ['rsi','post-train-recipe']){
-    const prefix=id==='rsi'?'/rsi-feed/':'/rsi-feed/post-train-recipe/';
+    const prefix=id==='rsi'?'/research-radar/rsi/':'/research-radar/post-train-recipe/';
     const dom=new JSDOM(html,{url:`https://hzzhoo.github.io${prefix}settings.html`,runScripts:'outside-only'}),w=dom.window;
     const config=id==='rsi'?JSON.parse(fs.readFileSync('config.json','utf8')):recipe;
-    w.fetch=async url=>({ok:true,json:async()=>url==='site.json'?{id,repository:'HzZHoO/rsi-feed'}:structuredClone(config)});w.structuredClone=structuredClone;
+    w.fetch=async url=>({ok:true,json:async()=>url==='site.json'?{id,repository:'HzZHoO/research-radar'}:structuredClone(config)});w.structuredClone=structuredClone;
     let copied;Object.defineProperty(w.navigator,'clipboard',{value:{writeText:async value=>{copied=JSON.parse(value);}}});
     w.localStorage.setItem('research-radar-draft-v2:/other/',JSON.stringify({...config,siteTitle:'Wrong radar draft'}));
     w.eval(script);await new Promise(resolve=>setTimeout(resolve,0));

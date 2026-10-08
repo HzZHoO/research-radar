@@ -1,17 +1,17 @@
 {
-  "name": "rsi-feed",
+  "name": "research-radar",
   "version": "1.0.0",
-  "description": "Model-free RSI research radar: papers and technical blogs, powered by osmosfeed.",
+  "description": "Model-free multi-topic research radar: papers and technical blogs, powered by osmosfeed.",
   "main": "index.js",
   "scripts": {
-    "build": "node scripts/build.mjs",
+    "build": "node scripts/build-site.mjs",
     "collect": "node scripts/collect.mjs",
     "test": "node --test tests/*.test.mjs",
     "preview": "node scripts/preview.mjs"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HzZHoO/rsi-feed.git"
+    "url": "git+https://github.com/HzZHoO/research-radar.git"
   },
   "keywords": [],
   "author": "osmoscraft",
@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/osmoscraft/osmosfeed-template/issues"
   },
-  "homepage": "https://HzZHoO.github.io/rsi-feed/",
+  "homepage": "https://HzZHoO.github.io/research-radar/",
   "dependencies": {
     "@osmoscraft/osmosfeed": "1.15.1",
     "cheerio": "^1.0.0",

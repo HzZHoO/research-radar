@@ -25,7 +25,7 @@ const execFileAsync=promisify(execFile);
 async function curlDownload(url) {
   const {stdout}=await execFileAsync(process.platform==='win32'?'curl.exe':'curl',[
     '--fail','--location','--silent','--show-error','--max-time','30','--max-filesize','12000000',
-    '--user-agent','RSI-Feed/1.0 (+https://github.com/HzZHoO/rsi-feed)',url
+    '--user-agent','RSI-Feed/1.0 (+https://github.com/HzZHoO/research-radar)',url
   ],{maxBuffer:12000000,timeout:35000,windowsHide:true});
   return stdout;
 }
@@ -36,7 +36,7 @@ async function download(url) {
       // Windows fetch and curl use different TLS stacks; system curl works with
       // common Windows network setups that reset Node's TLS connections.
       if(process.platform==='win32')return await curlDownload(url);
-      const response=await fetch(url,{signal:AbortSignal.timeout(25000),headers:{'User-Agent':'RSI-Feed/1.0 (+https://github.com/HzZHoO/rsi-feed)',Accept:'application/atom+xml,application/rss+xml,application/xml,text/xml,*/*'}});
+      const response=await fetch(url,{signal:AbortSignal.timeout(25000),headers:{'User-Agent':'RSI-Feed/1.0 (+https://github.com/HzZHoO/research-radar)',Accept:'application/atom+xml,application/rss+xml,application/xml,text/xml,*/*'}});
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const content=await response.text();
       if (Buffer.byteLength(content)>12000000) throw new Error('Feed exceeds 12 MB');

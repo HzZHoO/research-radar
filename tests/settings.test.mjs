@@ -6,7 +6,7 @@ import {validateConfig,makeSources,isScheduledDue} from '../scripts/config.mjs';
 const config=JSON.parse(fs.readFileSync('config.json','utf8'));
 test('settings form changes multiple topics, sources and schedule in an applicable draft',async()=>{
   const dom=new JSDOM(fs.readFileSync('static/settings.html','utf8'),{url:'https://example.org/settings.html',runScripts:'outside-only'});
-  const w=dom.window;w.fetch=async(url)=>({ok:true,json:async()=>url==='site.json'?{id:'rsi',repository:'HzZHoO/rsi-feed'}:structuredClone(config)});w.structuredClone=structuredClone;
+  const w=dom.window;w.fetch=async(url)=>({ok:true,json:async()=>url==='site.json'?{id:'rsi',repository:'HzZHoO/research-radar'}:structuredClone(config)});w.structuredClone=structuredClone;
   w.eval(fs.readFileSync('static/settings.js','utf8'));
   await new Promise(resolve=>setTimeout(resolve,0));
   assert.equal(w.document.querySelector('#settings').hidden,false);
