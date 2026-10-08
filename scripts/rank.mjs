@@ -13,7 +13,7 @@ export function rank(item, config) {
   if (exclusions.length) return {tier:'excluded', score:0, matches:exclusions};
   const direct = config.directPhrases.filter(p => contains(text, p));
   const related = config.relatedPhrases.filter(p => contains(text, p));
-  const context = config.contextTerms.some(p => contains(text, p));
+  const context = !config.contextTerms.length || config.contextTerms.some(p => contains(text, p));
   const directScore = direct.reduce((n, p) => n + (contains(title, p) ? 12 : 8), 0);
   const relatedScore = related.reduce((n, p) => n + (contains(title, p) ? 5 : 3), 0);
   const score = directScore + relatedScore + (context ? 2 : 0);

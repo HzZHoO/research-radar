@@ -3,30 +3,31 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <title>{{siteTitle}}</title>
-  <link rel="stylesheet" href="radar.css"><link rel="alternate" type="application/atom+xml" href="feed.atom" title="RSI 研究雷达">
+  <link rel="stylesheet" href="radar.css"><link rel="stylesheet" href="settings.css"><link rel="alternate" type="application/atom+xml" href="feed.atom" title="研究雷达">
   <script src="radar.js" defer></script>
 </head>
 <body>
 <main>
-  <header><div class="eyebrow">RESEARCH INBOX · RSI</div><h1>RSI 研究雷达<span class="dot">.</span></h1>
-    <p class="intro">跟踪递归自我改进的论文与技术博客。按关键词筛选，保留原始摘要与命中原因。</p>
-    <nav><a href="feed.atom">订阅精选 RSS / Atom</a><a href="report.md">查看抓取报告</a><a href="https://github.com/HzZHoO/rsi-feed" target="_blank" rel="noopener noreferrer">配置与源码 ↗</a></nav>
+  <header><div class="eyebrow">YOUR RESEARCH INBOX</div><h1>{{siteTitle}}<span class="dot">.</span></h1>
+    <p class="intro">在你关注的研究方向中，发现新论文与技术文章。按关键词筛选，保留原始摘要与命中原因。</p>
+    <nav><a href="settings.html" class="settings-link">⚙ 研究方向与订阅设置</a><a href="feed.atom">订阅精选 RSS / Atom</a><a href="report.md">抓取报告</a><a href="https://github.com/HzZHoO/rsi-feed" target="_blank" rel="noopener noreferrer">源码 ↗</a></nav>
   </header>
   <section class="stats" id="stats" aria-label="收集统计"><span>正在读取抓取统计…</span></section>
   <section class="toolbar" aria-label="筛选文章">
     <div class="tabs" role="group" aria-label="相关程度"><button class="active" data-tier="all" aria-pressed="true">全部</button><button data-tier="direct" aria-pressed="false">直接相关</button><button data-tier="related" aria-pressed="false">相关方法</button></div>
-    <div class="controls"><label>时间<select id="days"><option value="7">最近 7 天</option><option value="30">最近 30 天</option><option value="all">全部回溯</option></select></label><label>形式<select id="type"><option value="all">论文与博客</option><option value="paper">论文</option><option value="blog">博客</option></select></label>
+    <div class="controls"><label>方向<select id="topic"><option value="all">全部方向</option></select></label><label>信源<select id="source"><option value="all">全部信源</option></select></label><label>时间<select id="days"><option value="7">最近 7 天</option><option value="30">最近 30 天</option><option value="all">全部回溯</option></select></label><label>形式<select id="type"><option value="all">论文与博客</option><option value="paper">论文</option><option value="blog">博客</option></select></label>
       <label>排序<select id="sort"><option value="date">最新优先</option><option value="score">关键词相关度</option></select></label>
       <label class="search-label">搜索<input id="search" type="search" placeholder="标题、摘要、来源…"></label></div>
     <label class="read-filter"><input id="hide-read" type="checkbox">隐藏已读</label>
   </section>
   <div class="list-heading"><h2>阅读队列</h2><span id="shown"></span></div>
-  <p class="note">“直接相关”表示命中明确的 RSI／自进化主题；“相关方法”用于扩展阅读。分数仅衡量关键词相关性，不代表成果质量。摘要未经 AI 改写。</p>
+  <p class="note">“直接相关”表示命中所选方向的核心关键词；“相关方法”用于扩展阅读。分数仅衡量关键词相关性，不代表成果质量。摘要未经 AI 改写。</p>
   <section id="articles" aria-label="阅读队列">
     {{#each articles}}
-    <article class="card" data-id="{{id}}" data-type="{{type}}" data-tier="{{tier}}" data-score="{{score}}" data-date="{{publishedOn}}">
+    <article class="card" data-id="{{id}}" data-type="{{type}}" data-tier="{{tier}}" data-score="{{score}}" data-date="{{publishedOn}}" data-topics="{{#each topicIds}}{{this}} {{/each}}" data-source="{{sourceId}}">
       <div class="meta"><span class="source">{{sourceName}}</span><time datetime="{{publishedOn}}">{{isoOffsetPublishDate}}</time><span class="tier {{tier}}">{{#if isDirect}}直接相关{{else}}相关方法{{/if}}</span></div>
       <h3><a href="{{link}}" target="_blank" rel="noopener noreferrer">{{title}} <span class="arrow">↗</span></a></h3>
+      <div class="topic-tags">{{#each topicNames}}<span>{{this}}</span>{{/each}}</div>
       <p class="description">{{description}}</p>
       <details><summary>命中原因 · {{score}} 分</summary><p class="matches">{{#each matches}}<span>{{this}}</span>{{/each}}</p></details>
       <button class="read-button" type="button">标为已读</button>

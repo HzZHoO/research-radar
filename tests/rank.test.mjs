@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {rank,canonicalId} from '../scripts/rank.mjs';
-const config=JSON.parse(fs.readFileSync('topics.json','utf8'));
+const config=JSON.parse(fs.readFileSync('config.json','utf8')).topics[0];
 test('RSI surveys and Unicode hyphens are directly relevant',()=> {
   for(const title of ['The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement','Recursive Self‑Improvement in AI: A Survey'])assert.equal(rank({title,description:''},config).tier,'direct');
 });

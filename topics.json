@@ -1,9 +1,0 @@
-{
-  "topic": "Recursive Self-Improvement",
-  "historyDays": 120,
-  "directPhrases": ["recursive self improvement", "recursive meta improvement", "darwin godel machine", "godel agent", "self taught optimizer", "huxley godel", "self improving agent", "self evolving agent", "self adapting language model", "self evolving llm", "递归自我改进", "递归自我提升", "自进化智能体"],
-  "relatedPhrases": ["self improvement", "self modification", "self training", "self reward", "self play", "meta learning", "agent evolution", "harness engineering", "agent harness", "automated ai research", "automated machine learning", "automated scientific discovery", "alphaevolve", "funsearch", "self adaptation", "self evolution", "自我改进", "自演进", "自动化研究"],
-  "contextTerms": ["agent", "llm", "language model", "reinforcement learning", "training", "artificial intelligence", "machine learning", "智能体", "模型"],
-  "excludePhrases": ["relative strength index", "repetitive strain injury"],
-  "relatedMinScore": 5
-}

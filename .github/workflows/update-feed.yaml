@@ -6,8 +6,8 @@ on:
       - main
   workflow_dispatch:
   schedule:
-    # UTC: Beijing 09:23, 17:23 and 01:23. Avoid the busy top of the hour.
-    - cron: "23 1,9,17 * * *"
+    # Lightweight check; only the configured time windows run collection.
+    - cron: "*/15 * * * *"
 
 permissions:
   contents: read
@@ -19,7 +19,17 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      collect: ${{ steps.due.outputs.collect }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: due
+        run: node scripts/check-schedule.mjs
   build:
+    needs: check
+    if: needs.check.outputs.collect == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:

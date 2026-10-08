@@ -5,7 +5,8 @@ import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import Parser from 'rss-parser';
 import { load } from 'cheerio';
-import { rank, canonicalId } from './rank.mjs';
+import { rank, canonicalId, normalize } from './rank.mjs';
+import { loadConfig, makeSources, rankTopics } from './config.mjs';
 
 const parser = new Parser({customFields:{item:['published','updated','description','summary']}});
 export const readJson = async (file, fallback) => {
@@ -56,8 +57,8 @@ async function fetchSource(source) {
   return {parsed,effectiveUrl,warning};
 }
 export async function collect() {
-  const sources=await readJson('feeds.json');
-  const config=await readJson('topics.json');
+  const config=await loadConfig(process.env.RADAR_CONFIG||'config.json');
+  const sources=makeSources(config);
   const now=new Date();
   const cutoff=now.getTime()-config.historyDays*86400000;
   const previous=await readJson('.state/history.json',{articles:[]});
@@ -73,7 +74,8 @@ export async function collect() {
       const descriptions=new Map();
       if(source.enrichMissing){
         const recent=result.parsed.items.filter(item=>Date.parse(item.published||item.isoDate||item.pubDate)>=cutoff&&!item.summary&&!item.content&&!item.description);
-        const priority=recent.filter(item=>/agent|self|evol|harness|research|training|reasoning|reinforcement|memory/i.test(item.title));
+        const keywords=config.topics.filter(t=>t.enabled).flatMap(t=>[...t.directPhrases,...t.relatedPhrases,...t.contextTerms]).map(normalize);
+        const priority=recent.filter(item=>keywords.some(k=>normalize(item.title).includes(k)));
         const candidates=[...new Map([...priority,...recent.slice(0,20)].map(item=>[item.link,item])).values()].slice(0,source.enrichLimit||40);
         let cursor=0;
         async function worker(){
@@ -108,9 +110,8 @@ export async function collect() {
         dated++;
         const title=plain(item.title||'Untitled');
         const description=plain(descriptions.get(link)||item.summary||item['content:encoded']||item.content||item.description||'').slice(0,20000);
-        const classification=rank({title,description},config);
-        if(classification.tier==='excluded')continue;
-        matched++;
+        const classification=rankTopics({title,description},config,rank);
+        if(classification.tier!=='excluded')matched++;
         const id=canonicalId(link);
         const old=articles.get(id);
         const next={id,title,link,publishedOn:new Date(timestamp).toISOString(),updatedOn:item.updated||item.isoDate||null,
@@ -136,15 +137,16 @@ export async function collect() {
   await blogPromise;
   if(statuses.every(x=>x.status==='failed'))throw new Error('All sources failed; previous successful output preserved.');
   const retained=[...articles.values()].filter(x=>Date.parse(x.publishedOn)>=cutoff&&sources.some(s=>s.id===x.sourceId));
-  const ranked=retained.map(item=>({...item,...rank({...item,description:item.rankingText||item.description},config),fresh:!previous.articles.some(old=>old.id===item.id)}))
+  const catalog=retained.map(item=>({...item,...rankTopics({...item,description:item.rankingText||item.description},config,rank),fresh:!previous.articles.some(old=>old.id===item.id)}));
+  const ranked=catalog
     .filter(item=>item.tier!=='excluded').sort((a,b)=>b.publishedOn.localeCompare(a.publishedOn)||b.score-a.score);
   const sourceResults=statuses.map(s=>({...s,retained:ranked.filter(x=>x.sourceId===s.id).length}));
-  const data={topic:config.topic,generatedAt:now.toISOString(),historyDays:config.historyDays,
+  const data={siteTitle:config.siteTitle,topic:'研究雷达',topics:config.topics.filter(t=>t.enabled).map(t=>({id:t.id,name:t.name})),scheduleTimes:config.scheduleTimes,generatedAt:now.toISOString(),historyDays:config.historyDays,
     counts:{fetched:statuses.reduce((n,s)=>n+s.fetched,0),selected:ranked.length,direct:ranked.filter(x=>x.tier==='direct').length,
       related:ranked.filter(x=>x.tier==='related').length,blogs:ranked.filter(x=>x.type==='blog').length,new:ranked.filter(x=>x.fresh).length},
     sources:sourceResults,articles:ranked.map(({rankingText,...item})=>item)};
   await fs.mkdir('.state',{recursive:true});await fs.mkdir('.build',{recursive:true});
-  await fs.writeFile('.state/history.json',JSON.stringify({articles:ranked},null,2));
+  await fs.writeFile('.state/history.json',JSON.stringify({articles:catalog},null,2));
   await fs.writeFile('.state/enrichment-v2.json',JSON.stringify(enrichment));
   await fs.writeFile('.build/radar.json',JSON.stringify(data,null,2));
   return data;

@@ -1,9 +1,0 @@
-[
-  {"id":"arxiv-rsi", "name":"arXiv · RSI", "type":"paper", "url":"https://export.arxiv.org/api/query?search_query=all:%22recursive%20self-improvement%22%20OR%20all:%22self-improving%20agents%22%20OR%20all:%22self-evolving%20agents%22%20OR%20all:%22self-adapting%20language%20models%22&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending", "fallbackUrl":"https://rss.arxiv.org/rss/cs.AI"},
-  {"id":"arxiv-methods", "name":"arXiv · 相关方法", "type":"paper", "url":"https://export.arxiv.org/api/query?search_query=all:%22agent%20harness%22%20OR%20all:%22automated%20AI%20research%22%20OR%20all:%22meta-improvement%22%20OR%20all:%22AlphaEvolve%22&start=0&max_results=80&sortBy=submittedDate&sortOrder=descending", "fallbackUrl":"https://rss.arxiv.org/rss/cs.LG"},
-  {"id":"arxiv-cl", "name":"arXiv · cs.CL", "type":"paper", "url":"https://rss.arxiv.org/rss/cs.CL"},
-  {"id":"huggingface", "name":"Hugging Face Blog", "type":"blog", "url":"https://huggingface.co/blog/feed.xml", "enrichMissing":true, "enrichLimit":40},
-  {"id":"nvidia-dev", "name":"NVIDIA Developer Blog", "type":"blog", "url":"https://developer.nvidia.com/blog/feed/"},
-  {"id":"nvidia", "name":"NVIDIA Blog", "type":"blog", "url":"https://blogs.nvidia.com/feed/"},
-  {"id":"lilianweng", "name":"Lilian Weng · Lil’Log", "type":"blog", "url":"https://lilianweng.github.io/index.xml"}
-]
