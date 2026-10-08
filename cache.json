@@ -2,7 +2,7 @@
   "sources": [
     {
       "title": "arXiv · Recursive Self-Improvement",
-      "feedUrl": "http://127.0.0.1:33921/feed/arxiv-rsi-direct",
+      "feedUrl": "http://127.0.0.1:38489/feed/arxiv-rsi-direct",
       "siteUrl": "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL%29+AND+%28all%3A%22recursive+self+improvement%22+OR+all%3A%22recursive+meta+improvement%22+OR+all%3A%22darwin+godel+machine%22+OR+all%3A%22godel+agent%22+OR+all%3A%22self+taught+optimizer%22+OR+all%3A%22huxley+godel%22+OR+all%3A%22self+improving+agent%22+OR+all%3A%22self+evolving+agent%22+OR+all%3A%22self+adapting+language+model%22+OR+all%3A%22self+evolving+llm%22%29&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending",
       "articles": [
         {
@@ -41,7 +41,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -87,7 +87,7 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -132,7 +132,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -175,7 +175,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -218,7 +218,7 @@
             "agent evolution"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -261,7 +261,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -306,7 +306,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -347,7 +347,7 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -388,7 +388,7 @@
             "self improving agent"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -436,7 +436,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -481,7 +481,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -529,7 +529,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -581,7 +581,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -624,7 +624,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -672,7 +672,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -713,7 +713,7 @@
             "self evolving llm"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -756,7 +756,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -799,7 +799,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -842,7 +842,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -885,7 +885,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -928,7 +928,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -971,7 +971,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1023,7 +1023,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1069,7 +1069,7 @@
             "darwin godel machine"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1112,7 +1112,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1153,7 +1153,7 @@
             "self improving agent"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1198,7 +1198,7 @@
             "self modification"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1241,7 +1241,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1289,7 +1289,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1339,7 +1339,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1380,7 +1380,7 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1421,7 +1421,7 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1464,7 +1464,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1516,7 +1516,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1568,7 +1568,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1614,7 +1614,7 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1657,7 +1657,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1702,7 +1702,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1748,7 +1748,7 @@
             "self improving agent"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1791,7 +1791,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1834,7 +1834,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1877,7 +1877,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1925,7 +1925,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1971,7 +1971,7 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2016,7 +2016,7 @@
             "self modification"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2059,7 +2059,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2105,7 +2105,7 @@
             "self evolving llm"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2153,7 +2153,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2196,7 +2196,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2239,7 +2239,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2282,7 +2282,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2330,7 +2330,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2373,7 +2373,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2416,7 +2416,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2459,7 +2459,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2507,7 +2507,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2548,7 +2548,7 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2589,7 +2589,7 @@
             "self evolving llm"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2643,7 +2643,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2691,7 +2691,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2732,7 +2732,7 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2775,7 +2775,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2816,7 +2816,7 @@
             "self improving agent"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2866,7 +2866,7 @@
             "agent evolution"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2914,7 +2914,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2957,7 +2957,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3000,7 +3000,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3043,7 +3043,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3088,7 +3088,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3138,7 +3138,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3186,7 +3186,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3227,7 +3227,7 @@
             "self evolving llm"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3272,7 +3272,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3319,7 +3319,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3367,7 +3367,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3408,7 +3408,7 @@
             "self evolving llm"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3451,7 +3451,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3499,7 +3499,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3542,7 +3542,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3585,7 +3585,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3630,7 +3630,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3673,7 +3673,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3721,7 +3721,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3769,7 +3769,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3810,7 +3810,7 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3851,7 +3851,7 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3892,7 +3892,7 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3935,7 +3935,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3978,7 +3978,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -4019,7 +4019,7 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -4062,7 +4062,7 @@
             "self evolving llm"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -4112,7 +4112,7 @@
             "self improving agent"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -4153,7 +4153,7 @@
             "self improving agent"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -4196,7 +4196,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -4207,7 +4207,7 @@
     },
     {
       "title": "arXiv · Recursive Self-Improvement · 相关方法",
-      "feedUrl": "http://127.0.0.1:33921/feed/arxiv-rsi-related",
+      "feedUrl": "http://127.0.0.1:38489/feed/arxiv-rsi-related",
       "siteUrl": "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL%29+AND+%28all%3A%22self+improvement%22+OR+all%3A%22self+modification%22+OR+all%3A%22self+training%22+OR+all%3A%22self+reward%22+OR+all%3A%22self+play%22+OR+all%3A%22meta+learning%22+OR+all%3A%22agent+evolution%22+OR+all%3A%22harness+engineering%22+OR+all%3A%22agent+harness%22+OR+all%3A%22automated+ai+research%22+OR+all%3A%22automated+machine+learning%22+OR+all%3A%22automated+scientific+discovery%22+OR+all%3A%22alphaevolve%22+OR+all%3A%22funsearch%22+OR+all%3A%22self+adaptation%22+OR+all%3A%22self+evolution%22%29&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending",
       "articles": [
         {
@@ -4244,7 +4244,7 @@
             "self training"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -4285,7 +4285,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -4326,7 +4326,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -4374,7 +4374,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -4415,7 +4415,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -4465,7 +4465,7 @@
             "self play"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -4506,7 +4506,7 @@
             "self reward"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -4547,7 +4547,7 @@
             "meta learning"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -4588,7 +4588,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -4629,7 +4629,7 @@
             "agent evolution"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -4675,7 +4675,7 @@
             "meta learning"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -4716,7 +4716,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -4759,7 +4759,7 @@
             "harness engineering"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -4805,7 +4805,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -4846,7 +4846,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -4887,7 +4887,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -4928,7 +4928,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -4969,7 +4969,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -5015,7 +5015,7 @@
             "self adaptation"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -5056,7 +5056,7 @@
             "meta learning"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -5102,7 +5102,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -5143,7 +5143,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -5189,7 +5189,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -5230,7 +5230,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -5276,7 +5276,7 @@
             "self play"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -5317,7 +5317,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -5363,7 +5363,7 @@
             "meta learning"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -5404,7 +5404,7 @@
             "agent evolution"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -5450,7 +5450,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -5496,7 +5496,7 @@
             "agent evolution"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -5537,7 +5537,7 @@
             "meta learning"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -5578,7 +5578,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -5621,7 +5621,7 @@
             "self play"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -5664,7 +5664,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -5705,7 +5705,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -5751,7 +5751,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -5797,7 +5797,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -5843,7 +5843,7 @@
             "alphaevolve"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -5884,7 +5884,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -5934,7 +5934,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -5975,7 +5975,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -6021,7 +6021,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -6062,7 +6062,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -6103,7 +6103,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -6149,7 +6149,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -6195,7 +6195,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -6245,7 +6245,7 @@
             "meta learning"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -6291,7 +6291,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -6337,7 +6337,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -6383,7 +6383,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -6424,7 +6424,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -6470,7 +6470,7 @@
             "self play"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -6516,7 +6516,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -6527,7 +6527,7 @@
     },
     {
       "title": "Hugging Face Blog",
-      "feedUrl": "http://127.0.0.1:33921/feed/huggingface",
+      "feedUrl": "http://127.0.0.1:38489/feed/huggingface",
       "siteUrl": "https://huggingface.co/blog/feed.xml",
       "articles": [
         {
@@ -6564,7 +6564,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -6622,7 +6622,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -6668,7 +6668,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -6679,7 +6679,7 @@
     },
     {
       "title": "NVIDIA Developer Blog",
-      "feedUrl": "http://127.0.0.1:33921/feed/nvidia-dev",
+      "feedUrl": "http://127.0.0.1:38489/feed/nvidia-dev",
       "siteUrl": "https://developer.nvidia.com/blog/feed/",
       "articles": [
         {
@@ -6716,7 +6716,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -6757,7 +6757,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -6768,7 +6768,7 @@
     },
     {
       "title": "NVIDIA Blog",
-      "feedUrl": "http://127.0.0.1:33921/feed/nvidia",
+      "feedUrl": "http://127.0.0.1:38489/feed/nvidia",
       "siteUrl": "https://blogs.nvidia.com/feed/",
       "articles": [
         {
@@ -6805,7 +6805,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -6829,7 +6829,7 @@
     },
     {
       "title": "Lilian Weng · Lil’Log",
-      "feedUrl": "http://127.0.0.1:33921/feed/lilianweng",
+      "feedUrl": "http://127.0.0.1:38489/feed/lilianweng",
       "siteUrl": "https://lilianweng.github.io/index.xml",
       "articles": [
         {
@@ -6870,7 +6870,7 @@
             "harness engineering"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T07:59:59.337Z",
+          "lastSeen": "2026-10-08T08:01:14.574Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
