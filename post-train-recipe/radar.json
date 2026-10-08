@@ -19,7 +19,7 @@
     "09:45",
     "18:45"
   ],
-  "generatedAt": "2026-10-08T08:00:07.656Z",
+  "generatedAt": "2026-10-08T08:02:26.206Z",
   "historyDays": 365,
   "counts": {
     "fetched": 1607,
@@ -27,7 +27,7 @@
     "direct": 281,
     "related": 155,
     "blogs": 45,
-    "new": 436
+    "new": 0
   },
   "sources": [
     {
@@ -296,10 +296,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -343,10 +343,10 @@
         "grpo"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -383,10 +383,10 @@
         "post training"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -435,10 +435,10 @@
         "cold start"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -475,10 +475,10 @@
         "reasoning trajectory"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -522,10 +522,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -566,10 +566,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -613,10 +613,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -660,10 +660,10 @@
         "dpo"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -705,10 +705,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -745,10 +745,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -790,10 +790,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -837,10 +837,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -900,10 +900,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -953,10 +953,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -995,10 +995,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -1056,10 +1056,10 @@
         "process reward"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -1096,10 +1096,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -1145,10 +1145,10 @@
         "supervised fine tuning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -1194,10 +1194,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -1239,10 +1239,10 @@
         "reasoning distillation"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -1284,10 +1284,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -1329,10 +1329,10 @@
         "process reward"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -1369,10 +1369,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -1414,10 +1414,10 @@
         "post training"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -1459,10 +1459,10 @@
         "grpo"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -1504,10 +1504,10 @@
         "smollm3"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -1544,10 +1544,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -1584,10 +1584,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -1629,10 +1629,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -1676,10 +1676,10 @@
         "supervised fine tuning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -1721,10 +1721,10 @@
         "supervised fine tuning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -1766,10 +1766,10 @@
         "synthetic data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -1811,10 +1811,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -1851,10 +1851,10 @@
         "instruction tuning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -1900,10 +1900,10 @@
         "data filtering"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -1940,10 +1940,10 @@
         "synthetic data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -1985,10 +1985,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -2038,10 +2038,10 @@
         "hyperparameter tuning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -2085,10 +2085,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -2134,10 +2134,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -2174,10 +2174,10 @@
         "data selection"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -2214,10 +2214,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -2259,10 +2259,10 @@
         "synthetic data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -2304,10 +2304,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -2355,10 +2355,10 @@
         "post training"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -2402,10 +2402,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -2442,10 +2442,10 @@
         "post training"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -2482,10 +2482,10 @@
         "synthetic data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -2527,10 +2527,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -2572,10 +2572,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -2617,10 +2617,10 @@
         "supervised fine tuning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -2666,10 +2666,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -2715,10 +2715,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -2772,10 +2772,10 @@
         "instruction tuning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -2833,10 +2833,10 @@
         "synthetic data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -2878,10 +2878,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -2935,10 +2935,10 @@
         "cold start"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -2980,10 +2980,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -3020,10 +3020,10 @@
         "data selection"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -3077,10 +3077,10 @@
         "sft data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -3117,10 +3117,10 @@
         "rejection sampling"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -3157,10 +3157,10 @@
         "synthetic data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -3202,10 +3202,10 @@
         "rejection sampling"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -3247,10 +3247,10 @@
         "sft data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -3287,10 +3287,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -3332,10 +3332,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -3377,10 +3377,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -3426,10 +3426,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -3473,10 +3473,10 @@
         "data selection"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -3513,10 +3513,10 @@
         "cold start"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -3553,10 +3553,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -3602,10 +3602,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -3647,10 +3647,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -3692,10 +3692,10 @@
         "synthetic data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -3741,10 +3741,10 @@
         "data quality"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -3781,10 +3781,10 @@
         "cold start"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -3826,10 +3826,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -3875,10 +3875,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -3920,10 +3920,10 @@
         "cold start"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -3967,10 +3967,10 @@
         "data selection"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -4012,10 +4012,10 @@
         "data mixture"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -4061,10 +4061,10 @@
         "cold start"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -4113,10 +4113,10 @@
         "process reward"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -4153,10 +4153,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -4198,10 +4198,10 @@
         "deduplication"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -4259,10 +4259,10 @@
         "data selection"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -4304,10 +4304,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -4351,10 +4351,10 @@
         "grpo"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -4396,10 +4396,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -4443,10 +4443,10 @@
         "post training"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -4488,10 +4488,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -4533,10 +4533,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -4578,10 +4578,10 @@
         "rejection sampling"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -4618,10 +4618,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -4663,10 +4663,10 @@
         "smollm3"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -4715,10 +4715,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -4764,10 +4764,10 @@
         "data quality"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -4806,10 +4806,10 @@
         "supervised fine tuning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -4851,10 +4851,10 @@
         "reasoning trajectory"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -4896,10 +4896,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -4941,10 +4941,10 @@
         "synthetic data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -4988,10 +4988,10 @@
         "data selection"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -5032,10 +5032,10 @@
         "post training"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -5077,10 +5077,10 @@
         "reasoning trajectory"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -5122,10 +5122,10 @@
         "reasoning data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -5171,10 +5171,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -5218,10 +5218,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -5275,10 +5275,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -5350,10 +5350,10 @@
         "data quality"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -5399,10 +5399,10 @@
         "data selection"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -5439,10 +5439,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -5484,10 +5484,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -5529,10 +5529,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -5578,10 +5578,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -5627,10 +5627,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -5680,10 +5680,10 @@
         "reasoning trajectory"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -5729,10 +5729,10 @@
         "synthetic data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -5792,10 +5792,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -5843,10 +5843,10 @@
         "grpo"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -5883,10 +5883,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -5928,10 +5928,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -5968,10 +5968,10 @@
         "process reward"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -6024,10 +6024,10 @@
         "synthetic data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -6073,10 +6073,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -6118,10 +6118,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -6163,10 +6163,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -6208,10 +6208,10 @@
         "reasoning dataset"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -6257,10 +6257,10 @@
         "data selection"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -6297,10 +6297,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -6342,10 +6342,10 @@
         "smollm3"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -6394,10 +6394,10 @@
         "data selection"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -6439,10 +6439,10 @@
         "synthetic data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -6484,10 +6484,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -6543,10 +6543,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -6596,10 +6596,10 @@
         "rlvr"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -6636,10 +6636,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -6681,10 +6681,10 @@
         "synthetic data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -6726,10 +6726,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -6783,10 +6783,10 @@
         "data mixture"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -6856,10 +6856,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -6909,10 +6909,10 @@
         "synthetic data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -6954,10 +6954,10 @@
         "data selection"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -6996,10 +6996,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -7041,10 +7041,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -7102,10 +7102,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -7153,10 +7153,10 @@
         "data selection"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -7212,10 +7212,10 @@
         "data curation"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -7257,10 +7257,10 @@
         "data curation"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -7306,10 +7306,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -7351,10 +7351,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -7400,10 +7400,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -7459,10 +7459,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -7508,10 +7508,10 @@
         "synthetic data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -7557,10 +7557,10 @@
         "synthetic data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -7602,10 +7602,10 @@
         "data selection"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -7644,10 +7644,10 @@
         "post training"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -7693,10 +7693,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -7738,10 +7738,10 @@
         "data mixture"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -7795,10 +7795,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -7844,10 +7844,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -7893,10 +7893,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -7966,10 +7966,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -8021,10 +8021,10 @@
         "data selection"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -8070,10 +8070,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -8110,10 +8110,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -8161,10 +8161,10 @@
         "process reward"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -8206,10 +8206,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -8246,10 +8246,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -8307,10 +8307,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -8356,10 +8356,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -8401,10 +8401,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -8448,10 +8448,10 @@
         "grpo"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -8493,10 +8493,10 @@
         "data selection"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -8538,10 +8538,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -8599,10 +8599,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -8660,10 +8660,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -8709,10 +8709,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -8749,10 +8749,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -8798,10 +8798,10 @@
         "supervised fine tuning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -8843,10 +8843,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -8883,10 +8883,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -8932,10 +8932,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -8981,10 +8981,10 @@
         "synthetic data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -9026,10 +9026,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -9075,10 +9075,10 @@
         "cold start"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -9120,10 +9120,10 @@
         "synthetic data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -9165,10 +9165,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -9212,10 +9212,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -9261,10 +9261,10 @@
         "data mixture"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -9306,10 +9306,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -9351,10 +9351,10 @@
         "data cleaning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -9400,10 +9400,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -9445,10 +9445,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -9508,10 +9508,10 @@
         "cold start"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -9579,10 +9579,10 @@
         "cold start"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -9632,10 +9632,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -9693,10 +9693,10 @@
         "reasoning distillation"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -9738,10 +9738,10 @@
         "smollm3"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -9783,10 +9783,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -9828,10 +9828,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -9877,10 +9877,10 @@
         "data cleaning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -9922,10 +9922,10 @@
         "cold start"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -9971,10 +9971,10 @@
         "reasoning trajectory"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -10016,10 +10016,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -10073,10 +10073,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -10122,10 +10122,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -10183,10 +10183,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -10248,10 +10248,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -10295,10 +10295,10 @@
         "post training"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -10356,10 +10356,10 @@
         "cold start"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -10409,10 +10409,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -10462,10 +10462,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -10509,10 +10509,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -10556,10 +10556,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -10617,10 +10617,10 @@
         "process reward"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -10666,10 +10666,10 @@
         "reasoning trajectory"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -10729,10 +10729,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -10778,10 +10778,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -10823,10 +10823,10 @@
         "cold start"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -10863,10 +10863,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -10910,10 +10910,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -10961,10 +10961,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -11006,10 +11006,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -11051,10 +11051,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -11112,10 +11112,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -11157,10 +11157,10 @@
         "post training data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -11197,10 +11197,10 @@
         "smollm3"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -11239,10 +11239,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -11284,10 +11284,10 @@
         "data mixture"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -11335,10 +11335,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -11384,10 +11384,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -11433,10 +11433,10 @@
         "process reward"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -11484,10 +11484,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -11524,10 +11524,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -11577,10 +11577,10 @@
         "data mixture"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -11640,10 +11640,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -11685,10 +11685,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -11727,10 +11727,10 @@
         "instruction tuning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -11776,10 +11776,10 @@
         "rejection sampling"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -11821,10 +11821,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -11884,10 +11884,10 @@
         "data filtering"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -11931,10 +11931,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -11976,10 +11976,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -12032,10 +12032,10 @@
         "sft data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -12081,10 +12081,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -12126,10 +12126,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -12171,10 +12171,10 @@
         "reasoning trajectory"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -12218,10 +12218,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -12263,10 +12263,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -12308,10 +12308,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -12348,10 +12348,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -12397,10 +12397,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -12442,10 +12442,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -12487,10 +12487,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -12532,10 +12532,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -12589,10 +12589,10 @@
         "process reward"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -12638,10 +12638,10 @@
         "instruction dataset"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -12687,10 +12687,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -12732,10 +12732,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -12777,10 +12777,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -12824,10 +12824,10 @@
         "dpo"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -12873,10 +12873,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -12920,10 +12920,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -12974,10 +12974,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -13023,10 +13023,10 @@
         "post training"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -13072,10 +13072,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -13121,10 +13121,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -13175,10 +13175,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -13224,10 +13224,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -13275,10 +13275,10 @@
         "process reward"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -13320,10 +13320,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -13389,10 +13389,10 @@
         "cold start"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -13444,10 +13444,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -13489,10 +13489,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -13536,10 +13536,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -13581,10 +13581,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -13626,10 +13626,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -13668,10 +13668,10 @@
         "grpo"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -13721,10 +13721,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -13766,10 +13766,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -13815,10 +13815,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -13878,10 +13878,10 @@
         "data curation"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -13935,10 +13935,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -13980,10 +13980,10 @@
         "supervised fine tuning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -14033,10 +14033,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -14078,10 +14078,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -14123,10 +14123,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -14168,10 +14168,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -14217,10 +14217,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -14257,10 +14257,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -14302,10 +14302,10 @@
         "smollm3"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -14354,10 +14354,10 @@
         "post training data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -14399,10 +14399,10 @@
         "reasoning trajectory"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -14444,10 +14444,10 @@
         "reasoning trajectory"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -14491,10 +14491,10 @@
         "data selection"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -14540,10 +14540,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -14585,10 +14585,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -14630,10 +14630,10 @@
         "supervised fine tuning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -14675,10 +14675,10 @@
         "reasoning trajectory"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -14720,10 +14720,10 @@
         "data mixture"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -14769,10 +14769,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -14816,10 +14816,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -14865,10 +14865,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -14942,10 +14942,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -14995,10 +14995,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -15042,10 +15042,10 @@
         "synthetic data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -15087,10 +15087,10 @@
         "supervised fine tuning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -15134,10 +15134,10 @@
         "cold start"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -15179,10 +15179,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -15240,10 +15240,10 @@
         "reasoning trajectory"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -15285,10 +15285,10 @@
         "dpo"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -15344,10 +15344,10 @@
         "instruction dataset"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -15401,10 +15401,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -15466,10 +15466,10 @@
         "synthetic data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -15517,10 +15517,10 @@
         "grpo"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -15576,10 +15576,10 @@
         "data curation"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -15629,10 +15629,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -15669,10 +15669,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -15726,10 +15726,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -15775,10 +15775,10 @@
         "sft data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -15817,10 +15817,10 @@
         "dpo"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -15870,10 +15870,10 @@
         "grpo"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -15923,10 +15923,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -15972,10 +15972,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -16023,10 +16023,10 @@
         "data selection"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -16074,10 +16074,10 @@
         "post training"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -16125,10 +16125,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -16180,10 +16180,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -16229,10 +16229,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -16274,10 +16274,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -16323,10 +16323,10 @@
         "verl"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -16363,10 +16363,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -16428,10 +16428,10 @@
         "data selection"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -16473,10 +16473,10 @@
         "grpo"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -16526,10 +16526,10 @@
         "grpo"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -16579,10 +16579,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -16632,10 +16632,10 @@
         "grpo"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -16677,10 +16677,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -16748,10 +16748,10 @@
         "data curation"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -16817,10 +16817,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -16862,10 +16862,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -16902,10 +16902,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -16955,10 +16955,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -17001,10 +17001,10 @@
         "supervised fine tuning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -17060,10 +17060,10 @@
         "data selection"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -17109,10 +17109,10 @@
         "post training"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -17172,10 +17172,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -17219,10 +17219,10 @@
         "data curation"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -17268,10 +17268,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -17329,10 +17329,10 @@
         "data mixture"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -17378,10 +17378,10 @@
         "grpo"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -17439,10 +17439,10 @@
         "rejection sampling"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -17484,10 +17484,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -17529,10 +17529,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -17592,10 +17592,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -17647,10 +17647,10 @@
         "synthetic data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -17692,10 +17692,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -17741,10 +17741,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -17781,10 +17781,10 @@
         "data mixture"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -17826,10 +17826,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -17866,10 +17866,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -17946,10 +17946,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -18003,10 +18003,10 @@
         "sft data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -18057,10 +18057,10 @@
         "data selection"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -18114,10 +18114,10 @@
         "rejection sampling"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -18163,10 +18163,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -18212,10 +18212,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -18273,10 +18273,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -18318,10 +18318,10 @@
         "instruction tuning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -18367,10 +18367,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -18432,10 +18432,10 @@
         "deduplication"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -18483,10 +18483,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -18540,10 +18540,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -18587,10 +18587,10 @@
         "grpo"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -18632,10 +18632,10 @@
         "cold start"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -18681,10 +18681,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -18726,10 +18726,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -18771,10 +18771,10 @@
         "training recipe"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -18822,10 +18822,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -18869,10 +18869,10 @@
         "synthetic data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -18918,10 +18918,10 @@
         "data mixture"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -18975,10 +18975,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -19024,10 +19024,10 @@
         "instruction dataset"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -19081,10 +19081,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -19126,10 +19126,10 @@
         "post training data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -19166,10 +19166,10 @@
         "data mixture"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -19215,10 +19215,10 @@
         "grpo"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -19264,10 +19264,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -19316,10 +19316,10 @@
         "post training data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -19365,10 +19365,10 @@
         "grpo"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -19412,10 +19412,10 @@
         "dpo"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -19473,10 +19473,10 @@
         "reasoning data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -19536,10 +19536,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -19581,10 +19581,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -19621,10 +19621,10 @@
         "sft data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -19661,10 +19661,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -19706,10 +19706,10 @@
         "data mixture"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -19751,10 +19751,10 @@
         "grpo"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -19800,10 +19800,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -19852,10 +19852,10 @@
         "sft data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -19904,10 +19904,10 @@
         "post training data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -19961,10 +19961,10 @@
         "data mixture"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -20010,10 +20010,10 @@
         "data selection"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -20050,10 +20050,10 @@
         "reasoning trace"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "thinking",
@@ -20095,10 +20095,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -20135,10 +20135,10 @@
         "sft data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -20175,10 +20175,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -20227,10 +20227,10 @@
         "sft data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -20267,10 +20267,10 @@
         "data mixture"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "data",
@@ -20312,10 +20312,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": []
     },
     {
@@ -20366,10 +20366,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -20415,10 +20415,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -20490,10 +20490,10 @@
         "rejection sampling"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -20547,10 +20547,10 @@
         "preference optimization"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -20598,10 +20598,10 @@
         "grpo"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -20647,10 +20647,10 @@
         "grpo"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -20736,10 +20736,10 @@
         "reasoning data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -20793,10 +20793,10 @@
         "hyperparameter tuning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -20858,10 +20858,10 @@
         "preference optimization"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -20911,10 +20911,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -20962,10 +20962,10 @@
         "grpo"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -21039,10 +21039,10 @@
         "process reward"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -21092,10 +21092,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -21151,10 +21151,10 @@
         "rlvr"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -21200,10 +21200,10 @@
         "instruction tuning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -21253,10 +21253,10 @@
         "dpo"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -21310,10 +21310,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -21373,10 +21373,10 @@
         "chain of thought"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "params",
@@ -21438,10 +21438,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -21515,10 +21515,10 @@
         "preference data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -21572,10 +21572,10 @@
         "dpo"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -21651,10 +21651,10 @@
         "reasoning data"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -21726,10 +21726,10 @@
         "rejection sampling"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -21779,10 +21779,10 @@
         "smollm3"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
@@ -21832,10 +21832,10 @@
         "reinforcement learning"
       ],
       "firstSeen": "2026-10-08T08:00:07.656Z",
-      "lastSeen": "2026-10-08T08:00:07.656Z",
+      "lastSeen": "2026-10-08T08:02:26.206Z",
       "imageUrl": null,
       "wordCount": null,
-      "fresh": true,
+      "fresh": false,
       "recipeSignals": [
         {
           "id": "code",
