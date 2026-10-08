@@ -42,14 +42,6 @@ export function validateConfig(config){
   return config;
 }
 export async function loadConfig(file='config.json'){return validateConfig(JSON.parse(await fs.readFile(file,'utf8')));}
-export function scheduleCrons(config){
-  const groups=new Map();
-  for(const time of new Set(config.scheduleTimes)){
-    const [hour,minute]=time.split(':').map(Number);const utcHour=(hour+16)%24;
-    if(!groups.has(minute))groups.set(minute,new Set());groups.get(minute).add(utcHour);
-  }
-  return [...groups].sort((a,b)=>a[0]-b[0]).map(([minute,hours])=>`${minute} ${[...hours].sort((a,b)=>a-b).join(',')} * * *`);
-}
 export function isScheduledDue(config,date=new Date()){
   const hour=(date.getUTCHours()+8)%24;
   const slot=Math.floor((hour*60+date.getUTCMinutes())/15);

@@ -4,6 +4,7 @@
   const split=value=>value.split(/[\n,，]/).map(s=>s.trim()).filter(Boolean);
   let current=null;
   const presets={
+    rsi:{name:'Recursive Self-Improvement',directPhrases:['recursive self improvement','self improving agent','self evolving agent'],relatedPhrases:['self improvement','agent harness','automated ai research'],contextTerms:['agent','llm','language model'],excludePhrases:['relative strength index'],relatedMinScore:5},
     memory:{name:'Agent 记忆',directPhrases:['agent memory','long term memory','memory augmented agent','memory consolidation'],relatedPhrases:['episodic memory','experience replay','continual learning'],contextTerms:['agent','llm','language model'],excludePhrases:[],relatedMinScore:5},
     training:{name:'模型训练与后训练',directPhrases:['post training','language model training','pretraining','supervised fine tuning'],relatedPhrases:['reinforcement learning','preference optimization','distillation','synthetic data','training efficiency'],contextTerms:['llm','language model','training'],excludePhrases:[],relatedMinScore:5},
     reasoning:{name:'推理与强化学习',directPhrases:['reasoning model','reinforcement learning from verifiable rewards','rlvr','test time scaling'],relatedPhrases:['chain of thought','process reward','self play'],contextTerms:['llm','language model','reasoning'],excludePhrases:[],relatedMinScore:5},
@@ -49,7 +50,7 @@
     if(config.topics.length>10||config.sources.length>30)throw Error('最多 10 个研究方向、30 个信源');
     return config;
   }
-  $('#add-topic').addEventListener('click',()=>{const preset=$('#preset').value;const topic=preset==='rsi'?current.topics.find(t=>t.id==='rsi')||presets.custom:presets[preset];addTopic({...structuredClone(topic),id:`topic-${Date.now().toString(36)}`,enabled:true});saveDraft();});
+  $('#add-topic').addEventListener('click',()=>{const preset=$('#preset').value;const topic=presets[preset];addTopic({...structuredClone(topic),id:`topic-${Date.now().toString(36)}`,enabled:true});saveDraft();});
   $('#add-source').addEventListener('click',()=>{addSource({id:`source-${Date.now().toString(36)}`,name:'新订阅源',type:'blog',url:'',enabled:true});saveDraft();});
   $('#settings').addEventListener('input',saveDraft);
   $('#apply').addEventListener('click',async()=>{
@@ -63,7 +64,7 @@
   $('#import').addEventListener('change',async event=>{try{const config=JSON.parse(await event.target.files[0].text());if(config.version!==1||!Array.isArray(config.topics)||!Array.isArray(config.sources)||!config.arxiv)throw Error('不是有效的研究雷达配置');render(config);saveDraft();message('配置已导入草稿；应用到 GitHub 后生效。');}catch(error){message(error.message,true);}});
   $('#reset').addEventListener('click',()=>{render(current);try{localStorage.removeItem('research-radar-draft-v1');}catch{}message('已恢复当前线上配置。');});
   fetch('config.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('无法读取当前配置');return r.json();}).then(config=>{
-    current=config;presets.rsi=structuredClone(config.topics.find(t=>t.id==='rsi')||presets.custom);let saved=null;try{saved=JSON.parse(localStorage.getItem('research-radar-draft-v1')||'null');}catch{}
+    current=config;let saved=null;try{saved=JSON.parse(localStorage.getItem('research-radar-draft-v1')||'null');}catch{}
     render(saved?.version===1?saved:config);message(saved?'已恢复浏览器草稿；如要查看线上设置，请点击“恢复当前线上配置”。':'当前线上配置已加载。修改后点击下方“应用设置”。');
   }).catch(error=>message(error.message,true));
 })();

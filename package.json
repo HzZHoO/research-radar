@@ -22,10 +22,17 @@
   "homepage": "https://HzZHoO.github.io/rsi-feed/",
   "dependencies": {
     "@osmoscraft/osmosfeed": "1.15.1",
-    "rss-parser": "^3.13.0",
+    "cheerio": "^1.0.0",
     "js-yaml": "^4.1.0",
-    "cheerio": "^1.0.0"
+    "rss-parser": "^3.13.0"
   },
-  "overrides": { "axios": "^1.18.1" },
-  "engines": { "node": ">=22" }
+  "overrides": {
+    "axios": "^1.18.1"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "jsdom": "^29.1.1"
+  }
 }

@@ -1,0 +1,28 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {JSDOM} from 'jsdom';
+import {validateConfig,makeSources,isScheduledDue} from '../scripts/config.mjs';
+const config=JSON.parse(fs.readFileSync('config.json','utf8'));
+test('settings form changes multiple topics, sources and schedule in an applicable draft',async()=>{
+  const dom=new JSDOM(fs.readFileSync('static/settings.html','utf8'),{url:'https://example.org/settings.html',runScripts:'outside-only'});
+  const w=dom.window;w.fetch=async()=>({ok:true,json:async()=>structuredClone(config)});w.structuredClone=structuredClone;
+  w.eval(fs.readFileSync('static/settings.js','utf8'));
+  await new Promise(resolve=>setTimeout(resolve,0));
+  assert.equal(w.document.querySelector('#settings').hidden,false);
+  w.document.querySelector('#preset').value='memory';w.document.querySelector('#add-topic').click();
+  assert.equal(w.document.querySelectorAll('.topic-editor').length,2);
+  w.document.querySelector('.source-editor input[data-key=enabled]').checked=false;
+  w.document.querySelector('#schedule').value='08:15, 20:45';
+  w.document.querySelector('#schedule').dispatchEvent(new w.Event('input',{bubbles:true}));
+  const draft=validateConfig(JSON.parse(w.localStorage.getItem('research-radar-draft-v1')));
+  assert.equal(draft.topics[1].name,'Agent 记忆');
+  assert.ok(makeSources(draft).some(s=>s.id.includes(draft.topics[1].id)));
+  assert.ok(!makeSources(draft).some(s=>s.id===config.sources[0].id));
+  assert.equal(isScheduledDue(draft,new Date('2026-10-08T00:15:00Z')),true);
+  assert.equal(isScheduledDue(draft,new Date('2026-10-08T01:30:00Z')),false);
+  w.document.querySelector('#reset').click();
+  assert.equal(w.document.querySelectorAll('.topic-editor').length,1);
+  assert.equal(w.localStorage.getItem('research-radar-draft-v1'),null);
+  dom.window.close();
+});
