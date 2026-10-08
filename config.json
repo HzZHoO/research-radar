@@ -1,12 +1,10 @@
 {
   "version": 1,
-  "siteTitle": "个人研究雷达",
+  "siteTitle": "个人RSI研究雷达",
   "timezone": "Asia/Shanghai",
   "historyDays": 120,
   "scheduleTimes": [
-    "01:23",
-    "09:23",
-    "17:23"
+    "15:00"
   ],
   "arxiv": {
     "enabled": true,
@@ -20,8 +18,8 @@
   "topics": [
     {
       "id": "rsi",
-      "name": "Recursive Self-Improvement",
       "enabled": true,
+      "name": "Recursive Self-Improvement",
       "directPhrases": [
         "recursive self improvement",
         "recursive meta improvement",
@@ -58,6 +56,10 @@
         "自演进",
         "自动化研究"
       ],
+      "excludePhrases": [
+        "relative strength index",
+        "repetitive strain injury"
+      ],
       "contextTerms": [
         "agent",
         "llm",
@@ -68,10 +70,6 @@
         "machine learning",
         "智能体",
         "模型"
-      ],
-      "excludePhrases": [
-        "relative strength index",
-        "repetitive strain injury"
       ],
       "relatedMinScore": 5
     }
