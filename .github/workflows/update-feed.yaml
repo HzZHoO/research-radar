@@ -1,4 +1,4 @@
-name: Update RSI radar
+name: Update research radar
 
 on:
   push:
