@@ -13,7 +13,8 @@
       "cs.LG",
       "cs.CL"
     ],
-    "maxResults": 100
+    "maxResults": 100,
+    "maxPages": 3
   },
   "topics": [
     {
@@ -104,6 +105,26 @@
       "type": "blog",
       "url": "https://lilianweng.github.io/index.xml",
       "enabled": true
+    },
+    {
+      "id": "preprints-crossref",
+      "name": "Preprints.org · Crossref 论文检索",
+      "type": "paper",
+      "format": "crossref",
+      "url": "https://api.crossref.org/works?filter=prefix:10.20944&query.title=recursive%20self%20improvement&rows=100&sort=published&order=desc",
+      "enabled": true
+    }
+  ],
+  "coverageChecks": [
+    {
+      "title": "The Last AI Built by Humans",
+      "url": "https://arxiv.org/abs/2609.11873",
+      "publishedOn": "2026-09-10"
+    },
+    {
+      "title": "Recursive Self-Improvement in AI: A Survey",
+      "url": "https://www.preprints.org/manuscript/202609.2680",
+      "publishedOn": "2026-09-30"
     }
   ]
 }
