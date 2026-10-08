@@ -30,17 +30,26 @@
     const header=el('div');header.className='editor-header';const toggle=el('label');toggle.className='toggle';const enabled=el('input');enabled.type='checkbox';enabled.dataset.key='enabled';enabled.checked=source.enabled;toggle.append(enabled,el('span','启用'));header.append(toggle);
     const name=el('input');name.type='text';name.dataset.key='name';name.value=source.name;name.required=true;name.setAttribute('aria-label','信源名称');header.append(name);
     const remove=el('button','移除');remove.type='button';remove.className='remove';remove.addEventListener('click',()=>{card.remove();saveDraft();});header.append(remove);card.append(header);
-    field(card,'RSS / Atom 地址','url',source.url,'input');const label=el('label','内容形式');label.className='field';const type=el('select');type.dataset.key='type';for(const [value,text]of [['blog','博客／技术文章'],['paper','论文']]){const option=el('option',text);option.value=value;type.append(option);}type.value=source.type;label.append(type);card.append(label);$('#sources').append(card);
+    field(card,'订阅 / 检索地址','url',source.url,'input');const modeLabel=el('label','获取方式');modeLabel.className='field';const mode=el('select');mode.dataset.key='format';for(const [value,text]of [['rss','RSS / Atom'],['crossref','Crossref 论文元数据检索']]){const option=el('option',text);option.value=value;mode.append(option);}mode.value=source.format||'rss';modeLabel.append(mode);card.append(modeLabel);const label=el('label','内容形式');label.className='field';const type=el('select');type.dataset.key='type';for(const [value,text]of [['blog','博客／技术文章'],['paper','论文']]){const option=el('option',text);option.value=value;type.append(option);}type.value=source.type;label.append(type);card.append(label);$('#sources').append(card);
   }
   function readCard(card){const obj={id:card.dataset.id};for(const input of card.querySelectorAll('[data-key]')){const key=input.dataset.key;obj[key]=input.type==='checkbox'?input.checked:input.tagName==='TEXTAREA'?split(input.value):input.type==='number'?Number(input.value):input.value.trim();}return obj;}
+  function addCheck(check){
+    const card=el('section');card.className='editor-card coverage-editor';
+    const title=field(card,'文章名称','title',check.title,'input');title.required=true;
+    const url=field(card,'文章链接','url',check.url,'input');url.required=true;
+    const date=field(card,'首次发布日期','publishedOn',check.publishedOn,'input');date.type='date';date.required=true;
+    const remove=el('button','移除检查');remove.type='button';remove.addEventListener('click',()=>{card.remove();saveDraft();});card.append(remove);$('#coverage-checks').append(card);
+  }
   function draft(){return {...current,siteTitle:$('#site-title').value.trim(),historyDays:Number($('#history-days').value),scheduleTimes:split($('#schedule').value),
-    arxiv:{enabled:$('#arxiv-enabled').checked,categories:split($('#arxiv-categories').value),maxResults:Number($('#arxiv-max').value)},
+    arxiv:{enabled:$('#arxiv-enabled').checked,categories:split($('#arxiv-categories').value),maxResults:Number($('#arxiv-max').value),maxPages:Number($('#arxiv-pages').value)},
+    coverageChecks:[...document.querySelectorAll('.coverage-editor')].map(card=>{const {id,...check}=readCard(card);return check;}),
     topics:[...document.querySelectorAll('.topic-editor')].map(readCard),sources:[...document.querySelectorAll('.source-editor')].map(card=>({...card.sourceOptions,...readCard(card)}))};}
   function saveDraft(){if(!current)return;try{localStorage.setItem(draftKey,JSON.stringify(draft()));}catch{}}
   function render(config){
     $('#topics').replaceChildren();$('#sources').replaceChildren();config.topics.forEach(addTopic);config.sources.forEach(addSource);
+    $('#coverage-checks').replaceChildren();(config.coverageChecks||[]).forEach(addCheck);
     $('#site-title').value=config.siteTitle;$('#history-days').value=config.historyDays;$('#schedule').value=config.scheduleTimes.join(', ');
-    $('#arxiv-enabled').checked=config.arxiv.enabled;$('#arxiv-categories').value=config.arxiv.categories.join(', ');$('#arxiv-max').value=config.arxiv.maxResults;$('#settings').hidden=false;
+    $('#arxiv-enabled').checked=config.arxiv.enabled;$('#arxiv-categories').value=config.arxiv.categories.join(', ');$('#arxiv-max').value=config.arxiv.maxResults;$('#arxiv-pages').value=config.arxiv.maxPages||3;$('#settings').hidden=false;
   }
   function checkedDraft(){
     if(!$('#settings').reportValidity())throw Error('请补全表单');const config=draft();
@@ -53,6 +62,7 @@
   }
   $('#add-topic').addEventListener('click',()=>{const preset=$('#preset').value;const topic=presets[preset];addTopic({...structuredClone(topic),id:`topic-${Date.now().toString(36)}`,enabled:true});saveDraft();});
   $('#add-source').addEventListener('click',()=>{addSource({id:`source-${Date.now().toString(36)}`,name:'新订阅源',type:'blog',url:'',enabled:true});saveDraft();});
+  $('#add-check').addEventListener('click',()=>{addCheck({title:'',url:'',publishedOn:''});saveDraft();});
   $('#settings').addEventListener('input',saveDraft);
   $('#apply').addEventListener('click',async()=>{
     try{const config=checkedDraft();const body=JSON.stringify({radar:site.id,config});

@@ -1,24 +1,35 @@
 # 研究雷达抓取报告
 
-方向：后训练配方与框架、数据构造与清洗、Thinking 数据与训练；生成时间：2026-10-08T08:02:26.206Z；回溯：365 天。
+方向：后训练配方与框架、数据构造与清洗、Thinking 数据与训练；生成时间：2026-10-08T08:23:28.570Z；回溯：365 天。
 
 | 来源 | 状态 | 抓取数 | 本次命中 | 保留数 |
 |---|---|---:|---:|---:|
-| arXiv · 后训练配方与框架 | ok | 100 | 97 | 97 |
-| arXiv · 后训练配方与框架 · 相关方法 | ok | 100 | 36 | 31 |
-| arXiv · 数据构造与清洗 | ok | 100 | 99 | 92 |
-| arXiv · 数据构造与清洗 · 相关方法 | ok | 100 | 40 | 36 |
-| arXiv · Thinking 数据与训练 | ok | 100 | 82 | 77 |
-| arXiv · Thinking 数据与训练 · 相关方法 | ok | 100 | 76 | 58 |
-| Hugging Face Blog | ok | 874 | 27 | 27 |
+| arXiv · 后训练配方与框架 | ok | 300 | 295 | 295 |
+| arXiv · 后训练配方与框架 · 相关方法 | ok | 300 | 120 | 110 |
+| arXiv · 数据构造与清洗 | ok | 300 | 294 | 278 |
+| arXiv · 数据构造与清洗 · 相关方法 | ok | 300 | 141 | 126 |
+| arXiv · Thinking 数据与训练 | ok | 300 | 258 | 243 |
+| arXiv · Thinking 数据与训练 · 相关方法 | ok | 300 | 238 | 173 |
+| Hugging Face Blog | ok | 874 | 44 | 44 |
 | NVIDIA Developer Blog | ok | 100 | 1 | 1 |
 | Hugging Face TRL · Releases | ok | 10 | 5 | 5 |
 | verl · Releases | ok | 10 | 7 | 7 |
 | OpenRLHF · Releases | ok | 10 | 2 | 2 |
 | Ai2 Open Instruct · Releases | ok | 3 | 3 | 3 |
 
-直接相关 281 篇；相关方法 155 篇；其中博客 45 篇。
+直接相关 837 篇；相关方法 450 篇；其中博客 62 篇。
 
+## 已知文章覆盖检查
+- 已收集：[Nemotron IOI / IMO 2026 后训练配方](https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026)
+
+## 覆盖限制
+- arXiv · 后训练配方与框架：达到检索条数上限。
+- arXiv · 后训练配方与框架 · 相关方法：达到检索条数上限。
+- arXiv · 数据构造与清洗：达到检索条数上限。
+- arXiv · 数据构造与清洗 · 相关方法：达到检索条数上限。
+- arXiv · Thinking 数据与训练：达到检索条数上限。
+- arXiv · Thinking 数据与训练 · 相关方法：达到检索条数上限。
+- Hugging Face Blog： 90 篇正文待后续补抓。
 - [EngramEdit: Decoupled Knowledge Updates in LLMs through Conditional Memory](https://arxiv.org/abs/2610.10533v1) — 2026-10-07 / related / 命中：chain of thought
 - [RECAST: Learning to Compute the Right Context through Adaptive Evidence Routing](https://arxiv.org/abs/2610.10507v1) — 2026-10-07 / related / 命中：supervised fine tuning, grpo
 - [EmbodiedRSI: Active Continual Robot Learning Through Hypothesis-Guided Co-Evolution](https://arxiv.org/abs/2610.10498v1) — 2026-10-07 / related / 命中：post training
