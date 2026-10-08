@@ -2,7 +2,7 @@
   "sources": [
     {
       "title": "arXiv · Recursive Self-Improvement",
-      "feedUrl": "http://127.0.0.1:37099/feed/arxiv-rsi-direct",
+      "feedUrl": "http://127.0.0.1:46727/feed/arxiv-rsi-direct",
       "siteUrl": "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL%29+AND+%28all%3A%22recursive+self+improvement%22+OR+all%3A%22recursive+meta+improvement%22+OR+all%3A%22darwin+godel+machine%22+OR+all%3A%22godel+agent%22+OR+all%3A%22self+taught+optimizer%22+OR+all%3A%22huxley+godel%22+OR+all%3A%22self+improving+agent%22+OR+all%3A%22self+evolving+agent%22+OR+all%3A%22self+adapting+language+model%22+OR+all%3A%22self+evolving+llm%22%29&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending",
       "articles": [
         {
@@ -41,7 +41,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -87,7 +87,7 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -132,7 +132,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -175,7 +175,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -218,7 +218,7 @@
             "agent evolution"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -261,7 +261,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -306,7 +306,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -347,7 +347,7 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -388,7 +388,7 @@
             "self improving agent"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -436,7 +436,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -481,7 +481,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -529,7 +529,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -581,7 +581,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -624,7 +624,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -672,7 +672,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -713,7 +713,7 @@
             "self evolving llm"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -756,7 +756,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -799,7 +799,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -842,7 +842,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -885,7 +885,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -928,7 +928,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -971,7 +971,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1023,7 +1023,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1069,7 +1069,7 @@
             "darwin godel machine"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1112,7 +1112,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1153,7 +1153,7 @@
             "self improving agent"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1198,7 +1198,7 @@
             "self modification"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1241,7 +1241,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1289,7 +1289,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1339,7 +1339,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1380,7 +1380,7 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1421,11 +1421,16 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
-          "recipeSignals": [],
+          "recipeSignals": [
+            {
+              "id": "code",
+              "label": "代码／开源线索"
+            }
+          ],
           "isDirect": true
         },
         {
@@ -1464,7 +1469,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1516,7 +1521,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1568,7 +1573,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1614,7 +1619,7 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1657,7 +1662,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1702,7 +1707,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1748,7 +1753,7 @@
             "self improving agent"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1791,7 +1796,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1834,11 +1839,16 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
-          "recipeSignals": [],
+          "recipeSignals": [
+            {
+              "id": "code",
+              "label": "代码／开源线索"
+            }
+          ],
           "isDirect": true
         },
         {
@@ -1877,7 +1887,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1925,7 +1935,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -1971,7 +1981,7 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2016,7 +2026,7 @@
             "self modification"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2059,7 +2069,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2105,7 +2115,7 @@
             "self evolving llm"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2153,7 +2163,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2196,7 +2206,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2239,7 +2249,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2282,7 +2292,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2330,7 +2340,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2373,7 +2383,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2416,7 +2426,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2459,7 +2469,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2507,7 +2517,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2548,7 +2558,7 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2589,7 +2599,7 @@
             "self evolving llm"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2643,7 +2653,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2691,7 +2701,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2732,7 +2742,7 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2775,7 +2785,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2816,7 +2826,7 @@
             "self improving agent"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2866,7 +2876,7 @@
             "agent evolution"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2914,7 +2924,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -2957,7 +2967,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3000,7 +3010,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3043,7 +3053,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3088,7 +3098,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3138,7 +3148,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3186,7 +3196,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3227,7 +3237,7 @@
             "self evolving llm"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3272,7 +3282,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3319,7 +3329,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3367,7 +3377,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3408,7 +3418,7 @@
             "self evolving llm"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3451,7 +3461,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3499,7 +3509,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3542,7 +3552,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3585,7 +3595,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3630,7 +3640,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3673,7 +3683,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3721,7 +3731,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3769,7 +3779,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3810,7 +3820,7 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3851,7 +3861,7 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3892,7 +3902,7 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3935,7 +3945,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -3978,7 +3988,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -4019,11 +4029,16 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
-          "recipeSignals": [],
+          "recipeSignals": [
+            {
+              "id": "code",
+              "label": "代码／开源线索"
+            }
+          ],
           "isDirect": true
         },
         {
@@ -4062,7 +4077,7 @@
             "self evolving llm"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -4112,7 +4127,7 @@
             "self improving agent"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -4153,7 +4168,7 @@
             "self improving agent"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -4196,7 +4211,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -4239,10 +4254,10 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -4280,10 +4295,10 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "data",
@@ -4328,10 +4343,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -4371,10 +4386,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -4412,10 +4427,10 @@
             "self improving agent"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -4455,10 +4470,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -4498,10 +4513,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -4541,10 +4556,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -4584,10 +4599,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -4625,10 +4640,10 @@
             "self evolving llm"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -4666,10 +4681,10 @@
             "self evolving llm"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "params",
@@ -4714,10 +4729,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -4764,10 +4779,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -4816,10 +4831,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "params",
@@ -4862,10 +4877,10 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -4903,10 +4918,10 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -4946,11 +4961,15 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
+            {
+              "id": "code",
+              "label": "代码／开源线索"
+            },
             {
               "id": "params",
               "label": "参数／配置线索"
@@ -4992,10 +5011,10 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -5040,10 +5059,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -5081,10 +5100,10 @@
             "self improving agent"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -5122,10 +5141,10 @@
             "self evolving llm"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "params",
@@ -5174,10 +5193,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -5217,10 +5236,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -5260,10 +5279,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -5301,10 +5320,10 @@
             "self evolving llm"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -5344,10 +5363,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -5390,10 +5409,10 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -5436,10 +5455,10 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -5477,10 +5496,10 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -5520,10 +5539,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -5568,10 +5587,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -5611,10 +5630,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -5654,10 +5673,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -5697,10 +5716,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -5743,10 +5762,10 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -5794,10 +5813,10 @@
             "self modification"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -5837,10 +5856,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -5878,10 +5897,10 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -5921,10 +5940,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -5969,10 +5988,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -6010,10 +6029,10 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "params",
@@ -6056,10 +6075,10 @@
             "self modification"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -6097,10 +6116,10 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -6138,10 +6157,10 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -6186,10 +6205,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "params",
@@ -6232,10 +6251,10 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "params",
@@ -6278,10 +6297,10 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -6324,10 +6343,10 @@
             "self improving agent"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "thinking",
@@ -6372,10 +6391,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -6415,10 +6434,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -6463,10 +6482,10 @@
             "self evolving llm"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -6509,10 +6528,10 @@
             "self evolving llm"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -6554,10 +6573,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -6597,10 +6616,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -6645,10 +6664,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -6691,10 +6710,10 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -6734,10 +6753,10 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -6782,10 +6801,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -6830,10 +6849,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -6873,10 +6892,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -6914,10 +6933,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -6962,10 +6981,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -7003,10 +7022,10 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -7051,10 +7070,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -7092,10 +7111,10 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -7138,10 +7157,10 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -7183,10 +7202,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -7231,10 +7250,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -7279,10 +7298,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -7320,10 +7339,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -7363,10 +7382,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -7404,10 +7423,10 @@
             "self improving agent"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -7452,10 +7471,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -7495,10 +7514,10 @@
             "self evolving llm"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -7538,10 +7557,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -7581,10 +7600,10 @@
             "self evolving llm"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "params",
@@ -7633,10 +7652,10 @@
             "self play"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -7676,10 +7695,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -7726,10 +7745,10 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -7771,10 +7790,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -7814,10 +7833,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "params",
@@ -7870,10 +7889,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -7913,10 +7932,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -7954,10 +7973,10 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -7997,10 +8016,10 @@
             "self modification"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -8038,10 +8057,10 @@
             "self improving agent"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -8079,10 +8098,10 @@
             "self improving agent"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -8124,10 +8143,10 @@
             "self modification"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -8167,11 +8186,16 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
-          "recipeSignals": [],
+          "fresh": false,
+          "recipeSignals": [
+            {
+              "id": "code",
+              "label": "代码／开源线索"
+            }
+          ],
           "isDirect": true
         },
         {
@@ -8210,10 +8234,10 @@
             "agent evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -8255,10 +8279,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "data",
@@ -8301,10 +8325,10 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -8344,10 +8368,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -8392,10 +8416,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -8433,11 +8457,16 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
-          "recipeSignals": [],
+          "fresh": false,
+          "recipeSignals": [
+            {
+              "id": "code",
+              "label": "代码／开源线索"
+            }
+          ],
           "isDirect": true
         },
         {
@@ -8478,10 +8507,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -8521,10 +8550,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -8562,10 +8591,10 @@
             "self evolving agent"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -8614,10 +8643,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -8657,10 +8686,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -8702,10 +8731,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -8718,7 +8747,7 @@
     },
     {
       "title": "arXiv · Recursive Self-Improvement · 相关方法",
-      "feedUrl": "http://127.0.0.1:37099/feed/arxiv-rsi-related",
+      "feedUrl": "http://127.0.0.1:46727/feed/arxiv-rsi-related",
       "siteUrl": "https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL%29+AND+%28all%3A%22self+improvement%22+OR+all%3A%22self+modification%22+OR+all%3A%22self+training%22+OR+all%3A%22self+reward%22+OR+all%3A%22self+play%22+OR+all%3A%22meta+learning%22+OR+all%3A%22agent+evolution%22+OR+all%3A%22harness+engineering%22+OR+all%3A%22agent+harness%22+OR+all%3A%22automated+ai+research%22+OR+all%3A%22automated+machine+learning%22+OR+all%3A%22automated+scientific+discovery%22+OR+all%3A%22alphaevolve%22+OR+all%3A%22funsearch%22+OR+all%3A%22self+adaptation%22+OR+all%3A%22self+evolution%22%29&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending",
       "articles": [
         {
@@ -8755,7 +8784,7 @@
             "self training"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -8796,7 +8825,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -8837,7 +8866,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -8885,7 +8914,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -8926,7 +8955,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -8976,7 +9005,7 @@
             "self play"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -9017,7 +9046,7 @@
             "self reward"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -9058,7 +9087,7 @@
             "meta learning"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -9099,7 +9128,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -9140,7 +9169,7 @@
             "agent evolution"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -9186,7 +9215,7 @@
             "meta learning"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -9227,7 +9256,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -9270,7 +9299,7 @@
             "harness engineering"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -9316,7 +9345,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -9357,7 +9386,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -9398,7 +9427,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -9439,7 +9468,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -9480,7 +9509,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -9526,7 +9555,7 @@
             "self adaptation"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -9567,7 +9596,7 @@
             "meta learning"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -9613,7 +9642,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -9654,7 +9683,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -9700,7 +9729,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -9741,7 +9770,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -9787,7 +9816,7 @@
             "self play"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -9828,7 +9857,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -9874,7 +9903,7 @@
             "meta learning"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -9915,7 +9944,7 @@
             "agent evolution"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -9961,7 +9990,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -10007,7 +10036,7 @@
             "agent evolution"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -10048,7 +10077,7 @@
             "meta learning"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -10089,7 +10118,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -10132,7 +10161,7 @@
             "self play"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -10175,7 +10204,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -10216,7 +10245,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -10262,7 +10291,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -10308,7 +10337,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -10354,7 +10383,7 @@
             "alphaevolve"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -10395,7 +10424,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -10445,7 +10474,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -10486,7 +10515,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -10532,7 +10561,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -10573,7 +10602,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -10614,7 +10643,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -10660,7 +10689,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -10706,7 +10735,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -10756,7 +10785,7 @@
             "meta learning"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -10802,7 +10831,7 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -10848,7 +10877,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -10894,7 +10923,7 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -10935,7 +10964,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -10981,7 +11010,7 @@
             "self play"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -11027,7 +11056,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -11068,10 +11097,10 @@
             "self training"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "data",
@@ -11114,10 +11143,10 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -11155,10 +11184,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -11201,10 +11230,10 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -11242,10 +11271,10 @@
             "self play"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -11288,10 +11317,10 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -11329,10 +11358,10 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -11372,10 +11401,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -11418,10 +11447,10 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "params",
@@ -11464,10 +11493,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -11505,10 +11534,10 @@
             "self training"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "data",
@@ -11551,10 +11580,10 @@
             "self training"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "thinking",
@@ -11597,10 +11626,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "params",
@@ -11643,10 +11672,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -11684,10 +11713,10 @@
             "agent evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -11727,10 +11756,10 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -11768,10 +11797,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -11809,10 +11838,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "data",
@@ -11855,10 +11884,10 @@
             "self play"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -11896,10 +11925,10 @@
             "self training"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -11939,10 +11968,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -11982,10 +12011,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -12023,10 +12052,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -12064,10 +12093,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "data",
@@ -12110,10 +12139,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -12153,10 +12182,10 @@
             "self play"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -12194,10 +12223,10 @@
             "meta learning"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -12235,10 +12264,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -12276,10 +12305,10 @@
             "self training"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -12317,10 +12346,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -12358,10 +12387,10 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -12406,10 +12435,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -12447,10 +12476,10 @@
             "self play"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -12488,10 +12517,10 @@
             "self training"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -12529,10 +12558,10 @@
             "self play"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "data",
@@ -12575,10 +12604,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -12621,10 +12650,10 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -12662,10 +12691,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -12703,10 +12732,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -12744,10 +12773,10 @@
             "self play"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -12785,10 +12814,10 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -12831,10 +12860,10 @@
             "meta learning"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -12876,11 +12905,15 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
+            {
+              "id": "code",
+              "label": "代码／开源线索"
+            },
             {
               "id": "params",
               "label": "参数／配置线索"
@@ -12922,10 +12955,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -12963,10 +12996,10 @@
             "meta learning"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -13004,10 +13037,10 @@
             "meta learning"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -13045,10 +13078,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -13086,10 +13119,10 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -13127,10 +13160,10 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -13168,10 +13201,10 @@
             "self play"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -13209,10 +13242,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "data",
@@ -13255,10 +13288,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -13305,10 +13338,10 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -13346,10 +13379,10 @@
             "self training"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -13387,10 +13420,10 @@
             "self play"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "data",
@@ -13433,10 +13466,10 @@
             "harness engineering"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "thinking",
@@ -13479,10 +13512,10 @@
             "meta learning"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "data",
@@ -13525,10 +13558,10 @@
             "self play"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "data",
@@ -13571,10 +13604,10 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -13612,10 +13645,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -13653,10 +13686,10 @@
             "harness engineering"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -13694,10 +13727,10 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -13735,10 +13768,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -13781,10 +13814,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -13822,10 +13855,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -13868,10 +13901,10 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -13909,10 +13942,10 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "params",
@@ -13955,10 +13988,10 @@
             "meta learning"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -13996,10 +14029,10 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -14037,10 +14070,10 @@
             "alphaevolve"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "params",
@@ -14083,10 +14116,10 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -14124,10 +14157,10 @@
             "self training"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -14165,10 +14198,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -14215,10 +14248,10 @@
             "self modification"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -14256,10 +14289,10 @@
             "meta learning"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -14297,10 +14330,10 @@
             "meta learning"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -14343,10 +14376,10 @@
             "automated scientific discovery"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -14384,10 +14417,10 @@
             "automated machine learning"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "params",
@@ -14434,10 +14467,10 @@
             "meta learning"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -14475,10 +14508,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -14516,10 +14549,10 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "params",
@@ -14566,10 +14599,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -14607,10 +14640,10 @@
             "self play"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -14648,10 +14681,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -14689,10 +14722,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "data",
@@ -14735,10 +14768,10 @@
             "self training"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "data",
@@ -14781,10 +14814,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -14822,10 +14855,10 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -14870,10 +14903,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -14911,10 +14944,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -14952,10 +14985,10 @@
             "self play"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": false
         },
@@ -14993,10 +15026,10 @@
             "self training"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "data",
@@ -15009,7 +15042,7 @@
     },
     {
       "title": "Hugging Face Blog",
-      "feedUrl": "http://127.0.0.1:37099/feed/huggingface",
+      "feedUrl": "http://127.0.0.1:46727/feed/huggingface",
       "siteUrl": "https://huggingface.co/blog/feed.xml",
       "articles": [
         {
@@ -15046,7 +15079,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -15104,7 +15137,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -15150,7 +15183,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -15204,7 +15237,7 @@
             "self play"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -15250,7 +15283,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:20:57.994Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -15258,6 +15291,56 @@
             {
               "id": "code",
               "label": "代码／开源线索"
+            }
+          ],
+          "isDirect": false
+        },
+        {
+          "id": "https://huggingface.co/blog/local-models-pr-triage",
+          "title": "We got local models to triage the OpenClaw repo for FREE!*",
+          "link": "https://huggingface.co/blog/local-models-pr-triage",
+          "publishedOn": "2026-06-22T00:00:00.000Z",
+          "updatedOn": "2026-06-22T00:00:00.000Z",
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science. Back to Articles We got local models to triage the OpenClaw repo for FREE!* Published June 22, 2026 Update on GitHub Upvote 24 +18 Onur Solmaz osolmaz Follow ben burtenshaw burtenshaw Follow shaun smith evalstate Follow Categorizing issues and PRs Processing incoming PRs and issues Can local models triage PRs? Tracking and validating real-time performance using OpenClaw Conclusion Footnotes *Free as in beer, excluding the cost of electricity, and assuming you already own the hardware June 2026 will go down as the moment that people realized closed models can be taken away. With the removal of Anthropic's latest flagship model Claude Fable 5 fresh in memory, one can see why it is more important than ever to own your AI stack and be able to run models locally, especially if you are building your business on top of AI. In that light, we wanted to share how we use local models like Gemma and Qwen in an agent harness, to run classification tasks[1]. This approach is different from using a model like BERT for classification. A local model in an agent harness like Pi can be used in ",
+          "author": "",
+          "sourceId": "huggingface",
+          "sourceName": "Hugging Face Blog",
+          "type": "blog",
+          "classifications": [
+            {
+              "id": "rsi",
+              "name": "Recursive Self-Improvement",
+              "tier": "related",
+              "score": 5,
+              "matches": [
+                "agent harness"
+              ]
+            }
+          ],
+          "topicIds": [
+            "rsi"
+          ],
+          "topicNames": [
+            "Recursive Self-Improvement"
+          ],
+          "tier": "related",
+          "score": 5,
+          "matches": [
+            "agent harness"
+          ],
+          "firstSeen": "2026-10-08T07:20:57.994Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
+          "imageUrl": null,
+          "wordCount": null,
+          "fresh": false,
+          "recipeSignals": [
+            {
+              "id": "code",
+              "label": "代码／开源线索"
+            },
+            {
+              "id": "data",
+              "label": "数据处理线索"
             }
           ],
           "isDirect": false
@@ -15296,18 +15379,68 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
           "recipeSignals": [],
+          "isDirect": false
+        },
+        {
+          "id": "https://huggingface.co/blog/zai-org/glm-52-blog",
+          "title": "GLM-5.2: Built for Long-Horizon Tasks",
+          "link": "https://huggingface.co/blog/zai-org/glm-52-blog",
+          "publishedOn": "2026-06-17T09:01:25.000Z",
+          "updatedOn": "2026-06-17T09:01:25.000Z",
+          "description": "A Blog post by Z.ai on Hugging Face Back to Articles GLM-5.2: Built for Long-Horizon Tasks Team Article Published June 17, 2026 Upvote 144 +138 Z.AI zaiorg Follow zai-org Architecture for 1M Context IndexShare for DSA MTP with IndexShare and KVShare Efficiently Serving 1M Context Length slime for Agentic RL RL for Long-Horizon Task with Anti-hacking Full Benchmark Table Getting started with GLM-5.2 Use GLM-5.2 with GLM Coding Plan Chat with GLM-5.2 on Z.ai Serve GLM-5.2 Locally Footnote We're introducing GLM-5.2, our latest flagship model for long-horizon tasks. It marks a substantial leap in long-horizon task capability over its predecessor GLM-5.1 and, for the first time, delivers that capability on a solid 1M-token context. GLM-5.2's new capabilities include: Solid 1M Context: A solid 1M-token context that stably sustains long-horizon work Advanced Coding with Flexible Effort: Stronger coding capabilities with multiple thinking effort levels to balance performance and latency Improved Architecture: We propose IndexShare, which reuses the same indexer across every four sparse attention layers, reducing per-token FLOPs by 2.9× at a 1M context length. We also improve GLM-5.2’s MTP ",
+          "author": "",
+          "sourceId": "huggingface",
+          "sourceName": "Hugging Face Blog",
+          "type": "blog",
+          "classifications": [
+            {
+              "id": "rsi",
+              "name": "Recursive Self-Improvement",
+              "tier": "related",
+              "score": 5,
+              "matches": [
+                "agent harness"
+              ]
+            }
+          ],
+          "topicIds": [
+            "rsi"
+          ],
+          "topicNames": [
+            "Recursive Self-Improvement"
+          ],
+          "tier": "related",
+          "score": 5,
+          "matches": [
+            "agent harness"
+          ],
+          "firstSeen": "2026-10-08T07:20:57.994Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
+          "imageUrl": null,
+          "wordCount": null,
+          "fresh": false,
+          "recipeSignals": [
+            {
+              "id": "code",
+              "label": "代码／开源线索"
+            },
+            {
+              "id": "params",
+              "label": "参数／配置线索"
+            }
+          ],
           "isDirect": false
         }
       ]
     },
     {
       "title": "NVIDIA Developer Blog",
-      "feedUrl": "http://127.0.0.1:37099/feed/nvidia-dev",
+      "feedUrl": "http://127.0.0.1:46727/feed/nvidia-dev",
       "siteUrl": "https://developer.nvidia.com/blog/feed/",
       "articles": [
         {
@@ -15344,7 +15477,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -15385,7 +15518,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -15396,7 +15529,7 @@
     },
     {
       "title": "NVIDIA Blog",
-      "feedUrl": "http://127.0.0.1:37099/feed/nvidia",
+      "feedUrl": "http://127.0.0.1:46727/feed/nvidia",
       "siteUrl": "https://blogs.nvidia.com/feed/",
       "articles": [
         {
@@ -15433,7 +15566,7 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -15457,7 +15590,7 @@
     },
     {
       "title": "Lilian Weng · Lil’Log",
-      "feedUrl": "http://127.0.0.1:37099/feed/lilianweng",
+      "feedUrl": "http://127.0.0.1:46727/feed/lilianweng",
       "siteUrl": "https://lilianweng.github.io/index.xml",
       "articles": [
         {
@@ -15498,7 +15631,7 @@
             "harness engineering"
           ],
           "firstSeen": "2026-10-08T07:01:59.646Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
           "fresh": false,
@@ -15509,7 +15642,7 @@
     },
     {
       "title": "Preprints.org · Crossref 论文检索",
-      "feedUrl": "http://127.0.0.1:37099/feed/preprints-crossref",
+      "feedUrl": "http://127.0.0.1:46727/feed/preprints-crossref",
       "siteUrl": "https://api.crossref.org/works?filter=prefix:10.20944&query.title=recursive%20self%20improvement&rows=100&sort=published&order=desc",
       "articles": [
         {
@@ -15552,10 +15685,10 @@
             "meta learning"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -15597,10 +15730,10 @@
             "self modification"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -15638,10 +15771,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "params",
@@ -15688,10 +15821,10 @@
             "self evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -15731,10 +15864,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "data",
@@ -15779,10 +15912,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -15824,10 +15957,10 @@
             "self modification"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -15874,10 +16007,10 @@
             "self modification"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -15921,10 +16054,10 @@
             "agent harness"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         },
@@ -15964,10 +16097,10 @@
             "self improvement"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [
             {
               "id": "code",
@@ -16012,10 +16145,10 @@
             "agent evolution"
           ],
           "firstSeen": "2026-10-08T08:25:44.830Z",
-          "lastSeen": "2026-10-08T08:25:44.830Z",
+          "lastSeen": "2026-10-08T08:49:59.420Z",
           "imageUrl": null,
           "wordCount": null,
-          "fresh": true,
+          "fresh": false,
           "recipeSignals": [],
           "isDirect": true
         }

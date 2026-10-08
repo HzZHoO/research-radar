@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2026-10-08T08:47:33.233Z</id>
+    <id>urn:2026-10-08T08:50:37.233Z</id>
     <title>个人RSI研究雷达</title>
-    <updated>2026-10-08T08:47:33.233Z</updated>
+    <updated>2026-10-08T08:50:37.233Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -3526,6 +3526,16 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[We got local models to triage the OpenClaw repo for FREE!*]]></title>
+        <id>https://huggingface.co/blog/local-models-pr-triage</id>
+        <link href="https://huggingface.co/blog/local-models-pr-triage"/>
+        <updated>2026-06-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science. Back to Articles We got local models to triage the OpenClaw repo for FREE!* Published June 22, 2026 Update on GitHub Upvote 24 +18 Onur Solmaz osolmaz Follow ben burtenshaw burtenshaw Follow shaun smith evalstate Follow Categorizing issues and PRs Processing incoming PRs and issues Can local models triage PRs? Tracking and validating real-time performance using OpenClaw Conclusion Footnotes *Free as in beer, excluding the cost of electricity, and assuming you already own the hardware June 2026 will go down as the moment that people realized closed models can be taken away. With the removal of Anthropic's latest flagship model Claude Fable 5 fresh in memory, one can see why it is more important than ever to own your AI stack and be able to run models locally, especially if you are building your business on top of AI. In that light, we wanted to share how we use local models like Gemma and Qwen in an agent harness, to run classification tasks[1]. This approach is different from using a model like BERT for classification. A local model in an agent harness like Pi can be used in ]]></summary>
+        <author>
+            <name/>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[MosaicLeaks: Can your research agent keep a secret?]]></title>
         <id>https://huggingface.co/blog/ServiceNow/mosaicleaks</id>
         <link href="https://huggingface.co/blog/ServiceNow/mosaicleaks"/>
@@ -3543,6 +3553,16 @@
         <summary type="html"><![CDATA[LLM agents are increasingly improved without weight updates by evolving a natural-language artifact, such as reflections, workflows, playbooks, cheatsheets, or optimized prompts, that conditions a frozen policy. Such methods are typically reported as wins on the single benchmark where they help. We study them apples-to-apples and surface a sharper picture. We introduce RSEA, a Recursive Self-Evolving Agent that carries a compact three-layer natural-language state: an imperative strategy, reusable skills, and a procedural playbook. Across generations, RSEA rewrites all three layers from its own trajectories and commits a candidate only if it does not regress on a disjoint held-out split, using a strict keep-better gate. Across four diverse benchmarks, ALFWorld, GAIA, (τ)-bench, and WebShop, and six faithful baselines, ReAct, Reflexion, GEPA, AWM, ACE, and Dynamic Cheatsheet, all evaluated on one shared local backbone, we find three main results. First, no artifact universally wins. RSEA is the strongest single-pass method on ALFWorld, reaching 69.3% compared with 64.6% for ReAct (McNemar (p=0.015)), and reaches 79.4% with retry, the best overall result. However, concrete-workflow in]]></summary>
         <author>
             <name>Michael Nguyen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GLM-5.2: Built for Long-Horizon Tasks]]></title>
+        <id>https://huggingface.co/blog/zai-org/glm-52-blog</id>
+        <link href="https://huggingface.co/blog/zai-org/glm-52-blog"/>
+        <updated>2026-06-17T09:01:25.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by Z.ai on Hugging Face Back to Articles GLM-5.2: Built for Long-Horizon Tasks Team Article Published June 17, 2026 Upvote 144 +138 Z.AI zaiorg Follow zai-org Architecture for 1M Context IndexShare for DSA MTP with IndexShare and KVShare Efficiently Serving 1M Context Length slime for Agentic RL RL for Long-Horizon Task with Anti-hacking Full Benchmark Table Getting started with GLM-5.2 Use GLM-5.2 with GLM Coding Plan Chat with GLM-5.2 on Z.ai Serve GLM-5.2 Locally Footnote We're introducing GLM-5.2, our latest flagship model for long-horizon tasks. It marks a substantial leap in long-horizon task capability over its predecessor GLM-5.1 and, for the first time, delivers that capability on a solid 1M-token context. GLM-5.2's new capabilities include: Solid 1M Context: A solid 1M-token context that stably sustains long-horizon work Advanced Coding with Flexible Effort: Stronger coding capabilities with multiple thinking effort levels to balance performance and latency Improved Architecture: We propose IndexShare, which reuses the same indexer across every four sparse attention layers, reducing per-token FLOPs by 2.9× at a 1M context length. We also improve GLM-5.2’s MTP ]]></summary>
+        <author>
+            <name/>
         </author>
     </entry>
     <entry>
