@@ -74,7 +74,7 @@ jobs:
       - name: Publish run summary
         if: always()
         run: |
-          if [ -f public/rsi/report.md ]; then cat public/report.md >> "$GITHUB_STEP_SUMMARY"; fi
+          if [ -f public/rsi/report.md ]; then cat public/rsi/report.md >> "$GITHUB_STEP_SUMMARY"; fi
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
