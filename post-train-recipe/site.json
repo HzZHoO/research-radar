@@ -1,0 +1,20 @@
+{
+  "id": "post-train-recipe",
+  "name": "Post-train Recipe",
+  "config": "radars/post-train-recipe.json",
+  "path": "post-train-recipe",
+  "workflow": "update-post-train.yaml",
+  "repository": "HzZHoO/rsi-feed",
+  "radars": [
+    {
+      "id": "rsi",
+      "name": "RSI",
+      "href": "../"
+    },
+    {
+      "id": "post-train-recipe",
+      "name": "Post-train Recipe",
+      "href": "../post-train-recipe/"
+    }
+  ]
+}

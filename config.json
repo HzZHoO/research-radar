@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "siteTitle": "个人RSI研究雷达",
+  "timezone": "Asia/Shanghai",
+  "historyDays": 120,
+  "scheduleTimes": [
+    "15:40"
+  ],
+  "arxiv": {
+    "enabled": true,
+    "categories": [
+      "cs.AI",
+      "cs.LG",
+      "cs.CL"
+    ],
+    "maxResults": 100
+  },
+  "topics": [
+    {
+      "id": "rsi",
+      "enabled": true,
+      "name": "Recursive Self-Improvement",
+      "directPhrases": [
+        "recursive self improvement",
+        "recursive meta improvement",
+        "darwin godel machine",
+        "godel agent",
+        "self taught optimizer",
+        "huxley godel",
+        "self improving agent",
+        "self evolving agent",
+        "self adapting language model",
+        "self evolving llm",
+        "递归自我改进",
+        "递归自我提升",
+        "自进化智能体"
+      ],
+      "relatedPhrases": [
+        "self improvement",
+        "self modification",
+        "self training",
+        "self reward",
+        "self play",
+        "meta learning",
+        "agent evolution",
+        "harness engineering",
+        "agent harness",
+        "automated ai research",
+        "automated machine learning",
+        "automated scientific discovery",
+        "alphaevolve",
+        "funsearch",
+        "self adaptation",
+        "self evolution",
+        "自我改进",
+        "自演进",
+        "自动化研究"
+      ],
+      "excludePhrases": [
+        "relative strength index",
+        "repetitive strain injury"
+      ],
+      "contextTerms": [
+        "agent",
+        "llm",
+        "language model",
+        "reinforcement learning",
+        "training",
+        "artificial intelligence",
+        "machine learning",
+        "智能体",
+        "模型"
+      ],
+      "relatedMinScore": 5
+    }
+  ],
+  "sources": [
+    {
+      "id": "huggingface",
+      "name": "Hugging Face Blog",
+      "type": "blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "enrichMissing": true,
+      "enrichLimit": 40,
+      "enabled": true
+    },
+    {
+      "id": "nvidia-dev",
+      "name": "NVIDIA Developer Blog",
+      "type": "blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "enabled": true
+    },
+    {
+      "id": "nvidia",
+      "name": "NVIDIA Blog",
+      "type": "blog",
+      "url": "https://blogs.nvidia.com/feed/",
+      "enabled": true
+    },
+    {
+      "id": "lilianweng",
+      "name": "Lilian Weng · Lil’Log",
+      "type": "blog",
+      "url": "https://lilianweng.github.io/index.xml",
+      "enabled": true
+    }
+  ]
+}

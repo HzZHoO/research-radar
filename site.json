@@ -1,0 +1,20 @@
+{
+  "id": "rsi",
+  "name": "RSI",
+  "config": "config.json",
+  "path": "",
+  "workflow": "update-feed.yaml",
+  "repository": "HzZHoO/rsi-feed",
+  "radars": [
+    {
+      "id": "rsi",
+      "name": "RSI",
+      "href": "./"
+    },
+    {
+      "id": "post-train-recipe",
+      "name": "Post-train Recipe",
+      "href": "./post-train-recipe/"
+    }
+  ]
+}
