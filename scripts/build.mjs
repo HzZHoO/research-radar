@@ -4,9 +4,11 @@ import { spawn } from 'node:child_process';
 import yaml from 'js-yaml';
 import { collect,readJson } from './collect.mjs';
 import { loadConfig } from './config.mjs';
+import {profile,registry,buildDirectory} from './profiles.mjs';
 
 const escapeXml=s=>String(s).replace(/[<>&"']/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;',"'":'&apos;'}[c]));
-const data=process.argv.includes('--offline')?await readJson('.build/radar.json'):await collect();
+const data=process.argv.includes('--offline')?await readJson(`${buildDirectory()}/radar.json`):await collect();
+const selected=await profile();const all=await registry();
 const config=yaml.load(await fs.readFile('osmosfeed.yaml','utf8'));
 const radarConfig=await loadConfig(process.env.RADAR_CONFIG||'config.json');
 // Feed collection and ranking happen above. osmosfeed renders its supported local
@@ -33,6 +35,7 @@ try {
   if(exitCode!==0)throw new Error(`osmosfeed exited ${exitCode}`);
   await fs.writeFile('public/radar.json',JSON.stringify(data,null,2));
   await fs.writeFile('public/config.json',JSON.stringify(radarConfig,null,2));
+  await fs.writeFile('public/site.json',JSON.stringify({...selected,radars:all.radars.map(r=>({id:r.id,name:r.name,href:(selected.path?'../':'./')+(r.path?r.path+'/':'' )}))},null,2));
   await fs.writeFile('public/.nojekyll','');
   const report=['# 研究雷达抓取报告',`\n方向：${data.topics?.map(t=>t.name).join('、')||data.topic}；生成时间：${data.generatedAt}；回溯：${data.historyDays} 天。\n`,
     '| 来源 | 状态 | 抓取数 | 本次命中 | 保留数 |','|---|---|---:|---:|---:|',

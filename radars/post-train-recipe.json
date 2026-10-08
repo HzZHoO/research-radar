@@ -1,0 +1,191 @@
+{
+  "version": 1,
+  "siteTitle": "Post-train Recipe 研究雷达",
+  "timezone": "Asia/Shanghai",
+  "historyDays": 365,
+  "scheduleTimes": [
+    "09:45",
+    "18:45"
+  ],
+  "arxiv": {
+    "enabled": true,
+    "categories": [
+      "cs.AI",
+      "cs.LG",
+      "cs.CL"
+    ],
+    "maxResults": 100
+  },
+  "topics": [
+    {
+      "id": "recipe",
+      "name": "后训练配方与框架",
+      "enabled": true,
+      "directPhrases": [
+        "training recipe",
+        "post training recipe",
+        "open post training",
+        "open r1",
+        "openrlhf",
+        "open instruct",
+        "tulu 3",
+        "smolthink",
+        "smollm3",
+        "verl",
+        "后训练配方"
+      ],
+      "relatedPhrases": [
+        "post training",
+        "supervised fine tuning",
+        "instruction tuning",
+        "grpo",
+        "dpo",
+        "rlvr",
+        "preference optimization",
+        "reinforcement learning",
+        "hyperparameter tuning"
+      ],
+      "contextTerms": [
+        "open source",
+        "open sourced",
+        "code",
+        "github",
+        "recipe",
+        "implementation",
+        "dataset",
+        "hyperparameter",
+        "training config",
+        "开源",
+        "代码",
+        "配方"
+      ],
+      "excludePhrases": [],
+      "relatedMinScore": 5
+    },
+    {
+      "id": "data",
+      "name": "数据构造与清洗",
+      "enabled": true,
+      "directPhrases": [
+        "instruction data curation",
+        "post training data",
+        "reasoning data curation",
+        "sft data",
+        "preference data",
+        "instruction dataset",
+        "data mixture",
+        "数据清洗",
+        "指令数据"
+      ],
+      "relatedPhrases": [
+        "synthetic data",
+        "data curation",
+        "data filtering",
+        "decontamination",
+        "deduplication",
+        "data quality",
+        "data selection",
+        "data cleaning"
+      ],
+      "contextTerms": [
+        "llm",
+        "language model",
+        "post training",
+        "fine tuning",
+        "reasoning model",
+        "instruction tuning",
+        "sft",
+        "grpo",
+        "语言模型",
+        "后训练"
+      ],
+      "excludePhrases": [],
+      "relatedMinScore": 5
+    },
+    {
+      "id": "thinking",
+      "name": "Thinking 数据与训练",
+      "enabled": true,
+      "directPhrases": [
+        "reasoning trace",
+        "reasoning trajectory",
+        "thinking data",
+        "reasoning dataset",
+        "long cot",
+        "thought distillation",
+        "思考数据",
+        "思维链数据"
+      ],
+      "relatedPhrases": [
+        "chain of thought",
+        "reasoning distillation",
+        "rejection sampling",
+        "cold start",
+        "process reward",
+        "reasoning data",
+        "openthoughts",
+        "open thoughts"
+      ],
+      "contextTerms": [
+        "llm",
+        "language model",
+        "post training",
+        "fine tuning",
+        "reasoning model",
+        "instruction tuning",
+        "sft",
+        "grpo",
+        "语言模型",
+        "后训练"
+      ],
+      "excludePhrases": [],
+      "relatedMinScore": 5
+    }
+  ],
+  "sources": [
+    {
+      "id": "huggingface",
+      "name": "Hugging Face Blog",
+      "type": "blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "enrichMissing": true,
+      "enrichLimit": 60,
+      "enabled": true
+    },
+    {
+      "id": "nvidia-dev",
+      "name": "NVIDIA Developer Blog",
+      "type": "blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "enabled": true
+    },
+    {
+      "id": "trl-releases",
+      "name": "Hugging Face TRL · Releases",
+      "type": "blog",
+      "url": "https://github.com/huggingface/trl/releases.atom",
+      "enabled": true
+    },
+    {
+      "id": "verl-releases",
+      "name": "verl · Releases",
+      "type": "blog",
+      "url": "https://github.com/verl-project/verl/releases.atom",
+      "enabled": true
+    },
+    {
+      "id": "openrlhf-releases",
+      "name": "OpenRLHF · Releases",
+      "type": "blog",
+      "url": "https://github.com/OpenRLHF/OpenRLHF/releases.atom",
+      "enabled": true
+    },
+    {
+      "id": "open-instruct-releases",
+      "name": "Ai2 Open Instruct · Releases",
+      "type": "blog",
+      "url": "https://github.com/allenai/open-instruct/releases.atom",
+      "enabled": true
+    }
+  ]
+}

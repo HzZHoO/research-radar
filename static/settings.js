@@ -2,7 +2,8 @@
   const $=selector=>document.querySelector(selector);
   const el=(tag,text)=>{const n=document.createElement(tag);if(text)n.textContent=text;return n;};
   const split=value=>value.split(/[\n,，]/).map(s=>s.trim()).filter(Boolean);
-  let current=null;
+  let current=null,site=null;
+  const draftKey=`research-radar-draft-v2:${location.pathname.replace(/[^/]*$/, '')}`;
   const presets={
     rsi:{name:'Recursive Self-Improvement',directPhrases:['recursive self improvement','self improving agent','self evolving agent'],relatedPhrases:['self improvement','agent harness','automated ai research'],contextTerms:['agent','llm','language model'],excludePhrases:['relative strength index'],relatedMinScore:5},
     memory:{name:'Agent 记忆',directPhrases:['agent memory','long term memory','memory augmented agent','memory consolidation'],relatedPhrases:['episodic memory','experience replay','continual learning'],contextTerms:['agent','llm','language model'],excludePhrases:[],relatedMinScore:5},
@@ -35,7 +36,7 @@
   function draft(){return {...current,siteTitle:$('#site-title').value.trim(),historyDays:Number($('#history-days').value),scheduleTimes:split($('#schedule').value),
     arxiv:{enabled:$('#arxiv-enabled').checked,categories:split($('#arxiv-categories').value),maxResults:Number($('#arxiv-max').value)},
     topics:[...document.querySelectorAll('.topic-editor')].map(readCard),sources:[...document.querySelectorAll('.source-editor')].map(card=>({...card.sourceOptions,...readCard(card)}))};}
-  function saveDraft(){if(!current)return;try{localStorage.setItem('research-radar-draft-v1',JSON.stringify(draft()));}catch{}}
+  function saveDraft(){if(!current)return;try{localStorage.setItem(draftKey,JSON.stringify(draft()));}catch{}}
   function render(config){
     $('#topics').replaceChildren();$('#sources').replaceChildren();config.topics.forEach(addTopic);config.sources.forEach(addSource);
     $('#site-title').value=config.siteTitle;$('#history-days').value=config.historyDays;$('#schedule').value=config.scheduleTimes.join(', ');
@@ -54,17 +55,18 @@
   $('#add-source').addEventListener('click',()=>{addSource({id:`source-${Date.now().toString(36)}`,name:'新订阅源',type:'blog',url:'',enabled:true});saveDraft();});
   $('#settings').addEventListener('input',saveDraft);
   $('#apply').addEventListener('click',async()=>{
-    try{const config=checkedDraft();const body=JSON.stringify(config);
+    try{const config=checkedDraft();const body=JSON.stringify({radar:site.id,config});
       await navigator.clipboard.writeText(body);saveDraft();
       message('配置已复制。在 GitHub 点击 Run workflow，将配置粘贴到 config_json 输入框并运行。通常需 1–3 分钟。');
-      window.location.href='https://github.com/HzZHoO/rsi-feed/actions/workflows/apply-config.yaml';
+      window.location.href=`https://github.com/${site.repository}/actions/workflows/apply-config.yaml`;
     }catch(error){message(error.message+'；如果浏览器不允许复制，可以使用“导出配置文件”或直接在 GitHub 编辑。',true);}
   });
   $('#export').addEventListener('click',()=>{try{const config=checkedDraft();const url=URL.createObjectURL(new Blob([JSON.stringify(config,null,2)+'\n'],{type:'application/json'}));const a=el('a');a.href=url;a.download='config.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}catch(error){message(error.message,true);}});
   $('#import').addEventListener('change',async event=>{try{const config=JSON.parse(await event.target.files[0].text());if(config.version!==1||!Array.isArray(config.topics)||!Array.isArray(config.sources)||!config.arxiv)throw Error('不是有效的研究雷达配置');render(config);saveDraft();message('配置已导入草稿；应用到 GitHub 后生效。');}catch(error){message(error.message,true);}});
-  $('#reset').addEventListener('click',()=>{render(current);try{localStorage.removeItem('research-radar-draft-v1');}catch{}message('已恢复当前线上配置。');});
-  fetch('config.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('无法读取当前配置');return r.json();}).then(config=>{
-    current=config;let saved=null;try{saved=JSON.parse(localStorage.getItem('research-radar-draft-v1')||'null');}catch{}
+  $('#reset').addEventListener('click',()=>{render(current);try{localStorage.removeItem(draftKey);if(site.id==='rsi')localStorage.removeItem('research-radar-draft-v1');}catch{}message('已恢复当前线上配置。');});
+  Promise.all(['config.json','site.json'].map(url=>fetch(url,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('无法读取当前配置与雷达信息');return r.json();}))).then(([config,info])=>{
+    site=info;
+    current=config;let saved=null;try{saved=JSON.parse(localStorage.getItem(draftKey)||(site.id==='rsi'?localStorage.getItem('research-radar-draft-v1'):null)||'null');}catch{}
     render(saved?.version===1?saved:config);message(saved?'已恢复浏览器草稿；如要查看线上设置，请点击“恢复当前线上配置”。':'当前线上配置已加载。修改后点击下方“应用设置”。');
   }).catch(error=>message(error.message,true));
 })();

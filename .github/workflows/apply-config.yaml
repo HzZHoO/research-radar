@@ -3,12 +3,14 @@ on:
   workflow_dispatch:
     inputs:
       config_json:
-        description: '粘贴设置页面复制的配置 JSON；留空则同步仓库已有配置'
+        description: '粘贴设置页复制的配置（包含雷达标识）；留空则同步下方雷达'
         type: string
         required: false
-  push:
-    branches: [main]
-    paths: [config.json]
+      radar:
+        description: '仅配置留空时使用；网页复制的配置自动选择雷达'
+        type: choice
+        options: [rsi, post-train-recipe]
+        default: rsi
 permissions:
   contents: write
   actions: write
@@ -17,7 +19,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   apply:
-    if: github.event_name == 'push' || github.actor == github.repository_owner
+    if: github.actor == github.repository_owner
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
@@ -27,14 +29,18 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: node scripts/apply-config.mjs
+      - id: settings
+        run: node scripts/apply-config.mjs
         env:
           RADAR_CONFIG_JSON: ${{ inputs.config_json }}
+          RADAR_PROFILE: ${{ inputs.radar }}
       - name: Commit settings and update schedule
+        env:
+          CONFIG_PATH: ${{ steps.settings.outputs.config }}
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add config.json
+          git add "$CONFIG_PATH"
           if ! git diff --cached --quiet; then
             git commit -m 'Apply research radar settings'
             git push origin main
@@ -43,5 +49,6 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           REPOSITORY: ${{ github.repository }}
+          UPDATE_WORKFLOW: ${{ steps.settings.outputs.workflow }}
         run: |
-          gh workflow run update-feed.yaml --repo "$REPOSITORY" --ref main
+          gh workflow run "$UPDATE_WORKFLOW" --repo "$REPOSITORY" --ref main

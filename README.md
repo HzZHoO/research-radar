@@ -1,6 +1,34 @@
-# 个人研究雷达
+# 多页面研究雷达
 
 基于 [osmosfeed](https://github.com/osmoscraft/osmosfeed) 的个人研究收件箱。可同时配置多个研究方向，收集 arXiv 论文和技术博客，按可解释的关键词规则筛选。RSI 是初始示例方向。**不调用模型，不需要 API 密钥，也不使用本地模型。**
+
+
+## 一个仓库，多个独立雷达
+
+所有雷达共用程序，各自拥有配置、页面、更新时间、缓存及更新工作流：
+
+| 雷达 | 页面 | 配置 | 手动更新 Action |
+|---|---|---|---|
+| RSI | /rsi-feed/ | config.json | Update RSI radar |
+| Post-train Recipe | /rsi-feed/post-train-recipe/ | radars/post-train-recipe.json | Update Post-train Recipe radar |
+
+每个页面顶部可切换雷达，其 settings.html 仅配置当前雷达。复制应用的 JSON 带有雷达标识，Apply research settings 自动选中对应配置。完整替换发生在该雷达内部，不会替换其他雷达。浏览器草稿和已读状态也按页面隔离。
+
+Post-train Recipe 默认跟踪配方与框架、数据构造与清洗、Thinking 数据与训练。信源包括 arXiv、Hugging Face、NVIDIA Developer，以及 TRL、verl、OpenRLHF、Open Instruct 的 GitHub Releases Atom。代码／参数／数据／Thinking 标签是原文线索，不保证提供完整可复现配方。页面另有固定入门项目链接，不冒充最新抓取结果。
+
+更新流程只抓取被选中的雷达，并恢复其他页面的已发布输出，合并后部署。radar-published 分支保存网站快照；发布流程共享并发锁，避免互相覆盖。请在 main 分支编辑源码与配置；快照分支由程序管理。
+
+本地构建整个站点：
+
+```sh
+# 默认更新 RSI；首次缺少的其他雷达也会建立
+node scripts/build-site.mjs
+# 更新后训练雷达（PowerShell）
+$env:RADAR_PROFILE='post-train-recipe'
+node scripts/build-site.mjs
+```
+
+新增第三个雷达不需要新仓库：添加一份配置，在 radars.json 登记 ID、路径和更新工作流，复制一个更新 workflow 并修改 RADAR_PROFILE、配置 paths 和报告路径即可。若要在配置留空时手动同步它，也可添加到 Apply research settings 的 radar 选项。
 
 ## 使用
 
@@ -30,7 +58,7 @@ arXiv 按每个启用方向的核心和扩展关键词生成独立搜索，可�
 
 ## 自动更新与发布
 
-仓库公开后，在 Settings → Pages → Source 选择 **GitHub Actions**。默认北京时间 01:23、09:23、17:23 更新，可在设置页调整。调度器每 15 分钟执行一次轻量检查，仅在设定时刻后的检查窗口抓取与重建（例如 09:23 对应 09:30 的窗口）。其余检查跳过抓取；不需要为修改时间增加个人访问令牌。Actions → Update research radar → Run workflow 可以随时手动抓取。
+仓库公开后，在 Settings → Pages → Source 选择 **GitHub Actions**。默认北京时间 01:23、09:23、17:23 更新，可在设置页调整。调度器每 15 分钟执行一次轻量检查，仅在设定时刻后的检查窗口抓取与重建（例如 09:23 对应 09:30 的窗口）。其余检查跳过抓取；不需要为修改时间增加个人访问令牌。Actions → Update RSI radar → Run workflow 可以随时手动抓取。
 
 GitHub Actions 是定时批处理，任务可能延迟；公开仓库长期没有活动时定时任务可能被暂停。标准公开仓库 runner 无模型调用费用。站点和研究兴趣配置是公开的。
 

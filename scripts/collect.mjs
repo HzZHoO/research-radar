@@ -7,6 +7,8 @@ import Parser from 'rss-parser';
 import { load } from 'cheerio';
 import { rank, canonicalId, normalize } from './rank.mjs';
 import { loadConfig, makeSources, rankTopics } from './config.mjs';
+import {stateDirectory,buildDirectory} from './profiles.mjs';
+import {recipeSignals} from './recipe.mjs';
 
 const parser = new Parser({customFields:{item:['published','updated','description','summary']}});
 export const readJson = async (file, fallback) => {
@@ -61,8 +63,9 @@ export async function collect() {
   const sources=makeSources(config);
   const now=new Date();
   const cutoff=now.getTime()-config.historyDays*86400000;
-  const previous=await readJson('.state/history.json',{articles:[]});
-  const enrichment=await readJson('.state/enrichment-v2.json',{});
+  const state=stateDirectory(),build=buildDirectory();
+  const previous=await readJson(`${state}/history.json`,{articles:[]});
+  const enrichment=await readJson(`${state}/enrichment-v2.json`,{});
   const articles=new Map(previous.articles.map(item=>[item.id,item]));
   const results=[];
   const statuses=[];
@@ -144,11 +147,11 @@ export async function collect() {
   const data={siteTitle:config.siteTitle,topic:'研究雷达',topics:config.topics.filter(t=>t.enabled).map(t=>({id:t.id,name:t.name})),scheduleTimes:config.scheduleTimes,generatedAt:now.toISOString(),historyDays:config.historyDays,
     counts:{fetched:statuses.reduce((n,s)=>n+s.fetched,0),selected:ranked.length,direct:ranked.filter(x=>x.tier==='direct').length,
       related:ranked.filter(x=>x.tier==='related').length,blogs:ranked.filter(x=>x.type==='blog').length,new:ranked.filter(x=>x.fresh).length},
-    sources:sourceResults,articles:ranked.map(({rankingText,...item})=>item)};
-  await fs.mkdir('.state',{recursive:true});await fs.mkdir('.build',{recursive:true});
-  await fs.writeFile('.state/history.json',JSON.stringify({articles:catalog},null,2));
-  await fs.writeFile('.state/enrichment-v2.json',JSON.stringify(enrichment));
-  await fs.writeFile('.build/radar.json',JSON.stringify(data,null,2));
+    sources:sourceResults,articles:ranked.map(({rankingText,...item})=>({...item,recipeSignals:recipeSignals({...item,rankingText})}))};
+  await fs.mkdir(state,{recursive:true});await fs.mkdir(build,{recursive:true});
+  await fs.writeFile(`${state}/history.json`,JSON.stringify({articles:catalog},null,2));
+  await fs.writeFile(`${state}/enrichment-v2.json`,JSON.stringify(enrichment));
+  await fs.writeFile(`${build}/radar.json`,JSON.stringify(data,null,2));
   return data;
 }
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)) {

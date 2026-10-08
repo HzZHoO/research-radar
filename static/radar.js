@@ -1,8 +1,10 @@
 (() => {
   const cards=[...document.querySelectorAll('.card')];
   let tier='all',readIds=new Set();
-  try{readIds=new Set(JSON.parse(localStorage.getItem('rsi-read-v1')||'[]'));}catch{}
+  const readKey=`research-read-v2:${location.pathname.replace(/[^/]*$/, '')}`;
+  try{readIds=new Set(JSON.parse(localStorage.getItem(readKey)||(!location.pathname.includes('/post-train-recipe/')?localStorage.getItem('rsi-read-v1'):null)||'[]'));}catch{}
   const type=document.querySelector('#type'),sort=document.querySelector('#sort'),search=document.querySelector('#search'),hide=document.querySelector('#hide-read'),days=document.querySelector('#days'),topic=document.querySelector('#topic'),source=document.querySelector('#source');
+  const recipe=document.querySelector('#recipe');
   let classifications=new Map();
   let articleData=new Map();
   function update(){
@@ -18,7 +20,7 @@
       card.querySelector('details summary').textContent=`命中原因 · ${effectiveScore} 分`;
       const matches=classification?.matches||articleData.get(card.dataset.id)?.matches;
       if(matches){const list=card.querySelector('.matches');list.replaceChildren();for(const match of matches){const span=document.createElement('span');span.textContent=match;list.append(span);}}
-      card.hidden=(topic.value!=='all'&&!card.dataset.topics.split(' ').includes(topic.value))||(source.value!=='all'&&card.dataset.source!==source.value)||(tier!=='all'&&effectiveTier!==tier)||(type.value!=='all'&&card.dataset.type!==type.value)||(days.value!=='all'&&Date.parse(card.dataset.date)<Date.now()-Number(days.value)*86400000)||(hide.checked&&read)||!card.textContent.toLowerCase().includes(search.value.trim().toLowerCase());
+      card.hidden=(recipe.value!=='all'&&!card.dataset.recipe.split(' ').includes(recipe.value))||(topic.value!=='all'&&!card.dataset.topics.split(' ').includes(topic.value))||(source.value!=='all'&&card.dataset.source!==source.value)||(tier!=='all'&&effectiveTier!==tier)||(type.value!=='all'&&card.dataset.type!==type.value)||(days.value!=='all'&&Date.parse(card.dataset.date)<Date.now()-Number(days.value)*86400000)||(hide.checked&&read)||!card.textContent.toLowerCase().includes(search.value.trim().toLowerCase());
       if(!card.hidden)visible++;
     }
     cards.sort((a,b)=>sort.value==='score'?Number(b.dataset.displayScore)-Number(a.dataset.displayScore)||b.dataset.date.localeCompare(a.dataset.date):b.dataset.date.localeCompare(a.dataset.date)||Number(b.dataset.displayScore)-Number(a.dataset.displayScore));
@@ -29,10 +31,10 @@
   for(const button of document.querySelectorAll('.tabs button'))button.addEventListener('click',()=>{
     tier=button.dataset.tier;for(const b of document.querySelectorAll('.tabs button')){b.classList.toggle('active',b===button);b.setAttribute('aria-pressed',String(b===button));}update();
   });
-  for(const element of [type,sort,search,hide,days,topic,source])element.addEventListener('input',update);
+  for(const element of [type,sort,search,hide,days,topic,source,recipe])element.addEventListener('input',update);
   for(const card of cards)card.querySelector('.read-button').addEventListener('click',()=>{
     const id=card.dataset.id;if(readIds.has(id))readIds.delete(id);else readIds.add(id);
-    try{localStorage.setItem('rsi-read-v1',JSON.stringify([...readIds]));}catch{}update();
+    try{localStorage.setItem(readKey,JSON.stringify([...readIds]));}catch{}update();
   });
   update();
   const el=(tag,text,cls)=>{const node=document.createElement(tag);node.textContent=text;if(cls)node.className=cls;return node;};

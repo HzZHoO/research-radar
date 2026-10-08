@@ -1,11 +1,11 @@
-name: Update RSI radar
+name: Update Post-train Recipe radar
 
 on:
   push:
     branches:
       - main
     paths:
-      - 'config.json'
+      - 'radars/post-train-recipe.json'
       - 'radars.json'
       - 'scripts/**'
       - 'static/**'
@@ -13,7 +13,7 @@ on:
       - 'tests/**'
       - 'package*.json'
       - 'osmosfeed.yaml'
-      - '.github/workflows/update-feed.yaml'
+      - '.github/workflows/update-post-train.yaml'
   workflow_dispatch:
   schedule:
     # Lightweight check; only the configured time windows run collection.
@@ -29,7 +29,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  RADAR_PROFILE: rsi
+  RADAR_PROFILE: post-train-recipe
 jobs:
   check:
     runs-on: ubuntu-latest
@@ -74,7 +74,7 @@ jobs:
       - name: Publish run summary
         if: always()
         run: |
-          if [ -f public/report.md ]; then cat public/report.md >> "$GITHUB_STEP_SUMMARY"; fi
+          if [ -f public/post-train-recipe/report.md ]; then cat public/post-train-recipe/report.md >> "$GITHUB_STEP_SUMMARY"; fi
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
