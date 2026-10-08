@@ -1,0 +1,6 @@
+{
+  "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+  "link": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+  "publishedOn": "2026-10-07T12:45:31.000Z",
+  "description": "Open models, data, and recipes on Hugging Face We want these results to be useful beyond the competitions. The Nemotron Labs IMO 2026 collection brings together the SFT and RL checkpoints, both training datasets, and Nemotron-IMO-Bench, a new benchmark of 200 olympiad-level problems. The IMO paper describes the training approach and generate-verify-refine system, while the NeMo-Skills repository includes the IMO inference pipeline, prompts, submitted proofs, and a reproducible quickstart. For competitive programming, the Nemotron-3-Ultra-CC model is available on Hugging Face, and the IOI paper provides the training recipe and the GenCorrect methodology. The IOI evaluation and inference pipeline are also available in NeMo-Skills. Together, IMO and IOI provide unusually demanding evidence for a simple idea: Nemotron can be fine-tuned into world-class domain specialists, then composed with transparent inference workflows to solve problems at the frontier of human competition. We are excited to see what the Hugging Face community builds next."
+}

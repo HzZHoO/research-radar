@@ -10,7 +10,7 @@ test('topic filtering shows that topic’s tier and score rather than the aggreg
   w.fetch=async()=>({ok:true,json:async()=>({articles:[article],topics:[{id:'rsi',name:'RSI'},{id:'memory',name:'Memory'}],sources:[],counts:{},generatedAt:new Date().toISOString(),historyDays:120,scheduleTimes:[]})});
   w.eval(fs.readFileSync('static/radar.js','utf8'));await new Promise(resolve=>setTimeout(resolve,0));
   const topic=w.document.querySelector('#topic');topic.value='memory';topic.dispatchEvent(new w.Event('input'));
-  assert.equal(w.document.querySelector('.tier').textContent,'相关方法');assert.match(w.document.querySelector('details summary').textContent,/5 分/);
+  assert.equal(w.document.querySelector('.tier').textContent,'相关方法');assert.match(w.document.querySelector('.card details summary').textContent,/5 分/);
   assert.equal(w.document.querySelector('.matches').textContent,'episodic memory');
   topic.value='all';topic.dispatchEvent(new w.Event('input'));assert.equal(w.document.querySelector('.tier').textContent,'直接相关');
   dom.window.close();

@@ -14,7 +14,8 @@
       "cs.LG",
       "cs.CL"
     ],
-    "maxResults": 100
+    "maxResults": 100,
+    "maxPages": 3
   },
   "topics": [
     {
@@ -186,6 +187,13 @@
       "type": "blog",
       "url": "https://github.com/allenai/open-instruct/releases.atom",
       "enabled": true
+    }
+  ],
+  "coverageChecks": [
+    {
+      "title": "Nemotron IOI / IMO 2026 后训练配方",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+      "publishedOn": "2026-10-07"
     }
   ]
 }

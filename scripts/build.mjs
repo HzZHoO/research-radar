@@ -41,6 +41,8 @@ try {
     '| 来源 | 状态 | 抓取数 | 本次命中 | 保留数 |','|---|---|---:|---:|---:|',
     ...data.sources.map(s=>`| ${s.name} | ${s.status}${s.error?': '+s.error:''} | ${s.fetched} | ${s.matched} | ${s.retained} |`),
     `\n直接相关 ${data.counts.direct} 篇；相关方法 ${data.counts.related} 篇；其中博客 ${data.counts.blogs} 篇。\n`,
+    '## 已知文章覆盖检查',...(data.coverageChecks||[]).map(c=>`- ${c.status==='found'?'已收集':c.status==='outside-history'?'超出历史范围':'遗漏'}：[${c.title}](${c.url})`),
+    '\n## 覆盖限制',...data.sources.filter(s=>s.coverageCapped||s.enrichmentPending).map(s=>`- ${s.name}：${s.coverageCapped?'达到检索条数上限。':''}${s.enrichmentPending?` ${s.enrichmentPending} 篇正文待后续补抓。`:''}`),
     ...data.articles.slice(0,15).map(a=>`- [${a.title}](${a.link}) — ${a.publishedOn.slice(0,10)} / ${a.tier} / 命中：${a.matches.join(', ')}`),
     '\n博客仅覆盖 RSS 保留的文章；没有命中不意味着该网站没有相关历史文章。分数表示词语相关性，不表示论文质量。'];
   await fs.writeFile('public/report.md',report.join('\n'));

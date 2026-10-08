@@ -16,6 +16,7 @@ export function validateConfig(config){
   if(!Array.isArray(config.scheduleTimes)||config.scheduleTimes.length<1||config.scheduleTimes.length>8||config.scheduleTimes.some(t=>!/^([01]\d|2[0-3]):[0-5]\d$/.test(t)))throw Error('请设置 1–8 个 HH:mm 格式的更新时刻');
   if(!config.arxiv||typeof config.arxiv.enabled!=='boolean'||!Array.isArray(config.arxiv.categories)||config.arxiv.categories.length>10||config.arxiv.categories.some(c=>!/^([a-z-]+\.[A-Za-z]+|[a-z-]+)$/.test(c)))throw Error('arXiv 分类不合法');
   if(!Number.isInteger(config.arxiv.maxResults)||config.arxiv.maxResults<10||config.arxiv.maxResults>200)throw Error('arXiv 每组最多抓取 10–200 条');
+  if(config.arxiv.maxPages!==undefined&&(!Number.isInteger(config.arxiv.maxPages)||config.arxiv.maxPages<1||config.arxiv.maxPages>10))throw Error('arXiv 最多翻页数必须为 1–10');
   if(!Array.isArray(config.topics)||config.topics.length<1||config.topics.length>10)throw Error('研究方向数量需要为 1–10');
   const ids=new Set();
   for(const topic of config.topics){
@@ -34,11 +35,18 @@ export function validateConfig(config){
   for(const s of config.sources){
     if(!/^[a-z0-9-]{1,50}$/.test(s.id)||s.id.startsWith('arxiv-')||sourceIds.has(s.id))throw Error('信源 ID 必须唯一，且不能以 arxiv- 开头');
     sourceIds.add(s.id);publicUrl(s.url);
+    if(s.format!==undefined&&!['rss','crossref'].includes(s.format))throw Error('信源获取方式不合法');
+    if(s.format==='crossref'&&(new URL(s.url).hostname!=='api.crossref.org'||new URL(s.url).pathname!=='/works'))throw Error('Crossref 来源需要官方 works 检索地址');
     if(s.fallbackUrl)publicUrl(s.fallbackUrl);
     if(typeof s.name!=='string'||!s.name.trim()||s.name.length>100||!['paper','blog'].includes(s.type)||typeof s.enabled!=='boolean')throw Error('信源名称、类型或启停状态不合法');
     if(s.enrichLimit!==undefined&&(!Number.isInteger(s.enrichLimit)||s.enrichLimit<1||s.enrichLimit>60))throw Error('正文补充上限必须为 1–60');
+    if(s.maxPages!==undefined&&(!Number.isInteger(s.maxPages)||s.maxPages<1||s.maxPages>10))throw Error('检索信源最多翻页数必须为 1–10');
   }
   if(!config.arxiv.enabled&&!config.sources.some(s=>s.enabled))throw Error('至少需要启用一个信源');
+  if(config.coverageChecks!==undefined){
+    if(!Array.isArray(config.coverageChecks)||config.coverageChecks.length>30)throw Error('最多设置 30 条覆盖检查');
+    for(const check of config.coverageChecks){publicUrl(check.url);if(typeof check.title!=='string'||!check.title.trim()||!Number.isFinite(Date.parse(check.publishedOn)))throw Error('覆盖检查需要标题、公开链接和发布日期');}
+  }
   return config;
 }
 export async function loadConfig(file='config.json'){return validateConfig(JSON.parse(await fs.readFile(file,'utf8')));}
@@ -62,7 +70,7 @@ export function makeSources(config){
       const query=categoryQuery+`(${english.map(p=>`all:"${p.replace(/["\\]/g,' ')}"`).join(' OR ')})`;
       const url=new URL('https://export.arxiv.org/api/query');
       url.search=new URLSearchParams({search_query:query,start:'0',max_results:String(config.arxiv.maxResults),sortBy:'submittedDate',sortOrder:'descending'});
-      generated.push({id:`arxiv-${topic.id}-${kind}`,name:`arXiv · ${topic.name}${kind==='related'?' · 相关方法':''}`,type:'paper',url:url.href,
+      generated.push({id:`arxiv-${topic.id}-${kind}`,name:`arXiv · ${topic.name}${kind==='related'?' · 相关方法':''}`,type:'paper',url:url.href,maxPages:config.arxiv.maxPages||3,
         fallbackUrl:`https://rss.arxiv.org/rss/${categories.join('+')||'cs.AI'}`});
     }
   }

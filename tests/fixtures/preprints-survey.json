@@ -1,0 +1,38 @@
+{
+  "message": {
+    "items": [
+      {
+        "DOI": "10.20944/preprints202609.2680.v1",
+        "title": [
+          "Recursive Self-Improvement in AI: A Survey"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              30
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Recursive self-improvement (RSI) seeks to turn gains in an AI system into a stronger capacity to produce subsequent gains. Foundation models make parts of this process practical through generated training data, program revision and automated experimentation, but repeated optimization alone does not establish recursive improvement. This survey organizes the field around two overlapping goals: automated design of AI infrastructure, and repair and optimization of existing systems. We relate these goals to AutoML, meta-learning and program search, and formulate their objectives alongside criteria for task gains, retained capabilities and improved update procedures. A common account of update targets, feedback, inheritance and external control connects self-training, memory and skills, ",
+        "URL": "https://doi.org/10.20944/preprints202609.2680.v1",
+        "author": [
+          {
+            "given": "Hao",
+            "family": "Wu",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "total-results": 1
+  }
+}

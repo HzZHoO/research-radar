@@ -18,11 +18,13 @@
   <section class="toolbar" aria-label="筛选文章">
     <label id="recipe-controls" hidden>复现线索<select id="recipe"><option value="all">全部</option><option value="code">代码／开源</option><option value="params">参数／配置</option><option value="data">数据处理</option><option value="thinking">Thinking 数据</option></select></label>
     <div class="tabs" role="group" aria-label="相关程度"><button class="active" data-tier="all" aria-pressed="true">全部</button><button data-tier="direct" aria-pressed="false">直接相关</button><button data-tier="related" aria-pressed="false">相关方法</button></div>
-    <div class="controls"><label>方向<select id="topic"><option value="all">全部方向</option></select></label><label>信源<select id="source"><option value="all">全部信源</option></select></label><label>时间<select id="days"><option value="7">最近 7 天</option><option value="30">最近 30 天</option><option value="all">全部回溯</option></select></label><label>形式<select id="type"><option value="all">论文与博客</option><option value="paper">论文</option><option value="blog">博客</option></select></label>
+    <div class="controls"><label>方向<select id="topic"><option value="all">全部方向</option></select></label><label>信源<select id="source"><option value="all">全部信源</option></select></label><label>时间<select id="days"><option value="7">最近 7 天</option><option value="30" selected>最近 30 天</option><option value="all">全部回溯</option></select></label><label>形式<select id="type"><option value="all">论文与博客</option><option value="paper">论文</option><option value="blog">博客</option></select></label>
       <label>排序<select id="sort"><option value="date">最新优先</option><option value="score">关键词相关度</option></select></label>
-      <label class="search-label">搜索<input id="search" type="search" placeholder="标题、摘要、来源…"></label></div>
+      <label class="search-label">搜索<input id="search" type="search" placeholder="标题、摘要、来源或文章链接…"></label></div>
     <label class="read-filter"><input id="hide-read" type="checkbox">隐藏已读</label>
   </section>
+  <p id="filter-status" class="note" role="status"></p><button id="reset-filters" type="button">重置筛选（保留搜索）</button>
+  <details class="health"><summary>已知文章覆盖检查</summary><div id="coverage">读取中…</div></details>
   <div class="list-heading"><h2>阅读队列</h2><span id="shown"></span></div>
   <p class="note">“直接相关”表示命中所选方向的核心关键词；“相关方法”用于扩展阅读。分数仅衡量关键词相关性，不代表成果质量。摘要未经 AI 改写。</p>
   <section id="articles" aria-label="阅读队列">

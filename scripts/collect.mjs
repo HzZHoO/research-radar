@@ -9,6 +9,10 @@ import { rank, canonicalId, normalize } from './rank.mjs';
 import { loadConfig, makeSources, rankTopics } from './config.mjs';
 import {stateDirectory,buildDirectory} from './profiles.mjs';
 import {recipeSignals} from './recipe.mjs';
+import {crossrefItems} from './crossref.mjs';
+import {coverageChecks} from './coverage.mjs';
+import {enrichmentPlan} from './enrichment.mjs';
+import {paginateSource} from './pagination.mjs';
 
 const parser = new Parser({customFields:{item:['published','updated','description','summary']}});
 export const readJson = async (file, fallback) => {
@@ -42,7 +46,12 @@ async function download(url) {
   if(process.platform!=='win32')try{return await curlDownload(url);}catch{}
   throw last;
 }
-async function fetchSource(source) {
+async function fetchSourceOnce(source) {
+  if(source.format==='crossref'){
+    const json=JSON.parse(await download(source.url));
+    const items=crossrefItems(json);
+    return {parsed:{items},effectiveUrl:source.url,warning:null,totalAvailable:json.message?.['total-results']};
+  }
   let warning=null;
   let effectiveUrl=source.url;
   let xml;
@@ -72,14 +81,18 @@ export async function collect() {
   // Blogs are independent. Serialize arXiv requests with a delay to respect its API.
   const tasks=sources.map((source,index)=>async()=> {
     try {
-      const result=await fetchSource(source);
+      const result=await paginateSource(source,cutoff,fetchSourceOnce);
       let enriched=0,enrichmentFailed=0;
       const descriptions=new Map();
+      let enrichmentPending=0;
       if(source.enrichMissing){
         const recent=result.parsed.items.filter(item=>Date.parse(item.published||item.isoDate||item.pubDate)>=cutoff&&!item.summary&&!item.content&&!item.description);
         const keywords=config.topics.filter(t=>t.enabled).flatMap(t=>[...t.directPhrases,...t.relatedPhrases,...t.contextTerms]).map(normalize);
-        const priority=recent.filter(item=>keywords.some(k=>normalize(item.title).includes(k)));
-        const candidates=[...new Map([...priority,...recent.slice(0,20)].map(item=>[item.link,item])).values()].slice(0,source.enrichLimit||40);
+        // Apply cached bodies to every item, and spend the budget only on unseen
+        // bodies. Otherwise the same top N items permanently starve the rest.
+        for(const item of recent)if(enrichment[item.link]){descriptions.set(item.link,enrichment[item.link]);enriched++;}
+        const plan=enrichmentPlan(recent,enrichment,keywords,source.enrichLimit||40);
+        const candidates=plan.candidates;enrichmentPending=plan.pending;
         let cursor=0;
         async function worker(){
           while(cursor<candidates.length){
@@ -126,7 +139,7 @@ export async function collect() {
           articles.set(id,next);if(existing)results.splice(results.indexOf(existing),1);results.push(next);
         }
       }
-      statuses[index]={...source,status:result.warning||enrichmentFailed?'degraded':'ok',warning:result.warning||(enrichmentFailed?`${enrichmentFailed} article enrichment requests failed`:null),effectiveUrl:result.effectiveUrl,fetched:result.parsed.items.length,inWindow:dated,matched,undated,enriched,enrichmentFailed,
+      statuses[index]={...source,status:result.warning||enrichmentFailed?'degraded':'ok',warning:result.warning||(enrichmentFailed?`${enrichmentFailed} article enrichment requests failed`:null),effectiveUrl:result.effectiveUrl,fetched:result.parsed.items.length,inWindow:dated,matched,undated,enriched,enrichmentFailed,enrichmentPending,totalAvailable:result.totalAvailable,pagesFetched:result.pagesFetched,coverageCapped:result.coverageCapped,
         earliest:observed.length?new Date(Math.min(...observed)).toISOString():null,latest:observed.length?new Date(Math.max(...observed)).toISOString():null};
       console.log(`${source.name}: ${result.parsed.items.length} fetched, ${matched} matches${result.warning?' [fallback]':''}`);
     }catch(error) {
@@ -147,6 +160,7 @@ export async function collect() {
   const data={siteTitle:config.siteTitle,topic:'研究雷达',topics:config.topics.filter(t=>t.enabled).map(t=>({id:t.id,name:t.name})),scheduleTimes:config.scheduleTimes,generatedAt:now.toISOString(),historyDays:config.historyDays,
     counts:{fetched:statuses.reduce((n,s)=>n+s.fetched,0),selected:ranked.length,direct:ranked.filter(x=>x.tier==='direct').length,
       related:ranked.filter(x=>x.tier==='related').length,blogs:ranked.filter(x=>x.type==='blog').length,new:ranked.filter(x=>x.fresh).length},
+    coverageChecks:coverageChecks(ranked,config.coverageChecks,config.historyDays,now),
     sources:sourceResults,articles:ranked.map(({rankingText,...item})=>({...item,recipeSignals:recipeSignals({...item,rankingText})}))};
   await fs.mkdir(state,{recursive:true});await fs.mkdir(build,{recursive:true});
   await fs.writeFile(`${state}/history.json`,JSON.stringify({articles:catalog},null,2));

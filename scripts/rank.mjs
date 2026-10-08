@@ -24,6 +24,9 @@ export function canonicalId(link) {
   const u = new URL(link);
   const arxiv = u.hostname.endsWith('arxiv.org') && u.pathname.match(/\/(?:abs|pdf|html)\/(\d{4}\.\d{4,5}|[a-z.-]+\/\d{7})(?:v\d+)?/i);
   if (arxiv) return `arxiv:${arxiv[1]}`;
+  const preprint=(u.hostname==='www.preprints.org'||u.hostname==='preprints.org')&&u.pathname.match(/\/manuscript\/(\d{6}\.\d+)/i);
+  const preprintDoi=u.hostname==='doi.org'&&u.pathname.match(/^\/10\.20944\/preprints(\d{6}\.\d+)\.v\d+/i);
+  if(preprint||preprintDoi)return `preprints:${(preprint||preprintDoi)[1]}`;
   u.hash = ''; u.search = ''; u.pathname = u.pathname.replace(/\/$/, '');
   return u.href;
 }
