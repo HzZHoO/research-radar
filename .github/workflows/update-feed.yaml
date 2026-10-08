@@ -1,31 +1,60 @@
-name: Build site on schedule or main branch update
+name: Update RSI radar
 
 on:
   push:
     branches:
       - main
+  workflow_dispatch:
   schedule:
-    # Adjust refresh schedule here. By default, it runs once per day.
-    # Syntax reference: https://docs.github.com/en/actions/reference/events-that-trigger-workflows#schedule
-    # Recommended tool: https://crontab.guru/
-    - cron: "0 0 * * *"
+    # UTC: Beijing 09:23, 17:23 and 01:23. Avoid the busy top of the hour.
+    - cron: "23 1,9,17 * * *"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: rsi-pages
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v2
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v2.1.4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: "16"
+          node-version: "22"
+          cache: npm
+      - name: Restore article history and blog extraction cache
+        uses: actions/cache@v4
+        with:
+          path: .state
+          key: rsi-state-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: rsi-state-
       - name: Install dependencies
-        run: npm i
-      - name: Build the feed
+        run: npm ci
+      - name: Check RSI filtering and deduplication
+        run: npm test
+      - name: Collect and build
         run: npm run build
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Publish run summary
+        if: always()
+        run: |
+          if [ -f public/report.md ]; then cat public/report.md >> "$GITHUB_STEP_SUMMARY"; fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          path: public
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

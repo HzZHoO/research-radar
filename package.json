@@ -1,14 +1,17 @@
 {
-  "name": "osmosfeed-template",
+  "name": "rsi-feed",
   "version": "1.0.0",
-  "description": "Use this template to create the UI and content of an RSS feed reader.",
+  "description": "Model-free RSI research radar: papers and technical blogs, powered by osmosfeed.",
   "main": "index.js",
   "scripts": {
-    "build": "osmosfeed"
+    "build": "node scripts/build.mjs",
+    "collect": "node scripts/collect.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "preview": "node scripts/preview.mjs"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/osmoscraft/osmosfeed-template.git"
+    "url": "git+https://github.com/HzZHoO/rsi-feed.git"
   },
   "keywords": [],
   "author": "osmoscraft",
@@ -16,8 +19,13 @@
   "bugs": {
     "url": "https://github.com/osmoscraft/osmosfeed-template/issues"
   },
-  "homepage": "https://github.com/osmoscraft/osmosfeed-template#readme",
+  "homepage": "https://HzZHoO.github.io/rsi-feed/",
   "dependencies": {
-    "@osmoscraft/osmosfeed": "^1.2.2"
-  }
+    "@osmoscraft/osmosfeed": "1.15.1",
+    "rss-parser": "^3.13.0",
+    "js-yaml": "^4.1.0",
+    "cheerio": "^1.0.0"
+  },
+  "overrides": { "axios": "^1.18.1" },
+  "engines": { "node": ">=22" }
 }
