@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "historyDays": 120,
   "scheduleTimes": [
-    "15:00"
+    "15:40"
   ],
   "arxiv": {
     "enabled": true,
