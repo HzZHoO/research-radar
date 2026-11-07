@@ -1,10 +1,200 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2026-11-04T08:01:04.025Z</id>
+    <id>urn:2026-11-07T08:00:23.457Z</id>
     <title>个人RSI研究雷达</title>
-    <updated>2026-11-04T08:01:04.025Z</updated>
+    <updated>2026-11-07T08:00:23.457Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization]]></title>
+        <id>arxiv:2611.08483</id>
+        <link href="https://arxiv.org/abs/2611.08483v1"/>
+        <updated>2026-11-05T18:59:29.000Z</updated>
+        <summary type="html"><![CDATA[LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates a long textual chain of thought for each round and must repeat this generation many times to maintain population diversity. We present SwarmEvolve, a framework in which hundreds of low-cost agents per round work in swarms, reason in latent space without decoding to text, and share information by passing KV caches. Each swarm studies the problem from a different angle. A novelty filter keeps the most distinct agent ideas by directly measuring the distances between the agents' hidden state vectors. Crossover of ideas happens naturally in latent space, as a summarizer agent receives the combined KV caches of all swarm members. On 21 problems in mathematical discovery and scientific computing, SwarmEvolve gets the highest average score and needs a median of only 3 to 8 minutes to reach the best scores that other state-of-the-art frameworks reach in 60 minutes. On several problems, SwarmEvolve with Qwen3 8B improves on the solutions that AlphaEvolve ]]></summary>
+        <author>
+            <name>Qile Jiang</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Discovering Learning Rules that Shape Others]]></title>
+        <id>arxiv:2611.08335</id>
+        <link href="https://arxiv.org/abs/2611.08335v1"/>
+        <updated>2026-11-05T17:23:34.000Z</updated>
+        <summary type="html"><![CDATA[In general-sum games, self-interested learners can reach outcomes that are poor for everyone, which has motivated methods that shape the opponent's learning. Methods like Learning with Opponent-Learning Awareness (LOLA), which differentiates through the opponent's learning process, and Model-Free Opponent Shaping (M-FOS), which uses model-free optimisation methods for long-horizon opponent shaping, have enabled mutual cooperation and exploitation of learners. However, these methods require access to the opponent's parameters, policy, rewards or learning rule during deployment. In single-agent reinforcement learning, update rules discovered by meta-learning have achieved state-of-the-art results (e.g. DiscoRL). These rules are separate from the policy they train and read only the agent's own experience. We hereby extend this framework to general-sum settings by introducing Discovered Update Rule for Opponent Shaping (DUOS). To the best of our knowledge, this is the first method to discover an update rule for an agent in general-sum games. DUOS meta-trains the rule to maximise the agent's expected return over its lifetime, and updates an inner network using the agent's own experience]]></summary>
+        <author>
+            <name>Hong Jun Lee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement]]></title>
+        <id>arxiv:2611.08318</id>
+        <link href="https://arxiv.org/abs/2611.08318v1"/>
+        <updated>2026-11-05T17:14:37.000Z</updated>
+        <summary type="html"><![CDATA[Self-improving embodied agents are increasingly being developed and compared on robot simulation benchmarks. Several recent works expose the benchmark's success criteria to the learning agent, a practice we call Criteria Exposure (CE). These criteria, originally written to verify policies trained by imitation learning, often demand more than the corresponding language instructions, so a score from such a verifier may not faithfully reflect whether the instructed task was completed, especially for robot-control programs written by an agent. As embodied coding agents report ever higher benchmark scores, a natural question arises: when a coding agent is exposed to the benchmark's criteria, does it generate code that better performs the instructed task, or code that simply overfits to the verification criteria? We conduct controlled experiments with a self-improving agent with and without CE, and find that with CE the agent quickly produces code with a higher success rate under the given criteria, but this advantage disappears when the criteria are changed slightly without departing from the original instructions. More importantly, the skills the agent develops under CE transfer poorly]]></summary>
+        <author>
+            <name>Wenbo Huang</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Simple Meta-Learning for HPO and CASH Using Performance Representations]]></title>
+        <id>arxiv:2611.07659</id>
+        <link href="https://arxiv.org/abs/2611.07659v1"/>
+        <updated>2026-11-05T08:45:04.000Z</updated>
+        <summary type="html"><![CDATA[Bayesian optimization for Hyperparameter Optimization (HPO) and Combined Algorithm Selection and Hyperparameter Optimization (CASH) often relies on explicit hyperparameter encodings as surrogate inputs. In high-dimensional search spaces, however, such representations can make it difficult for standard surrogates to learn useful performance models. We instead study an alternative meta-learning representation that describes each configuration directly as its historical performance across prior tasks. This representation can be paired directly with standard surrogate models. Our scope is the iterative selection component of AutoML, deciding which configuration to evaluate next from a fixed candidate set, rather than a complete framework with features such as runtime estimation, cost-aware budgeting and ensembling. We further apply this representation to maximal marginal relevance (MMR), a diversity-based re-ranking criterion from recommender systems, as a posterior-free acquisition rule. When selecting and optimising across multiple models on the TabArena benchmark, the performance-based representation paired with a linear Bayesian ridge regression model outperforms dedicated meta-lea]]></summary>
+        <author>
+            <name>Emiel Witting</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Beneath the Surface: What We Overlook When We Talk About Agent Evolution]]></title>
+        <id>arxiv:2611.07624</id>
+        <link href="https://arxiv.org/abs/2611.07624v1"/>
+        <updated>2026-11-05T08:06:37.000Z</updated>
+        <summary type="html"><![CDATA[Agent harness evolution enables recursive self-improvement (RSI) without updating model weights. We examine whether higher benchmark scores yield reliable, efficient, and transferable improvement. We evaluate four methods across harnesses, general and coding tasks. Repeated evaluations, controlled agent expansion, component interventions, and admission replays reveal recurring patterns. All sixteen evolved agents gain previously uncovered tasks while losing previously covered ones. In one general-task case, reliability rises by 5.2 points despite losing ten previously covered tasks. Most reliability gains also increase deployment cost. Specific changes usually outperform generic reminders, but their benefits can change when combined. The highest-scoring agent does not yield the largest mean improvement in any of our four pools, and stricter admission can discard useful alternatives. Transfer selectively preserves gains: coverage usually falls on the general-task target across both harness types and paradigms, but rises on the coding target with the outer-layer-only harness. These findings motivate preservation-aware evaluation, tested decision rules, and explicit applicability cond]]></summary>
+        <author>
+            <name>Xiaobo Wang</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Recursive Self-Improvement for Long-Horizon Role-Playing Dialogue]]></title>
+        <id>arxiv:2611.07469</id>
+        <link href="https://arxiv.org/abs/2611.07469v1"/>
+        <updated>2026-11-05T05:28:10.000Z</updated>
+        <summary type="html"><![CDATA[Long-horizon role-playing dialogue requires consistent character identity, reliable memory, and context-sensitive interaction. We present a bounded recursive self-improvement (RSI) framework that revises original-character memory, stable persona instructions, and a policy for constructing turn-level prompts. Repair outcomes also inform revisions to the updater's diagnostic rules, edit routing, and candidate selection. We specify the updater as a versioned policy with explicit inputs, editable fields, acceptance gates, and stopping conditions. An internal evaluation covers 50 original characters and five models, with two 100-round conversations per character-model pair: 500 conversations per condition. Across the pooled evaluated replies, the bad-response rate decreases from 14.00% (6,973/49,824) to 4.94% (2,459/49,793), a 9.06-percentage-point reduction and a 64.71% relative reduction. In 600 blinded human comparisons, RSI receives 294 wins, 187 ties, and 119 losses, yielding a 71.19% win rate among decisive judgments. The results support improved aggregate dialogue quality for the complete framework on the internal test distribution.]]></summary>
+        <author>
+            <name>Y. L. Li</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks]]></title>
+        <id>arxiv:2611.07461</id>
+        <link href="https://arxiv.org/abs/2611.07461v1"/>
+        <updated>2026-11-05T05:15:27.000Z</updated>
+        <summary type="html"><![CDATA[How can an agent handle a real-world task end to end? Frontier models with their own harnesses still fall short on real-world benchmarks: on Terminal-Bench 4.0, GPT-5.6 Sol with Codex resolves 37.3% of the tasks and Claude Opus 5 with Claude Code 51.8%. These tasks fail at the step from reaching a resource to applying it, which we call the last mile to the real world. Existing approaches put the resource within reach but leave the competence to apply it with the caller, so each harness rebuilds that competence. We introduce agent-native primitives, reusable units that equip a resource with a resident LLM that applies it in context and communicates with other primitives, and HEELO (Harness Engineering around Evolving Agent-Native Primitives for the Last Mile to Real-WOrld Tasks), a harness engineering framework that builds each task's harness from a library of such primitives. HEELO composes the primitives a task needs into a task-specific graph, verifies the result against evidence from the environment, revises the primitives a failure implicates, and admits new or improved primitives after validation. We instantiate HEELO with eight primitive families, each built for one kind of t]]></summary>
+        <author>
+            <name>Haibo Jin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Test-Time Self-Play: Scaling without a Verifier]]></title>
+        <id>arxiv:2611.07367</id>
+        <link href="https://arxiv.org/abs/2611.07367v1"/>
+        <updated>2026-11-05T03:07:02.000Z</updated>
+        <summary type="html"><![CDATA[Test-time scaling methods spend additional compute at deployment to improve a large language model's performance on a hard target problem. Most methods rely on a verifier that scores candidate solutions for correctness, using it to select among or refine the model's outputs. In many deployment regimes, however, a strong verifier on the target problem is unavailable. We introduce Test-Time Self-Play (TTSP), an approach to test-time scaling using asymmetric self-play without reliance on a verifier. On a difficulty-calibrated subset of LiveCodeBench v6, TTSP is the best-performing method at every verifier strength we evaluate, and the gap to the strongest baseline widens as the verifier weakens; in the no-verifier limit, TTSP yields a 35\% absolute improvement in mean@8. The gains hold across a range of verifier strengths, except when the base policy has near-zero coverage of the correct answer.]]></summary>
+        <author>
+            <name>Akira Yoshiyama</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WeightLoop: Weight-Space Programming with Experimental Feedback]]></title>
+        <id>arxiv:2611.07319</id>
+        <link href="https://arxiv.org/abs/2611.07319v1"/>
+        <updated>2026-11-05T02:06:51.000Z</updated>
+        <summary type="html"><![CDATA[Weight-space programming (WSP) shows that language models can reason about and rewrite neural network weights; recursive self-improvement (RSI) motivates feedback-driven improvement. Models guiding experiments receive concrete feedback: completed assays reveal prediction errors and inform what to test next. We introduce WeightLoop, a framework that turns experimental feedback into persistent updates to deployed predictors. GPT-6 Astra inspects a task specification and the model implementation, then writes a bounded, reusable parameter-editing program. As new measurements arrive, the program identifies prediction discrepancies, validates candidate edits using observed outcomes, and writes the selected changes back to the original model. The editor remains fixed while the predictor evolves, enabling repeated updates without further LLM calls or gradient retraining while preserving the original inference interface. In offline replay, targeted edits improve mean ranking utility in seven of eight endpoint-budget settings (all eight versus random edits) and mean final discovery across three sequential tasks. WeightLoop connects WSP with an RSI-inspired improvement loop, making experiment]]></summary>
+        <author>
+            <name>Mengran Li</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Where the Loop Meets the Budget: Analyzing On-Device Recursive Self-Improvement]]></title>
+        <id>preprints:202610.0582</id>
+        <link href="https://www.preprints.org/manuscript/202610.0582/v2"/>
+        <updated>2026-11-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Persistent self-improvement enables language-model agents to adapt from experience, but its update process competes with inference for limited device memory, energy, and thermal headroom. Existing surveys largely examine self-improvement mechanisms and on-device learning separately, providing limited guidance on how update reliability and device costs should be assessed together. We introduce a unified taxonomy that organizes persistent updates by component, execution locus, feedback, loop closure, timescale, and budget, and distinguishes recursive changes to evaluators or update machinery. Across the included works, we compare updates to memory and skills, prompts and code, weights, and evaluators or acceptance rules, and propose accounting and reporting rules that relate retained gains to device costs, including rejected candidates, verification, and rollback. The examined device studies primarily support memory maintenance or capability recovery, with limited joint validation of sustained capability gains and complete update costs. These gaps motivate controlled studies on edge devices, focusing on verification and acceptance under energy budgets, retention under bounded storage]]></summary>
+        <author>
+            <name>Xu Zheng, Zhuomin Chen, Jingchao Ni, Wei Cheng, Mo Sha, Dongsheng Luo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Adapting the Process of Adaptation: Darwinian, Lamarckian, and Agent-Directed Evolution in AI]]></title>
+        <id>arxiv:2611.07048</id>
+        <link href="https://arxiv.org/abs/2611.07048v1"/>
+        <updated>2026-11-04T19:08:46.000Z</updated>
+        <summary type="html"><![CDATA[Evolution has shaped intelligence for billions of years. Artificial intelligence (AI) now raises a striking possibility: intelligence may begin to direct its own evolution. As AI agents become capable of modifying and evaluating their own behavior, how quickly could they improve, and how can that improvement remain safe? We develop a theoretical framework comparing Darwinian, Lamarckian, and agent-directed evolution following environmental change. Darwinian evolution relies on natural selection, Lamarckian evolution adds inherited learning, and agent-directed evolution allows agents to generate and evaluate behavioral variants and choose how extensively to search. When learning is sufficiently effective, these mechanisms exhibit progressively faster adaptation. Generating more variants accelerates adaptation, while optimal search effort depends on learning ability, problem difficulty, and experimentation costs. However, an agent's ability to direct its improvement does not ensure that improvements are evaluated against the intended objective. When the evaluation target is misspecified, additional search accelerates convergence toward the wrong behavior, even as measured performance]]></summary>
+        <author>
+            <name>Andrew W. Lo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LowRAM: Low-Rank Keys and Amortised Values for Composable KV Cache Compression at Test-Time]]></title>
+        <id>arxiv:2611.07025</id>
+        <link href="https://arxiv.org/abs/2611.07025v1"/>
+        <updated>2026-11-04T19:00:06.000Z</updated>
+        <summary type="html"><![CDATA[Autoregressive decoding relies on the KV cache, whose memory footprint grows linearly with context length and caps batch size and throughput. Existing post-training methods exploit redundancy across tokens, layers, and feature dimensions, or lower numerical precision. We identify a complementary axis: within each attention head, values are largely predictable from their corresponding keys. We exploit this with value cache amortisation, which fits a lightweight per-head predictor at test time and stores residuals only for the tokens it reconstructs worst, giving $4\times$ near-lossless value compression. The predictor can be initialised by meta-learning for substantially reduced prefill overhead, or fitted from scratch in settings that allow a one-off cost, such as multi-query inference. We pair value amortisation with cross-layer low-rank key compression to produce LowRAM, an asymmetric compression pipeline that stays close to lossless across three model families. By reconstructing only a selected subset of KV pairs at each decoding step, LowRAM can keep decoding overhead minimal and achieve up to $5\times$ higher peak decode throughput at $4\times$ compression. LowRAM further comp]]></summary>
+        <author>
+            <name>Teresa Delgado</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reinforcement Learning Enables Scaling Generalist Robot Policy Improvement]]></title>
+        <id>arxiv:2611.06905</id>
+        <link href="https://arxiv.org/abs/2611.06905v1"/>
+        <updated>2026-11-04T18:52:28.000Z</updated>
+        <summary type="html"><![CDATA[The introduction of generalist robot policies has enabled a single, large model to learn to perform a variety of tasks from a vast pre-training corpus. While these models often exhibit powerful zero-shot generalization capabilities, they typically require an adaptation phase to achieve sufficient performance in deployment. Iterated self-improvement via reinforcement learning (RL) has demonstrated promise in enabling this adaptation, yet such approaches have been largely explored in single-task settings - where the goal is to simply improve on a narrow deployment task - which lies in stark contrast to the multi-task capabilities of the base policy. In this work we ask whether generalist robot policies are capable of multi-task, generalist improvement in deployment - targeting many diverse tasks simultaneously - and what algorithmic recipe enables this. To answer this question, we first develop a set of structured evaluations to test generalist improvement capabilities, and systematically evaluate algorithmic and practical design choices regarding value estimation, policy extraction and resource allocation. We show that not only can generalist policies be improved online across diver]]></summary>
+        <author>
+            <name>Michal Korniak</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CompressionBench: How can your coding agents compress LLMs?]]></title>
+        <id>arxiv:2611.06858</id>
+        <link href="https://arxiv.org/abs/2611.06858v1"/>
+        <updated>2026-11-04T18:14:50.000Z</updated>
+        <summary type="html"><![CDATA[Recursive self-improvement requires AI systems to improve the models and infrastructure used by subsequent systems. LLM compression offers a concrete efficiency objective: retain a pretrained model's behavior within a smaller model storage budget. We study whether coding agents can carry out this step autonomously. We formulate compression as a terminal task in which an agent receives a source checkpoint, storage limit, inference environment, and time budget, then constructs compressed weights and executable inference code. The agent controls its algorithm and experiments; perplexity feedback guides search, and independent verification checks the final model. Across six agents and six model--size settings, 29 of 36 submissions pass verification. Selecting the lowest-perplexity agent design per task yields an average 3.4% perplexity increase over BF16 and 77.33% downstream accuracy, compared with 79.56% for BF16. Recorded experiments reveal how agents achieve these outcomes and where improvement breaks down. Agents lower PPL in 21 of 24 revisions at nearly fixed storage; complete-model feedback reverses 17 of 79 prior local rankings; and generation and inference tests expose failure]]></summary>
+        <author>
+            <name>Xinrui Zhong</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LongBanana: An Expert-Verified Benchmark for Long-Context Multi-Reference Image Synthesis]]></title>
+        <id>arxiv:2611.06856</id>
+        <link href="https://arxiv.org/abs/2611.06856v1"/>
+        <updated>2026-11-04T18:11:56.000Z</updated>
+        <summary type="html"><![CDATA[We introduce LongBanana, to our knowledge the first expert-designed and expert-verified benchmark for long-context multi-reference image synthesis in the age of agent-driven image generation. The task requires retrieving dispersed visual evidence, rejecting distractors, binding entities and relations, and composing one coherent final image from multiple references. LongBanana contains 90 carefully designed tasks organized by a 3-by-3 taxonomy; each task includes about 32 reference images, 20 constraints, and 50 evaluation items, yielding 4,670 expert-specified atomic evaluation items in total. Its graph-grounded evaluation design instantiates each task with reference images and an entity-relation graph, then converts node, edge, and whole-graph obligations into checklist items for Content Fidelity, Relational Binding, and Global Constraint Satisfaction. Reviewed expert labels include a 15% double-labeled subset with 89.4% exact agreement and 0.83 quadratic weighted kappa. We further introduce LongBanana-Gen, an agent-harness framework for long-horizon image generation; experiments show that minimal agent harnesses improve over direct generation, while a ReAct-Plan-Exec-Reflect (RPR]]></summary>
+        <author>
+            <name>Haoxiang Cao</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LegalEvolver: Agentic Legal Judgment Prediction via Rubric-Guided Self-Evolution]]></title>
+        <id>arxiv:2611.06381</id>
+        <link href="https://arxiv.org/abs/2611.06381v1"/>
+        <updated>2026-11-04T11:45:46.000Z</updated>
+        <summary type="html"><![CDATA[As LLM-based agents develop, they have been increasingly applied in the legal domain. Legal Judgment Prediction~(LJP) requires models to conduct multi-step reasoning and external legal evidence retrieval. Existing legal search agents' performance is often constrained by the quality of retrieval queries. They often formulate queries directly from the initial user request, overlooking latent legal issues and legally salient details. To address this issue, we propose \emph{LegalEvolver}, a query optimization framework specifically designed to generate legally informative queries for LJP-oriented retrieval. Sampling high-quality optimized queries and their corresponding search trajectories is challenging, as relying solely on unguided high-temperature rollouts is both inefficient and constrained by the model's initial capabilities. We therefore heuristically optimize queries as seeds, improving the efficiency of trajectory generation. Furthermore, we summarize rollout experience into rubrics and use them to guide multi-round iterative self-evolution. Iteratively performing rubric optimization and rubric-guided RL enables the model to surpass its initial performance ceiling. End-to-end ]]></summary>
+        <author>
+            <name>Xinyu Yang</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Prism: Bidirectional Self-Teaching for Unified Multimodal Models]]></title>
+        <id>arxiv:2611.06343</id>
+        <link href="https://arxiv.org/abs/2611.06343v1"/>
+        <updated>2026-11-04T11:05:07.000Z</updated>
+        <summary type="html"><![CDATA[Unified Multimodal Models (UMMs) aim to support visual understanding and generation within a single model. Existing post-training methods either use understanding as a fixed teacher to improve generation, or rely on ground-truth trajectories to supervise both understanding and generation. Prism instead derives bidirectional supervision from self-generated interleaved rollouts, constructing training targets according to the reliability of their text and image chains. We propose Prism, a bidirectional self-teaching post-training method for UMMs. Like a prism decomposing mixed light, Prism decouples a coupled interleaved trajectory into a text chain and an image chain, assesses the reliability of each chain, and constructs a corresponding training target from their reliability states. Experiments on both SenseNova-U1 and BAGEL show that Prism improves both understanding and generation. On the generation side, GenEval improves from 85.8 to 89.2 (+3.4), and DPG improves from 86.1 to 87.3 (+1.2) on SenseNova-U1. On the understanding side, the total MME score improves from 2282.6 to 2311.6, and MMVP improves from 58.0 to 62.0. Consistent improvements are observed on BAGEL. These results h]]></summary>
+        <author>
+            <name>Peng Zhang</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[EnzymeRSI: A dual-loop recursive self-improvement system for enzyme design]]></title>
+        <id>arxiv:2611.06321</id>
+        <link href="https://arxiv.org/abs/2611.06321v1"/>
+        <updated>2026-11-04T10:54:35.000Z</updated>
+        <summary type="html"><![CDATA[Improvement in enzyme engineering is usually pursued by optimising which candidates to assay within a fixed model and workflow; when the bottleneck arises from a mismatched method or a failing workflow, that route is difficult to escape. We present EnzymeRSI, a dual-loop system for recursive self-improvement (RSI). The outer loop evolves harness assets without changing model weights, the inner loop develops prediction and selection algorithms under controlled conditions, and a cloud laboratory system is specified to close the physical loop with quality-controlled feedback. By updating its prediction strategy through iterative comparison, the outer loop raised the mean development-set Spearman correlation on ProteinGym by 0.044 across five assays, reaching 0.335 on CD19 and 0.683 on OPSD (rhodopsin); of the two first places, only CD19 was produced by the outer loop itself. In the self-improvement of the ThermoMPNN algorithm the inner loop reached a PCC of 0.849, and on TadA-Bench it reached a Spearman correlation of 0.307 in 1.13 h. In three prospective wet-lab tests of the system's experimental decision-making, 10 of the 32 candidates that had not been pre-specified for the lucifer]]></summary>
+        <author>
+            <name>Genoria AI Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reglos: A Self-Evolving Personal Memory Agent with Recursive Self-Improvement]]></title>
+        <id>arxiv:2611.06049</id>
+        <link href="https://arxiv.org/abs/2611.06049v1"/>
+        <updated>2026-11-04T06:56:04.000Z</updated>
+        <summary type="html"><![CDATA[Personal agents draw on past conversations to tailor their responses to each user. Their memory systems store and update what each user says, and coding agents now also rewrite the harness that turns this memory into the model's context. Such patches risk overfitting, because one tested only on the failures it targets can fix those cases and help nowhere else. We present Reglos, a training-free personal memory agent that tests whether harness changes help beyond the failures they were written to fix. Its self-evolving memory adds to each user's append-only record with every conversation, as new preferences supersede old ones and facts can be forgotten. Its harness improves through recursive self-improvement, in which a coding agent proposes patches from failure traces and a critic from a second model family screens each one for benchmark gaming. After the harness is frozen, a fixed evaluator decides which further patches to accept. With the same backbone behind every system, Reglos outperforms state-of-the-art memory systems such as Mem0, MemOS and EverOS, reaching 61.3% and 84.0% on PersonaMem-v2 and LongMemEval-S with Qwen3.8-27B, and 57.5% and 87.2% with GPT-5.6 Luna.]]></summary>
+        <author>
+            <name>Sen Yang</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[When, Where, and How Experience Becomes Structure: Mechanisms for Recursive Self-Improvement in LLM Agents]]></title>
         <id>preprints:202611.0261</id>
@@ -13,6 +203,16 @@
         <summary type="html"><![CDATA[Recursive self-improvement (RSI) studies how AI systems modify themselves and carry those changes into the generation of subsequent improvements. LLM agents can pursue this process by using interaction experience to revise Prompt, Memory, Skill, and Harness in some cases while keeping the task-execution model’s weights fixed. However, execution feedback does not directly specify which component should change, and a locally successful revision may not remain useful across tasks or subsequent improvement cycles. Understanding how experience becomes persistent agent structure therefore requires examining when evidence justifies a change, where that change should act, and how it is constructed, verified, and retained. This survey connects four components--Prompt, Memory, Skill, and Harness--with seven analytical functions: Collect, Evaluate, Diagnose, Abstract, Update, Verify, and Consolidate. The resulting framework supports comparisons of instruction revision, memory management, skill construction and maintenance, and Harness evolution through their update loops. These comparisons examine how mechanisms use observations to construct candidate changes, distinguishing feedback that tri]]></summary>
         <author>
             <name>Siqi Dai, Jingqing Ruan, Bin Zhang, Zhiwei Xu, Lin Cheng, Ke Zeng, Zhongda Su, Feng Hong, Nan Jia, Wenxuan Shi, Dapeng Li, Chuanchen Luo, Yiqun Chen, Zongyang Ma, Xue Yan, Yang Li, Mingzhe Xing, Hangyu Mao, Bowei Dai, Zhizhao Zeng, Guoliang Fan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Route to Remember: Adaptive Memory Selection for LLM Agents]]></title>
+        <id>arxiv:2611.05636</id>
+        <link href="https://arxiv.org/abs/2611.05636v1"/>
+        <updated>2026-11-03T21:21:14.000Z</updated>
+        <summary type="html"><![CDATA[The memory of production agents is increasingly becoming a bottleneck and is built almost exclusively from text: key points are extracted from out-of-limit context and retrieved into context at query time. Therefore, every new query incurs an additional cost that grows with the accumulated history. Weight memory is a complementary alternative that internalizes knowledge into model parameters and answers with no context at all, and has recently proven effective in self-evolving agents for internalizing skills and behaviors. However, its application in episodic and semantic memory, such as user-specific facts, remains comparatively unexplored, and a gap remains between earlier attempts at weight memory and text-based systems regarding recall performance. We study how to make weight memory competitive as a long-term factual store by applying on-policy self-distillation (OPSD). It trains a context-free student from a teacher, which is the same model conditioned on the user's memory, together with a verify-then-regenerate router that lets weight and text memory each cover the queries they handle best. On the HaluMem benchmark, OPSD matches or surpasses strong text-memory baselines, incl]]></summary>
+        <author>
+            <name>Zeyu Fang</name>
         </author>
     </entry>
     <entry>
@@ -198,7 +398,7 @@
     <entry>
         <title type="html"><![CDATA[NorthCUA Technical Report: Turbocharging Computer-Use Agents through Experience at Scale]]></title>
         <id>arxiv:2611.02102</id>
-        <link href="https://arxiv.org/abs/2611.02102v2"/>
+        <link href="https://arxiv.org/abs/2611.02102v3"/>
         <updated>2026-11-01T18:16:47.000Z</updated>
         <summary type="html"><![CDATA[Scaling computer-use agents from individual actions to complex software work requires experience that connects decisions to complete outcomes. We present NorthCUA, an integrated system for turbocharging computer-use agents through experience at scale. Its Experience Flywheel supplies diverse executable tasks to the NorthCUA Harness, which sustains long interactions, records decisions, and checks task outcomes. The Flywheel uses these records to curate verified trajectories. For unsolved tasks, recursive self-improvement evolves reusable skills and preserves verified milestones so later attempts build on earlier progress. Staged Learning combines this experience with grounding data from the Flywheel to develop GUI competence through mid-training and long-horizon supervised fine-tuning. The policy then learns from fresh attempts in the same Harness through joint desktop-web reinforcement learning, closing the loop between experience production and policy improvement. The resulting Nano, Mini, and Pro family achieves state-of-the-art results among open-source models across GUI grounding, desktop execution, and Web interaction under the reported evaluation settings. For more responsive]]></summary>
         <author>
@@ -998,7 +1198,7 @@
     <entry>
         <title type="html"><![CDATA[More: Mode-Optimized Reasoning with Self-Adaptive Effort for Self-Evolving Agents]]></title>
         <id>arxiv:2610.33684</id>
-        <link href="https://arxiv.org/abs/2610.33684v1"/>
+        <link href="https://arxiv.org/abs/2610.33684v2"/>
         <updated>2026-10-24T14:03:20.000Z</updated>
         <summary type="html"><![CDATA[Self-evolving training improves the performance of agents on difficult tasks through verifiable feedback, but it often applies costly deliberation uniformly across tasks. To address this problem, we propose Mode-Optimized Reasoning with Self-Adaptive Effort (MORE), a self-evolving training framework that adaptively selects both reasoning form and computational effort for each task. Specifically, MORE follows a two-stage training paradigm: (i) \emph{Stage 1} establishes a compact prior over direct answering, short and long chain-of-thought, and code-based reasoning, and (ii) \emph{Stage 2} self-evolves this prior with Mode-Adaptive and Test-time Effort PPO (MATE-PPO) on generated, verifiable task streams without curated data. By learning mode selection and token expenditure jointly, MORE allocates concise reasoning to tasks that permit it while retaining extended deliberation where it is useful. Across coding, mathematics, and general-reasoning benchmarks, MORE achieves consistent performance gains on Base and Coder backbones at model scales from 3B to 14B. During inference, MORE demonstrates higher accuracy and better efficiency, with markedly shorter response lengths and reduced i]]></summary>
         <author>
@@ -1918,7 +2118,7 @@
     <entry>
         <title type="html"><![CDATA[Reward Engine: Reward-Centric Self-Evolution for Open-Ended Tool Agents]]></title>
         <id>arxiv:2610.22915</id>
-        <link href="https://arxiv.org/abs/2610.22915v1"/>
+        <link href="https://arxiv.org/abs/2610.22915v2"/>
         <updated>2026-10-16T04:25:34.000Z</updated>
         <summary type="html"><![CDATA[Open-ended tool agents can complete the same objective through different tool paths, and their quality depends jointly on the interaction trace, environment state, and final artifacts, so such tasks rarely admit an executable ground-truth reward. The central challenge is therefore to construct a reward from existing experience that exposes the current policy's failures while remaining stationary during optimization. We introduce Reward Engine, which, like a self-motivated student, first works out what success requires and then optimizes toward it. From the task and initial trajectories, it builds a RewardPack of testcases for required correctness and rubrics for graded quality, each executed as a check that returns a judgment with evidence. The frozen RewardPack then guides the agent to revise and select its outputs, and can also serve as a reward for reinforcement learning. On WorkBuddy Bench Office and Claw-Eval, the constructed reward largely agrees with the benchmark graders, not reversing their ordering on 82.3\% and 80.5\% of candidate pairs. Used to revise executions, it raises three-run consistency ($\mathrm{Pass}^{3}$) over Baseline from 45.0\% to 54.0\% and from 78.4\% to]]></summary>
         <author>
@@ -2678,7 +2878,7 @@
     <entry>
         <title type="html"><![CDATA[Language Models as AI Research World Models]]></title>
         <id>arxiv:2610.12235</id>
-        <link href="https://arxiv.org/abs/2610.12235v1"/>
+        <link href="https://arxiv.org/abs/2610.12235v2"/>
         <updated>2026-10-08T16:18:54.000Z</updated>
         <summary type="html"><![CDATA[AI research agents automate the cycle of proposing, implementing, and evaluating experiments, opening a path toward recursive self-improvement. Yet their ability to propose experiments outpaces their capacity to execute them in real environments, making outcome prediction a key capability for sustained self-improvement under limited experimental budgets. We investigate language models as Research World Models (RWMs), which predict the outcomes of candidate interventions across research environments. Our evaluation draws on over 2,600 experimental records from nine research environments spanning pretraining, post-training, and inference, representing more than 171,000 H100 GPU-hours of experimentation. Research knowledge acquired from real experimental experience improves RWM predictions of unseen interventions within the same environment (Spearman +0.27), and can be reused across environments. For example, using only pretraining experience from OLMo3, Marin, and Nanochat, an RWM reduces selection regret in the Qwen3 environment by 78% compared with zero-experience setting. These benefits extend to multi-round Autoresearch under a fixed selection budget: RWMs with in-env and cross-e]]></summary>
         <author>
@@ -2743,16 +2943,6 @@
         <summary type="html"><![CDATA[Self-evolving LLM agents promise to improve autonomously through continual interaction and learning, reducing their dependence on manually curated supervision. Realizing this promise requires not only updating the agent, but also evolving its training experience as its capabilities change. However, most existing pipelines rely on static datasets or separately updated synthesis models, causing previously useful tasks to become trivial while overly difficult tasks remain uninformative. This growing mismatch between agent capability and training experience limits sustained self-improvement. To address this problem, we propose SynCo, an agentic data synthesis co-training framework for self-evolving LLMs based on multi-agent reinforcement learning. SynCo jointly optimizes two independently parameterized agents: a Synthesizer that constructs training tasks from the Reasoner's evolving capability state, and a Reasoner that learns from the resulting experience. Each synthesized task induces multiple Reasoner rollouts whose outcomes provide complementary rewards to both agents. Correctness feedback improves the Reasoner, while task quality, answer reliability, and outcome-grounded teachabil]]></summary>
         <author>
             <name>Wei Yang</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Where the Loop Meets the Budget: Analyzing On-Device Recursive Self-Improvement]]></title>
-        <id>preprints:202610.0582</id>
-        <link href="https://www.preprints.org/manuscript/202610.0582/v1"/>
-        <updated>2026-10-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Language-model systems now rewrite their own memory, code, and weights, and small language models now run on phones and embedded boards. This paper asks whether the two developments have met: can a system improve itself within the memory, energy, thermal, latency, and connectivity budgets of a device? We define edge self-improvement as a verified update loop under a timevarying device budget, and we classify 63 works along three axes: the improved component, where computation ran in the reported evaluation, and the verification tier. For the 14 works that carry the argument we read the full text. Three findings emerge. First, none of the works we examined that update prompts, code, or weights from self-generated supervision was evaluated on edge hardware, including those motivated by edge deployment; on-device evidence exists only for memory-level loops and for weight training with external supervision. Second, the only loop we found that ran on edge hardware with energy instrumentation relies on the weakest verification tier, and its decisive gains are in cost rather than accuracy. Third, benchmarks that score improvement do not score device cost, and benchmarks that measure devic]]></summary>
-        <author>
-            <name>Xu Zheng, Zhuomin Chen, Jingchao Ni, Wei Cheng, Mo Sha, Dongsheng Luo</name>
         </author>
     </entry>
     <entry>
@@ -2838,7 +3028,7 @@
     <entry>
         <title type="html"><![CDATA[MedZERO: Self-Evolving Agents for Open-Ended Medical Reasoning Through Controlled Knowledge Accumulation]]></title>
         <id>arxiv:2610.08327</id>
-        <link href="https://arxiv.org/abs/2610.08327v3"/>
+        <link href="https://arxiv.org/abs/2610.08327v4"/>
         <updated>2026-10-06T13:25:55.000Z</updated>
         <summary type="html"><![CDATA[Large language models (LLMs) have shown promise in medical question answering and clinical reasoning, yet their improvement remains constrained by static parametric knowledge and costly expert supervision. Self-evolving agents offer a promising alternative by enabling models to improve through iterative task generation and problem-solving. However, most existing self-evolving methods are designed for easily verifiable domains such as mathematics and coding, where solutions can be checked by exact answers or executable programs. Medical reasoning is fundamentally different: it is open-ended, knowledge-intensive, and often only partially verifiable. We present MedZERO, a self-evolving framework for open-ended medical reasoning. MedZERO couples an Examiner that generates frontier medical question-option pairs with a Reasoner that solves them through evidence-grounded multi-turn reasoning with external knowledge tools. To support reliable, continual improvement, MedZERO adopts controlled knowledge accumulation, which maintains temporary exploratory knowledge and curated persistent knowledge in reasoning. We evaluate MedZERO on five public medical reasoning benchmarks using 4B- and 8B-s]]></summary>
         <author>
@@ -3158,7 +3348,7 @@
     <entry>
         <title type="html"><![CDATA[SEABench: Benchmarking Endogenous Misalignment In Self-Evolving Agents]]></title>
         <id>arxiv:2609.35596</id>
-        <link href="https://arxiv.org/abs/2609.35596v2"/>
+        <link href="https://arxiv.org/abs/2609.35596v3"/>
         <updated>2026-09-28T16:46:25.000Z</updated>
         <summary type="html"><![CDATA[Self-evolving LLM agents have gained prominence for their ability to improve after deployment by modifying their harness, including their controller instructions, memory management protocols, and reusable tools and skills, in response to user and environment feedback. However, locally useful updates may persist into later tasks where they produce unsafe behavior, even without direct adversarial influence. To study this risk, we introduce SEABench, a benchmark for studying endogenous misalignment arising from agent self-evolution, with 48 longitudinal task sequences that span multiple evolution surfaces, task domains, and harm types in a rich personal-assistant environment. To account for the stochasticity inherent in agentic operations, we provide an adaptive trajectory discovery pipeline that probes for failures while preserving original task intent and supports causal attribution through paired non-evolving agents and attribution scores. Our evaluation across multiple recent LLMs, evolution surfaces, and harm types reveals that self-evolution indeed increases task completion rates but often at the cost of safety failures that are absent for paired non-evolving baseline agents. We]]></summary>
         <author>

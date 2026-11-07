@@ -1,18 +1,18 @@
 # 研究雷达抓取报告
 
-方向：Recursive Self-Improvement；生成时间：2026-11-04T07:59:36.999Z；回溯：120 天。
+方向：Recursive Self-Improvement；生成时间：2026-11-07T07:59:27.799Z；回溯：120 天。
 
 | 来源 | 状态 | 抓取数 | 本次命中 | 保留数 |
 |---|---|---:|---:|---:|
-| arXiv · Recursive Self-Improvement | ok | 300 | 279 | 283 |
-| arXiv · Recursive Self-Improvement · 相关方法 | ok | 300 | 212 | 138 |
-| Hugging Face Blog | ok | 896 | 4 | 4 |
+| arXiv · Recursive Self-Improvement | ok | 300 | 280 | 292 |
+| arXiv · Recursive Self-Improvement · 相关方法 | ok | 300 | 210 | 148 |
+| Hugging Face Blog | ok | 899 | 4 | 4 |
 | NVIDIA Developer Blog | ok | 100 | 1 | 1 |
-| NVIDIA Blog | ok | 18 | 3 | 3 |
+| NVIDIA Blog | ok | 18 | 1 | 3 |
 | Lilian Weng · Lil’Log | ok | 53 | 0 | 0 |
-| Preprints.org · Crossref 论文检索 | ok | 200 | 21 | 18 |
+| Preprints.org · Crossref 论文检索 | ok | 200 | 22 | 18 |
 
-直接相关 293 篇；相关方法 154 篇；其中博客 8 篇。
+直接相关 302 篇；相关方法 164 篇；其中博客 8 篇。
 
 ## 已知文章覆盖检查
 - 已收集：[The Last AI Built by Humans](https://arxiv.org/abs/2609.11873)
@@ -21,20 +21,20 @@
 ## 覆盖限制
 - arXiv · Recursive Self-Improvement：达到检索条数上限。
 - arXiv · Recursive Self-Improvement · 相关方法：达到检索条数上限。
-- [When, Where, and How Experience Becomes Structure: Mechanisms for Recursive Self-Improvement in LLM Agents](https://www.preprints.org/manuscript/202611.0261/v1) — 2026-11-04 / direct / 命中：recursive self improvement, self improvement
-- [MDSKILL: Learning to Internalize Skill Memory through Multi-View Distillation for Efficient Dynamic Agent Self-Evolution](https://arxiv.org/abs/2611.05313v1) — 2026-11-03 / direct / 命中：self evolving agent, self evolution
-- [Perturb, Repair, Verify: Self-Play Vision-Language Verifiers for Compositional Understanding](https://arxiv.org/abs/2611.05158v1) — 2026-11-03 / related / 命中：self play
-- [Artifact-to-Capability: Diagnosing Breaks in Capability Formation of Self-Evolving Agents in a Controlled Environment](https://arxiv.org/abs/2611.04952v1) — 2026-11-03 / direct / 命中：self evolving agent
-- [From Watching to Steering: Enabling Human-Coding Agent Collaboration through Execution Traces](https://arxiv.org/abs/2611.04466v1) — 2026-11-03 / related / 命中：agent evolution
-- [DoGNAVY-Exploit: Harnessing Parallel Open-Weight Agents for Stage-Aware Vulnerability Exploitation](https://arxiv.org/abs/2611.04196v1) — 2026-11-03 / related / 命中：agent harness
-- [ScienceVision: Can AI Observe and Reason Like a Scientist?](https://arxiv.org/abs/2611.04087v1) — 2026-11-02 / related / 命中：agent harness
-- [Recursa: Toward Recursively Self-Improving Foundation Model Systems](https://arxiv.org/abs/2611.04035v1) — 2026-11-02 / direct / 命中：recursive self improvement, self improvement
-- [Optimize the Harness, Not the Model: Fitting a Minimal Agent to a Self-Hostable LLM for Investigative Analysis](https://arxiv.org/abs/2611.03434v1) — 2026-11-02 / related / 命中：agent harness
-- [Certifying Graph Neural Networks Against Label and Structure Poisoning](https://arxiv.org/abs/2611.03350v1) — 2026-11-02 / related / 命中：self training
-- [ScienceCUA: Resource-to-Skill Construction and Execution-Guided Skill Evolution for Scientific Computer Use Agents](https://arxiv.org/abs/2611.03238v1) — 2026-11-02 / related / 命中：self evolution
-- [Do Agents Still Follow the Rules? Benchmarking Rule Compliance under Agent Context Compaction](https://arxiv.org/abs/2611.03223v1) — 2026-11-02 / related / 命中：agent harness
-- [Can Coding Agents Sustain Continual Evolution without Forgetting?](https://arxiv.org/abs/2611.03219v1) — 2026-11-02 / related / 命中：agent evolution, agent harness, self evolution
-- [The Web Doesn't Sit Still: Adversarial Self-Evolving Attacks on Search Agents](https://arxiv.org/abs/2611.03754v1) — 2026-11-02 / related / 命中：self evolution
-- [CARE: Grounded Recursive Self-Improvement for Production Customer-Service Agents](https://arxiv.org/abs/2611.02839v1) — 2026-11-02 / direct / 命中：recursive self improvement, self improvement
+- [SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization](https://arxiv.org/abs/2611.08483v1) — 2026-11-05 / related / 命中：alphaevolve
+- [Discovering Learning Rules that Shape Others](https://arxiv.org/abs/2611.08335v1) — 2026-11-05 / related / 命中：self play, meta learning
+- [Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement](https://arxiv.org/abs/2611.08318v1) — 2026-11-05 / direct / 命中：self improving agent, self improvement
+- [Simple Meta-Learning for HPO and CASH Using Performance Representations](https://arxiv.org/abs/2611.07659v1) — 2026-11-05 / related / 命中：meta learning
+- [Beneath the Surface: What We Overlook When We Talk About Agent Evolution](https://arxiv.org/abs/2611.07624v1) — 2026-11-05 / direct / 命中：recursive self improvement, self improvement, agent evolution, agent harness
+- [Recursive Self-Improvement for Long-Horizon Role-Playing Dialogue](https://arxiv.org/abs/2611.07469v1) — 2026-11-05 / direct / 命中：recursive self improvement, self improvement
+- [The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks](https://arxiv.org/abs/2611.07461v1) — 2026-11-05 / related / 命中：harness engineering
+- [Test-Time Self-Play: Scaling without a Verifier](https://arxiv.org/abs/2611.07367v1) — 2026-11-05 / related / 命中：self play
+- [WeightLoop: Weight-Space Programming with Experimental Feedback](https://arxiv.org/abs/2611.07319v1) — 2026-11-05 / direct / 命中：recursive self improvement, self improvement
+- [Where the Loop Meets the Budget: Analyzing On-Device Recursive Self-Improvement](https://www.preprints.org/manuscript/202610.0582/v2) — 2026-11-05 / direct / 命中：recursive self improvement, self improvement
+- [Adapting the Process of Adaptation: Darwinian, Lamarckian, and Agent-Directed Evolution in AI](https://arxiv.org/abs/2611.07048v1) — 2026-11-04 / direct / 命中：recursive self improvement, self improvement
+- [LowRAM: Low-Rank Keys and Amortised Values for Composable KV Cache Compression at Test-Time](https://arxiv.org/abs/2611.07025v1) — 2026-11-04 / related / 命中：meta learning
+- [Reinforcement Learning Enables Scaling Generalist Robot Policy Improvement](https://arxiv.org/abs/2611.06905v1) — 2026-11-04 / related / 命中：self improvement
+- [CompressionBench: How can your coding agents compress LLMs?](https://arxiv.org/abs/2611.06858v1) — 2026-11-04 / direct / 命中：recursive self improvement, self improvement
+- [LongBanana: An Expert-Verified Benchmark for Long-Context Multi-Reference Image Synthesis](https://arxiv.org/abs/2611.06856v1) — 2026-11-04 / related / 命中：agent harness
 
 博客仅覆盖 RSS 保留的文章；没有命中不意味着该网站没有相关历史文章。分数表示词语相关性，不表示论文质量。
