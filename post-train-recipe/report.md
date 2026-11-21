@@ -1,23 +1,23 @@
 # 研究雷达抓取报告
 
-方向：后训练配方与框架、数据构造与清洗、Thinking 数据与训练；生成时间：2026-11-18T01:58:51.973Z；回溯：365 天。
+方向：后训练配方与框架、数据构造与清洗、Thinking 数据与训练；生成时间：2026-11-21T01:52:26.028Z；回溯：365 天。
 
 | 来源 | 状态 | 抓取数 | 本次命中 | 保留数 |
 |---|---|---:|---:|---:|
-| arXiv · 后训练配方与框架 | ok | 300 | 293 | 293 |
-| arXiv · 后训练配方与框架 · 相关方法 | ok | 300 | 106 | 104 |
-| arXiv · 数据构造与清洗 | ok | 300 | 295 | 280 |
-| arXiv · 数据构造与清洗 · 相关方法 | ok | 300 | 140 | 129 |
-| arXiv · Thinking 数据与训练 | ok | 300 | 256 | 238 |
-| arXiv · Thinking 数据与训练 · 相关方法 | degraded | 200 | 147 | 100 |
-| Hugging Face Blog | ok | 908 | 27 | 27 |
+| arXiv · 后训练配方与框架 | ok | 300 | 292 | 299 |
+| arXiv · 后训练配方与框架 · 相关方法 | ok | 300 | 109 | 139 |
+| arXiv · 数据构造与清洗 | ok | 300 | 295 | 282 |
+| arXiv · 数据构造与清洗 · 相关方法 | ok | 300 | 137 | 136 |
+| arXiv · Thinking 数据与训练 | ok | 300 | 257 | 250 |
+| arXiv · Thinking 数据与训练 · 相关方法 | ok | 300 | 224 | 161 |
+| Hugging Face Blog | ok | 915 | 46 | 46 |
 | NVIDIA Developer Blog | ok | 100 | 0 | 0 |
-| Hugging Face TRL · Releases | ok | 10 | 6 | 6 |
+| Hugging Face TRL · Releases | ok | 10 | 5 | 6 |
 | verl · Releases | ok | 10 | 5 | 5 |
 | OpenRLHF · Releases | ok | 10 | 2 | 2 |
 | Ai2 Open Instruct · Releases | ok | 9 | 3 | 3 |
 
-直接相关 816 篇；相关方法 371 篇；其中博客 43 篇。
+直接相关 842 篇；相关方法 487 篇；其中博客 62 篇。
 
 ## 已知文章覆盖检查
 - 遗漏：[Nemotron IOI / IMO 2026 后训练配方](https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026)
@@ -29,21 +29,21 @@
 - arXiv · 数据构造与清洗 · 相关方法：达到检索条数上限。
 - arXiv · Thinking 数据与训练：达到检索条数上限。
 - arXiv · Thinking 数据与训练 · 相关方法：达到检索条数上限。
-- Hugging Face Blog： 153 篇正文待后续补抓。
-- [Optimistic Verifiers Get Hacked: Reward Hacking Under an Exact Process Oracle](https://arxiv.org/abs/2611.21538v1) — 2026-11-16 / related / 命中：reinforcement learning, process reward
-- [Differentiable Exact Learning](https://arxiv.org/abs/2611.21486v1) — 2026-11-16 / direct / 命中：training recipe
-- [AuXSpec: Learning to Autoformalize Program Specifications via Executable Postconditions](https://arxiv.org/abs/2611.21421v1) — 2026-11-16 / related / 命中：reinforcement learning
-- [Representational Change Under Self-Consuming Training: A Sparse Autoencoder Analysis](https://arxiv.org/abs/2611.21348v1) — 2026-11-16 / related / 命中：synthetic data
-- [Benchleaking Is Accelerating: Benchmark contamination has worsened sharply in the past month -- from post-training down to pre-training base models](https://arxiv.org/abs/2611.21315v1) — 2026-11-16 / related / 命中：post training, decontamination
-- [Deep Learning for Physicists: From Linear Regression to Reasoning Models](https://arxiv.org/abs/2611.21295v1) — 2026-11-16 / related / 命中：chain of thought
-- [What Makes a Good Move? Learning to Act from Experience in Visual Worlds](https://arxiv.org/abs/2611.21065v1) — 2026-11-16 / related / 命中：reinforcement learning
-- [K2-Horizon: A Frontier Fleet of Open Source Language Models](https://arxiv.org/abs/2611.21003v1) — 2026-11-16 / related / 命中：reinforcement learning, synthetic data
-- [ReAccess: Look Once, Stay Focused with Efficient Test Time Memory](https://arxiv.org/abs/2611.20936v1) — 2026-11-16 / direct / 命中：reasoning trace
-- [GPRM: Global Perspective Process Reward Model](https://arxiv.org/abs/2611.20755v1) — 2026-11-16 / related / 命中：supervised fine tuning, grpo, reinforcement learning, process reward
-- [SpeCal: Spectral Calibration for Unsupervised RLVR](https://arxiv.org/abs/2611.20691v1) — 2026-11-16 / related / 命中：reasoning data
-- [MASTA: A Feedback-Scheduled Multi-Agent System for End-to-End Tamarin Modeling and Analysis](https://arxiv.org/abs/2611.20671v1) — 2026-11-16 / related / 命中：deduplication
-- [Safety-Preserving Medical LLM Fine-Tuning via Bilevel Data Selection](https://arxiv.org/abs/2611.20643v1) — 2026-11-16 / related / 命中：data selection
-- [TrainExplorer: Autonomous LLM Post-Training via Plan-and-Decouple Exploration](https://arxiv.org/abs/2611.20430v1) — 2026-11-16 / related / 命中：post training
-- [FinVerify: A Verification Framework for Financial Agents](https://arxiv.org/abs/2611.20423v1) — 2026-11-16 / direct / 命中：reasoning dataset
+- Hugging Face Blog： 99 篇正文待后续补抓。
+- [Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost](https://huggingface.co/blog/harness-adapters-at-scale) — 2026-11-20 / direct / 命中：verl, grpo, data mixture
+- [AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher](https://arxiv.org/abs/2611.26510v1) — 2026-11-19 / related / 命中：post training, data selection
+- [Reasoning-Trace Analysis Using Large Language Models for Interpretable Q-Matrix Construction](https://arxiv.org/abs/2611.26422v1) — 2026-11-19 / direct / 命中：reasoning trace, chain of thought
+- [Awaken-HI: Scaling Humanoid Intelligence with Whole-Body Human Experience](https://arxiv.org/abs/2611.26420v1) — 2026-11-19 / related / 命中：post training
+- [Training LLMs to Follow Reasoning Instructions with Minimal Edits](https://arxiv.org/abs/2611.26342v1) — 2026-11-19 / direct / 命中：reasoning trace
+- [OceanCoder: A Verification-Guided Large Language Model for Automated Simulation Modelling in Ocean Engineering](https://arxiv.org/abs/2611.26333v1) — 2026-11-19 / related / 命中：supervised fine tuning, grpo
+- [What If Chain-of-Thought Is Not Enough?](https://arxiv.org/abs/2611.26282v1) — 2026-11-19 / related / 命中：chain of thought
+- [Learning to Think with Images Faithfully via Adaptive Data Selection](https://arxiv.org/abs/2611.26199v1) — 2026-11-19 / related / 命中：data selection
+- [RegionAgent: Two-Stage Preference Optimization for Regional Image Restoration](https://arxiv.org/abs/2611.26179v1) — 2026-11-19 / related / 命中：dpo, preference optimization
+- [NariQ: Sub-3-Bit Quantization for Long-Horizon Agentic Tasks](https://arxiv.org/abs/2611.26157v1) — 2026-11-19 / related / 命中：post training
+- [Controlling the Humanoid Robot H1-2 With a Simulated Biologically Plausible Network](https://arxiv.org/abs/2611.26074v1) — 2026-11-19 / related / 命中：reinforcement learning
+- [ROAM-GRPO: Enforcing Reasoning Diversity in GRPO via Routed Off-mode Approach Mining](https://arxiv.org/abs/2611.25926v1) — 2026-11-19 / related / 命中：post training, supervised fine tuning, grpo, rlvr, reinforcement learning
+- [Verifiable Logic in Medical LLMs: A Critical Review of Agentic Clinical Reasoning Optimization and Neuro-Symbolic Grounding](https://arxiv.org/abs/2611.25898v1) — 2026-11-19 / related / 命中：process reward
+- [X Hedging: towards an eXplainable artificial intelligence option Hedging framework](https://arxiv.org/abs/2611.25870v1) — 2026-11-19 / related / 命中：reinforcement learning
+- [What Does Anti-Hallucination Training Buy? Saying Less, Cheap Pruning, and the Rest](https://arxiv.org/abs/2611.25814v1) — 2026-11-19 / related / 命中：dpo
 
 博客仅覆盖 RSS 保留的文章；没有命中不意味着该网站没有相关历史文章。分数表示词语相关性，不表示论文质量。
